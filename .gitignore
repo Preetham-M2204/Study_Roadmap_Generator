@@ -1,0 +1,99 @@
+# -----------------------------
+# PYTHON (FASTAPI MICRO-SERVICE)
+# -----------------------------
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pdb
+*.pkl
+*.sqlite3
+
+# ChromaDB vector store
+rag_service/app/chroma_db/
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# dotenv
+*.env
+.env.*
+
+
+# -----------------------------
+# NODE (MERN BACKEND)
+# -----------------------------
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+log.txt
+
+
+# -----------------------------
+# FRONTEND (React + Vite)
+# -----------------------------
+
+dist/
+build/
+*.local
+*.cache/
+
+
+# -----------------------------
+# OS/EDITOR FILES
+# -----------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+
+# -----------------------------
+# PROJECT-SPECIFIC IGNORE
+# -----------------------------
+
+# Raw datasets or generated dumps
+data/*.csv
+data/*.tsv
+data/*.dump
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo

@@ -1,0 +1,5128 @@
+[
+  {
+    "id": "arrays_01",
+    "topic": "Array Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver - Arrays (playlist / intro & basic problems)",
+        "type": "playlist",
+        "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0rENwdL0nEH0uGom9no0nyB"
+      },
+      {
+        "title": "NeetCode - Arrays & Hashing (NeetCode 150 playlist)",
+        "type": "playlist",
+        "url": "https://www.youtube.com/watch?v=IiDuXLqV6e4"
+      },
+      {
+        "title": "GFG - Array Data Structure (comprehensive guide)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/dsa/array-data-structure-guide/"
+      }
+    ],
+    "description": "Covers how arrays are stored, indexed, and manipulated in memory. Core foundation for all DSA topics."
+  },
+  {
+    "id": "arrays_02",
+    "topic": "Two Pointer Technique",
+    "domain": "dsa",
+    "subdomain": "two pointers",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Array Basics"],
+    "resources": [
+      {
+        "title": "Striver - Two Pointer & Sliding Window (pattern intro)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9kdHxplyl5I"
+      },
+      {
+        "title": "NeetCode - Two Pointers (examples & template)",
+        "type": "playlist",
+        "url": "https://www.youtube.com/playlist?list=PLALUz6Z8Un2dnwTPrQ5F2NbmFjuK_r6zH"
+      },
+      {
+        "title": "GFG - Two Pointer Technique (guide + examples)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/dsa/two-pointers-technique/"
+      }
+    ],
+    "description": "Two pointers allow solving array problems efficiently by moving pointers from start/end. Used heavily in interviews."
+  },
+  {
+    "id": "arrays_03",
+    "topic": "Sliding Window",
+    "domain": "dsa",
+    "subdomain": "sliding window",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Two Pointer Technique"],
+    "resources": [
+      {
+        "title": "Striver - Sliding Window Maximum (video)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=NwBvene4Imo"
+      },
+      {
+        "title": "NeetCode - Longest Substring Without Repeating Characters (sliding window example)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FCbOzdHKW18"
+      },
+      {
+        "title": "GFG - Window Sliding Technique",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/window-sliding-technique/"
+      }
+    ],
+    "description": "Sliding window optimizes subarray and substring problems by maintaining a dynamic window of elements."
+  },
+  {
+    "id": "arrays_04",
+    "topic": "Prefix & Suffix Arrays",
+    "domain": "dsa",
+    "subdomain": "prefix suffix",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Array Basics"],
+    "resources": [
+      {
+        "title": "Striver - Prefix Sum / Product of Array Except Self (concept video)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=AT7z7p3H_0E"
+      },
+      {
+        "title": "NeetCode - Product of Array Except Self (walkthrough)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=bNvIQI2wAjk"
+      },
+      {
+        "title": "GFG - Prefix Sum Array (guide)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/prefix-sum-array/"
+      }
+    ],
+    "description": "Prefix and suffix arrays help solve range queries and optimization problems efficiently using cumulative sums."
+  },
+  {
+    "id": "arrays_05",
+    "topic": "Searching in Arrays",
+    "domain": "dsa",
+    "subdomain": "searching",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Array Basics"],
+    "resources": [
+      {
+        "title": "Striver - Binary Search (concept & templates)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fDKy4f3-yaI"
+      },
+      {
+        "title": "NeetCode - Binary Search (walkthrough)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=s4DPM8ct1pI"
+      },
+      {
+        "title": "GFG - Binary Search (guide)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/binary-search/"
+      }
+    ],
+    "description": "Searching includes linear and binary search. Binary search solves many interview questions efficiently."
+  },
+  {
+    "id": "arrays_06",
+    "topic": "Sorting Techniques",
+    "domain": "dsa",
+    "subdomain": "sorting",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Array Basics"],
+    "resources": [
+      {
+        "title": "Striver - Sorting Algorithms Overview (playlist)",
+        "type": "playlist",
+        "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz"
+      },
+      {
+        "title": "NeetCode - Merge Intervals (sorting-based pattern)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=44H3cEC2fFM"
+      },
+      {
+        "title": "GFG - Sorting Algorithms (comprehensive)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/sorting-algorithms/"
+      }
+    ],
+    "description": "Sorting organizes data for efficient processing. Includes quicksort, mergesort, selection sort and more."
+  },
+  {
+    "id": "arrays_07",
+    "topic": "Hashing in Arrays",
+    "domain": "dsa",
+    "subdomain": "hashing",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Array Basics"],
+    "resources": [
+      {
+        "title": "Striver - Hashing Basics (concepts & examples)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZhYcR1kqtbs"
+      },
+      {
+        "title": "NeetCode - Contains Duplicate (hashset example)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3OamzN90kPg"
+      },
+      {
+        "title": "GFG - Hashing Data Structure (guide)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/hashing-data-structure/"
+      }
+    ],
+    "description": "Hashing helps solve frequency, distinct elements, and lookup problems in O(1) average time."
+  },
+  {
+    "id": "arrays_08",
+    "topic": "Subarray Problems",
+    "domain": "dsa",
+    "subdomain": "subarrays",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Prefix & Suffix Arrays"],
+    "resources": [
+      {
+        "title": "Striver - Kadane's Algorithm (maximum subarray)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=86CQq3pKSUw"
+      },
+      {
+        "title": "NeetCode - Maximum Subarray (walkthrough)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5WZl3MMT0Eg"
+      },
+      {
+        "title": "GFG - Largest Sum Contiguous Subarray (Kadane)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/"
+      }
+    ],
+    "description": "Subarray problems include sums, longest length, distinct elements, and optimization techniques."
+  },
+  {
+    "id": "arrays_09",
+    "topic": "Matrix / 2D Array Problems",
+    "domain": "dsa",
+    "subdomain": "2d arrays",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Array Basics"],
+    "resources": [
+      {
+        "title": "Striver - Spiral Matrix Traversal (video)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1ZGJzvkcLsA"
+      },
+      {
+        "title": "NeetCode - Spiral Matrix (walkthrough)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BJnMZNwUk1M"
+      },
+      {
+        "title": "GFG - Multidimensional Arrays (2D arrays guide)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/multidimensional-arrays-c-cpp/"
+      }
+    ],
+    "description": "2D arrays represent matrix-style data and include problems like rotation, search, and spiral traversal."
+  },
+  {
+    "id": "arrays_10",
+    "topic": "Greedy + Arrays",
+    "domain": "dsa",
+    "subdomain": "greedy",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Sorting Techniques"],
+    "resources": [
+      {
+        "title": "Striver - Activity Selection (Greedy pattern)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vcKYX8Co7B8"
+      },
+      {
+        "title": "NeetCode - Jump Game (greedy example)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Yan0cv2cLy8"
+      },
+      {
+        "title": "GFG - Greedy Algorithms (guide)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/greedy-algorithms/"
+      }
+    ],
+    "description": "Greedy techniques combined with arrays solve interval, scheduling, and optimization problems efficiently."
+  },
+  {
+    "id": "arrays_11",
+    "topic": "Advanced Array Patterns",
+    "domain": "dsa",
+    "subdomain": "patterns",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Two Pointer Technique", "Sliding Window"],
+    "resources": [
+      {
+        "title": "Striver - Trapping Rain Water (concept & monotonic stacks)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=m18Hntz4go8"
+      },
+      {
+        "title": "NeetCode - Trapping Rain Water (walkthrough)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZI2z5pq0TqA"
+      },
+      {
+        "title": "GFG - Trapping Rain Water (article)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/trapping-rain-water/"
+      }
+    ],
+    "description": "Includes medium to hard array interview patterns such as rainwater trapping, majority element, and rearrangements."
+  },
+  {
+    "id": "ll_01",
+    "topic": "Linked List Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver - Introduction to Linked List",
+        "type": "video",
+        "url": "https://youtu.be/Nq7ok-OyEpg"
+      },
+      {
+        "title": "NeetCode - Linked List (playlist)",
+        "type": "playlist",
+        "url": "https://www.youtube.com/playlist?list=PLALUz6Z8Un2fZgsvwwY35pLx8atuGj2Pq"
+      },
+      {
+        "title": "GFG - Linked List Data Structure",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/data-structures/linked-list/"
+      }
+    ],
+    "description": "Introduces nodes, pointers, and the structure of linked lists with common operations such as traversal and creation."
+  },
+  {
+    "id": "ll_02",
+    "topic": "Singly Linked List Operations",
+    "domain": "dsa",
+    "subdomain": "singly operations",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Linked List Basics"],
+    "resources": [
+      {
+        "title": "Striver - Insert & Delete in Linked List",
+        "type": "video",
+        "url": "https://youtu.be/WwfhLC16bis"
+      },
+      {
+        "title": "NeetCode - Reverse Linked List",
+        "type": "video",
+        "url": "https://youtu.be/G0_I-ZF0S38"
+      },
+      {
+        "title": "GFG - Insertion in Linked List",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/"
+      }
+    ],
+    "description": "Covers insertion, deletion, traversal and updating operations in a singly linked list."
+  },
+  {
+    "id": "ll_03",
+    "topic": "Doubly Linked List",
+    "domain": "dsa",
+    "subdomain": "doubly linked list",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Singly Linked List Operations"],
+    "resources": [
+      {
+        "title": "Striver - Doubly Linked List",
+        "type": "video",
+        "url": "https://youtu.be/k7jW4p9YTd4"
+      },
+      {
+        "title": "NeetCode - Flatten Doubly Linked List",
+        "type": "video",
+        "url": "https://youtu.be/R9qiY7Ok_8M"
+      },
+      {
+        "title": "GFG - Doubly Linked List",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/doubly-linked-list/"
+      }
+    ],
+    "description": "Doubly linked lists allow forward and backward traversal with previous and next pointers."
+  },
+  {
+    "id": "ll_04",
+    "topic": "Circular Linked List",
+    "domain": "dsa",
+    "subdomain": "circular linked list",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Singly Linked List Operations"],
+    "resources": [
+      {
+        "title": "Striver - Circular Linked List",
+        "type": "video",
+        "url": "https://youtu.be/vl3pE6rebOk"
+      },
+      {
+        "title": "NeetCode - Linked List Cycle",
+        "type": "video",
+        "url": "https://youtu.be/gBTe7lFR3vc"
+      },
+      {
+        "title": "GFG - Circular Linked List",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/circular-linked-list/"
+      }
+    ],
+    "description": "Circular linked lists connect the last node back to the head to form a looped structure."
+  },
+  {
+    "id": "ll_05",
+    "topic": "Reverse Linked List",
+    "domain": "dsa",
+    "subdomain": "reverse list",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Singly Linked List Operations"],
+    "resources": [
+      {
+        "title": "Striver - Reverse Linked List (Iterative & Recursive)",
+        "type": "video",
+        "url": "https://youtu.be/D2vI2DNJGd8"
+      },
+      {
+        "title": "NeetCode - Reverse Linked List",
+        "type": "video",
+        "url": "https://youtu.be/G0_I-ZF0S38"
+      },
+      {
+        "title": "GFG - Reverse a Linked List",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/reverse-a-linked-list/"
+      }
+    ],
+    "description": "A fundamental linked list operation solved through pointer reversal or recursion."
+  },
+  {
+    "id": "ll_06",
+    "topic": "Floyd’s Cycle Detection",
+    "domain": "dsa",
+    "subdomain": "cycle detection",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Linked List Basics"],
+    "resources": [
+      {
+        "title": "Striver - Detect Loop in Linked List (Tortoise & Hare)",
+        "type": "video",
+        "url": "https://youtu.be/wiOo4DC5GGA"
+      },
+      {
+        "title": "NeetCode - Linked List Cycle",
+        "type": "video",
+        "url": "https://youtu.be/gBTe7lFR3vc"
+      },
+      {
+        "title": "GFG - Detect Loop in Linked List",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/"
+      }
+    ],
+    "description": "Detects cycles in a linked list using fast and slow pointer method with O(1) space."
+  },
+  {
+    "id": "ll_07",
+    "topic": "Middle of Linked List",
+    "domain": "dsa",
+    "subdomain": "middle element",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Linked List Basics"],
+    "resources": [
+      {
+        "title": "Striver - Middle of Linked List",
+        "type": "video",
+        "url": "https://youtu.be/-SdYkBVOybM"
+      },
+      {
+        "title": "NeetCode - Middle of Linked List",
+        "type": "video",
+        "url": "https://youtu.be/sGdwSH8RK-o"
+      },
+      {
+        "title": "GFG - Find Middle of Linked List",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-middle-of-linked-list/"
+      }
+    ],
+    "description": "Uses the slow-fast pointer technique to find the middle node in one pass."
+  },
+  {
+    "id": "ll_08",
+    "topic": "Merge Two Sorted Linked Lists",
+    "domain": "dsa",
+    "subdomain": "merge lists",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Singly Linked List Operations"],
+    "resources": [
+      {
+        "title": "Striver - Merge Two Sorted Linked Lists",
+        "type": "video",
+        "url": "https://youtu.be/XIdigk956u0"
+      },
+      {
+        "title": "NeetCode - Merge Two Sorted Lists",
+        "type": "video",
+        "url": "https://youtu.be/XIdigk956u0"
+      },
+      {
+        "title": "GFG - Merge Two Sorted Linked Lists",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/"
+      }
+    ],
+    "description": "Combines two sorted linked lists into one by sequential comparison of nodes."
+  },
+  {
+    "id": "ll_09",
+    "topic": "Remove Nth Node from End",
+    "domain": "dsa",
+    "subdomain": "nth node removal",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Linked List Basics"],
+    "resources": [
+      {
+        "title": "Striver - Remove Nth Node from End",
+        "type": "video",
+        "url": "https://youtu.be/7AgPEZw0Y5I"
+      },
+      {
+        "title": "NeetCode - Remove Nth Node",
+        "type": "video",
+        "url": "https://youtu.be/XVuQxVej6y8"
+      },
+      {
+        "title": "GFG - Remove Nth Node from End",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/remove-nth-node-from-the-end-of-a-linked-list/"
+      }
+    ],
+    "description": "Uses two pointers to remove a node in a single traversal from the end of the list."
+  },
+  {
+    "id": "ll_10",
+    "topic": "Intersection of Two Linked Lists",
+    "domain": "dsa",
+    "subdomain": "intersection",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Singly Linked List Operations"],
+    "resources": [
+      {
+        "title": "Striver - Intersection of Two Linked Lists",
+        "type": "video",
+        "url": "https://youtu.be/0DYoPz2Tpt4"
+      },
+      {
+        "title": "NeetCode - Intersection of Two Linked Lists",
+        "type": "video",
+        "url": "https://youtu.be/D0Ug-5h6M5Q"
+      },
+      {
+        "title": "GFG - Intersection of Linked Lists",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/intersection-of-two-linked-lists/"
+      }
+    ],
+    "description": "Finds the common intersection node of two linked lists using length matching logic."
+  },
+  {
+    "id": "ll_11",
+    "topic": "Rotate Linked List",
+    "domain": "dsa",
+    "subdomain": "rotation",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Linked List Basics"],
+    "resources": [
+      {
+        "title": "Striver - Rotate Linked List",
+        "type": "video",
+        "url": "https://youtu.be/9VPm6nEb3d8"
+      },
+      {
+        "title": "NeetCode - Rotate List",
+        "type": "video",
+        "url": "https://youtu.be/HEc2aNkQF2M"
+      },
+      {
+        "title": "GFG - Rotate Linked List",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/rotate-a-linked-list/"
+      }
+    ],
+    "description": "Rotates the list by k nodes by connecting tail to head and breaking at new head position."
+  },
+  {
+    "id": "ll_12",
+    "topic": "Flatten Linked List / Advanced LL Patterns",
+    "domain": "dsa",
+    "subdomain": "advanced patterns",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Doubly Linked List"],
+    "resources": [
+      {
+        "title": "Striver - Flatten Linked List",
+        "type": "video",
+        "url": "https://youtu.be/ysytSSXpAI0"
+      },
+      {
+        "title": "NeetCode - Flatten Multilevel Linked List",
+        "type": "video",
+        "url": "https://youtu.be/R9qiY7Ok_8M"
+      },
+      {
+        "title": "GFG - Flattening Linked List",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/flattening-a-linked-list/"
+      }
+    ],
+    "description": "Solves multi-level linked list flattening using recursion and pointer rearrangement."
+  },
+  {
+    "id": "stack_01",
+    "topic": "Stack Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver - Introduction to Stack & Queue",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sFVxsglODoo"
+      },
+      {
+        "title": "NeetCode - Stack Data Structure Tutorial",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=OV470vtjg8E"
+      },
+      {
+        "title": "GFG - Stack Data Structure",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/stack-data-structure/"
+      }
+    ],
+    "description": "Covers stack fundamentals including push, pop, peek, and LIFO ordering  essential for many DSA problems."
+  },
+  {
+    "id": "stack_02",
+    "topic": "Valid Parentheses / Balanced Brackets",
+    "domain": "dsa",
+    "subdomain": "parentheses",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Stack Basics"],
+    "resources": [
+      {
+        "title": "Striver - Valid Parentheses (Stack Problem)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WTzjTskDFMg"
+      },
+      {
+        "title": "NeetCode - Valid Parentheses",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WTzjTskDFMg"
+      },
+      {
+        "title": "GFG - Balanced Parentheses",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/"
+      }
+    ],
+    "description": "Uses a stack to check if parentheses, braces and brackets are balanced in expressions."
+  },
+  {
+    "id": "stack_03",
+    "topic": "Next Greater Element (Monotonic Stack)",
+    "domain": "dsa",
+    "subdomain": "nge",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Stack Basics"],
+    "resources": [
+      {
+        "title": "Striver - Next Greater Element",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rSf9vPtKcmI"
+      },
+      {
+        "title": "NeetCode - Next Greater Element (Stack Pattern)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=68a1Dc_qVq4"
+      },
+      {
+        "title": "GFG - Next Greater Element",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/next-greater-element/"
+      }
+    ],
+    "description": "Monotonic stack technique to find the next larger element for each array element efficiently."
+  },
+  {
+    "id": "stack_04",
+    "topic": "Min Stack",
+    "domain": "dsa",
+    "subdomain": "min stack",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Stack Basics"],
+    "resources": [
+      {
+        "title": "Striver - Min Stack Design",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=V09NfaGf2ao"
+      },
+      {
+        "title": "NeetCode - Min Stack Implementation",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qkLl7nAwDPo"
+      },
+      {
+        "title": "GFG - Design a Min Stack",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/design-and-implement-special-stack-data-structure/"
+      }
+    ],
+    "description": "Designs a stack that supports push, pop, top and retrieving minimum element in constant time."
+  },
+  {
+    "id": "stack_05",
+    "topic": "Implement Stack Using Queues",
+    "domain": "dsa",
+    "subdomain": "implementation",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Queue Basics"],
+    "resources": [
+      {
+        "title": "Striver - Stack Using Queues",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rW4vm0-DLYc"
+      },
+      {
+        "title": "NeetCode - Implement Stack Using Queues",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2ZhMN59IQ9U"
+      },
+      {
+        "title": "GFG - Stack Using Queues",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/implement-stack-using-queue/"
+      }
+    ],
+    "description": "Shows how to simulate stack operations (push/pop) using one or two queue data structures."
+  },
+  {
+    "id": "stack_06",
+    "topic": "Largest Rectangle in Histogram (Stack Hard)",
+    "domain": "dsa",
+    "subdomain": "monotonic stack hard",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Next Greater Element"],
+    "resources": [
+      {
+        "title": "Striver - Largest Rectangle in Histogram",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=X0X6G-eWgQ8"
+      },
+      {
+        "title": "NeetCode - Largest Rectangle in Histogram",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZX9TXA4iW2g"
+      },
+      {
+        "title": "GFG - Largest Rectangle in Histogram",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/largest-rectangle-under-histogram/"
+      }
+    ],
+    "description": "A classic 'hard' problem using monotonic stacks to compute maximum rectangular area in histograms."
+  },
+  {
+    "id": "queue_01",
+    "topic": "Queue Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver - Introduction to Stack & Queue (Queue basics included)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sFVxsglODoo"
+      },
+      {
+        "title": "NeetCode - Queue Data Structure Explanation",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=okr-XE8yTO8"
+      },
+      {
+        "title": "GFG - Queue Data Structure",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/queue-data-structure/"
+      }
+    ],
+    "description": "Covers queue fundamentals including enqueue, dequeue, front, rear, and FIFO ordering."
+  },
+  {
+    "id": "queue_02",
+    "topic": "Circular Queue",
+    "domain": "dsa",
+    "subdomain": "circular queue",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Queue Basics"],
+    "resources": [
+      {
+        "title": "Striver - Circular Queue Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LN7KjRhosQE"
+      },
+      {
+        "title": "NeetCode - Queue Cycle Logic (helpful concept)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gBTe7lFR3vc"
+      },
+      {
+        "title": "GFG - Circular Queue",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/circular-queue-set-1-introduction-array-implementation/"
+      }
+    ],
+    "description": "Implements queue using circular indexing to optimize space and remove shifting issues."
+  },
+  {
+    "id": "queue_03",
+    "topic": "Implement Queue Using Stacks",
+    "domain": "dsa",
+    "subdomain": "queue using stacks",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Stack Basics"],
+    "resources": [
+      {
+        "title": "Striver - Queue Using Stacks (Two Stack Method)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3Et9MrMc02A"
+      },
+      {
+        "title": "NeetCode - Implement Queue Using Stacks",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2ZhMN59IQ9U"
+      },
+      {
+        "title": "GFG - Queue Using Stacks",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/implement-queue-using-stack/"
+      }
+    ],
+    "description": "Simulates FIFO behavior using two LIFO stacks for push and pop operations."
+  },
+  {
+    "id": "queue_04",
+    "topic": "Implement Stack Using Queues",
+    "domain": "dsa",
+    "subdomain": "stack using queues",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Queue Basics"],
+    "resources": [
+      {
+        "title": "Striver - Stack Using Queues",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rW4vm0-DLYc"
+      },
+      {
+        "title": "NeetCode - Stack Using Queues",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0u78hx-66Xk"
+      },
+      {
+        "title": "GFG - Stack Using Queues",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/implement-stack-using-queue/"
+      }
+    ],
+    "description": "Simulates LIFO behavior using enqueue/dequeue operations of one or two queues."
+  },
+  {
+    "id": "queue_05",
+    "topic": "Priority Queue / Heap Basics",
+    "domain": "dsa",
+    "subdomain": "priority queue",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Queue Basics"],
+    "resources": [
+      {
+        "title": "Striver - Priority Queue & Heap",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=HqPJF2L5h9U"
+      },
+      {
+        "title": "NeetCode - Kth Largest Element (heap usage)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GK0ok3ZCXwM"
+      },
+      {
+        "title": "GFG - Priority Queue in DSA",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/priority-queue-set-1-introduction/"
+      }
+    ],
+    "description": "Priority queues use heaps to process elements based on priority rather than FIFO order."
+  },
+  {
+    "id": "queue_06",
+    "topic": "Queue Problems (BFS, Level Order Traversal)",
+    "domain": "dsa",
+    "subdomain": "bfs queue usage",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Queue Basics"],
+    "resources": [
+      {
+        "title": "Striver - BFS Traversal Using Queue",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UZNzLmYxh7E"
+      },
+      {
+        "title": "NeetCode - Binary Tree Level Order Traversal",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6ZnyEApgFYg"
+      },
+      {
+        "title": "GFG - BFS Algorithm using Queue",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/"
+      }
+    ],
+    "description": "Queues play a major role in BFS traversal, level order traversal and other graph/tree-based problems."
+  },
+  {
+    "id": "rec_01",
+    "topic": "Recursion Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver - What is Recursion?",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7mJQe0Ku1i8"
+      },
+      {
+        "title": "NeetCode - Recursion Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ngXYCzUuVL0"
+      },
+      {
+        "title": "GFG - Introduction to Recursion",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/introduction-to-recursion/"
+      }
+    ],
+    "description": "Introduces the concept of recursive function calls, base conditions, and stack frames in recursion."
+  },
+  {
+    "id": "rec_02",
+    "topic": "Recursion Tree & Time Complexity",
+    "domain": "dsa",
+    "subdomain": "recursion tree",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Recursion Basics"],
+    "resources": [
+      {
+        "title": "Striver - How Recursion Works Internally",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7mJQe0Ku1i8&t=250"
+      },
+      {
+        "title": "NeetCode - Recursion Visualization",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=keL0Kw2tCUM"
+      },
+      {
+        "title": "GFG - Recursion Tree Method",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/recursion-tree-method-for-solving-recurrences/"
+      }
+    ],
+    "description": "Shows how recursive calls expand like a tree and helps in visualizing overall complexity."
+  },
+  {
+    "id": "rec_03",
+    "topic": "Recursion on Arrays",
+    "domain": "dsa",
+    "subdomain": "array recursion",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Recursion Basics"],
+    "resources": [
+      {
+        "title": "Striver - Recursion on Arrays",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2ZLl8GAk1X4"
+      },
+      {
+        "title": "NeetCode - Subsets (Array-based recursion)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=VV1JmMYceJw"
+      },
+      {
+        "title": "GFG - Recursion Examples",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/recursive-functions/"
+      }
+    ],
+    "description": "Applies recursion to arrays for searching, printing, and subset generation."
+  },
+  {
+    "id": "rec_04",
+    "topic": "Backtracking Basics",
+    "domain": "dsa",
+    "subdomain": "backtracking",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Recursion Basics"],
+    "resources": [
+      {
+        "title": "Striver - What is Backtracking?",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zgP1k1oGg20"
+      },
+      {
+        "title": "NeetCode - Backtracking Template",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=_rkFz8KkTpk"
+      },
+      {
+        "title": "GFG - Backtracking Overview",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/backtracking-algorithms/"
+      }
+    ],
+    "description": "Builds solutions step by step and backtracks whenever a choice leads to an invalid path."
+  },
+  {
+    "id": "rec_05",
+    "topic": "Subsets (Power Set)",
+    "domain": "dsa",
+    "subdomain": "subsets",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - Generate Subsets",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RIn3gOkbhQE"
+      },
+      {
+        "title": "NeetCode - Subsets",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=VV1JmMYceJw"
+      },
+      {
+        "title": "GFG - Power Set",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/power-set/"
+      }
+    ],
+    "description": "Generates all possible subsets using recursive include/exclude branching."
+  },
+  {
+    "id": "rec_06",
+    "topic": "Permutations",
+    "domain": "dsa",
+    "subdomain": "permutations",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Subsets (Power Set)"],
+    "resources": [
+      {
+        "title": "Striver - Permutations",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=f2ic2Rsc9pU"
+      },
+      {
+        "title": "NeetCode - Permutations",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=s7AvT7cGdSo"
+      },
+      {
+        "title": "GFG - Permutations (Backtracking)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/"
+      }
+    ],
+    "description": "Generates all permutations of an array or string using recursion and backtracking."
+  },
+  {
+    "id": "rec_07",
+    "topic": "Combination Sum",
+    "domain": "dsa",
+    "subdomain": "combination sum",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - Combination Sum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GBKI9VSKdGg"
+      },
+      {
+        "title": "NeetCode - Combination Sum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=X5e5Yv5PpKM"
+      },
+      {
+        "title": "GFG - Combination Sum",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/combinational-sum/"
+      }
+    ],
+    "description": "Recursively finds all number combinations that sum to a given target using include/exclude exploration."
+  },
+  {
+    "id": "rec_08",
+    "topic": "Recursion on Strings",
+    "domain": "dsa",
+    "subdomain": "string recursion",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Recursion Basics"],
+    "resources": [
+      {
+        "title": "Striver - Recursion on Strings",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=64yBOkxC8Jk"
+      },
+      {
+        "title": "NeetCode - Palindromic Substrings",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4RACzI5-du8"
+      },
+      {
+        "title": "GFG - String Recursion Examples",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/recursive-approach-to-find-the-length-of-a-string/"
+      }
+    ],
+    "description": "String recursion helps solve problems such as reversal, palindrome checks, subsequences, and pattern creation."
+  },
+  {
+    "id": "rec_09",
+    "topic": "N-Queens",
+    "domain": "dsa",
+    "subdomain": "n queens",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - N-Queens",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ph95IHmRp5M"
+      },
+      {
+        "title": "NeetCode - N Queens",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0DeznFqrgAI"
+      },
+      {
+        "title": "GFG - N Queen Problem",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/"
+      }
+    ],
+    "description": "A backtracking classic where queens must be placed such that no two attack each other."
+  },
+  {
+    "id": "rec_10",
+    "topic": "Sudoku Solver",
+    "domain": "dsa",
+    "subdomain": "sudoku",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - Sudoku Solver",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ET4o0gyXc3Y"
+      },
+      {
+        "title": "NeetCode - Sudoku Solver",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FWAIf_EVUKE"
+      },
+      {
+        "title": "GFG - Sudoku Backtracking",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/sudoku-backtracking-7/"
+      }
+    ],
+    "description": "A grid-based backtracking challenge where numbers are placed respecting Sudoku constraints."
+  },
+  {
+    "id": "rec_11",
+    "topic": "Rat in a Maze",
+    "domain": "dsa",
+    "subdomain": "maze",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - Rat in a Maze",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=bLGZhJlt4y0"
+      },
+      {
+        "title": "NeetCode - Backtracking Grid Pattern",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fO9Eby5wln0"
+      },
+      {
+        "title": "GFG - Rat in a Maze",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/"
+      }
+    ],
+    "description": "A common recursion and backtracking problem involving navigating possible paths in a grid."
+  },
+  {
+    "id": "rec_12",
+    "topic": "Recursion to Dynamic Programming Transition",
+    "domain": "dsa",
+    "subdomain": "recursion vs dp",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Recursion Tree & Time Complexity"],
+    "resources": [
+      {
+        "title": "Striver - Recursion to DP Conversion",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=tyB0ztf0DNY"
+      },
+      {
+        "title": "NeetCode - Top-Down Dynamic Programming",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Hdr64lKQ3e4"
+      },
+      {
+        "title": "GFG - Recursion vs DP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/difference-between-recursion-and-dynamic-programming/"
+      }
+    ],
+    "description": "Shows how recursion with overlapping subproblems evolves into memoized dynamic programming solutions."
+  },
+  {
+    "id": "bt_01",
+    "topic": "Backtracking Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Recursion Basics"],
+    "resources": [
+      {
+        "title": "Striver - What is Backtracking?",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zgP1k1oGg20"
+      },
+      {
+        "title": "NeetCode - Backtracking Template",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=_rkFz8KkTpk"
+      },
+      {
+        "title": "GFG - Introduction to Backtracking",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/backtracking-algorithms/"
+      }
+    ],
+    "description": "Backtracking explores decisions step-by-step and undoes them when a path becomes invalid. Useful for permutations, recursion trees and constraint problems."
+  },
+  {
+    "id": "bt_02",
+    "topic": "Subsets (Power Set)",
+    "domain": "dsa",
+    "subdomain": "subsets",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - Generate Subsets",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=RIn3gOkbhQE"
+      },
+      {
+        "title": "NeetCode - Subsets",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=VV1JmMYceJw"
+      },
+      {
+        "title": "GFG - Power Set",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/power-set/"
+      }
+    ],
+    "description": "Generates all subsets using include/exclude branching, forming the foundation for many backtracking problems."
+  },
+  {
+    "id": "bt_03",
+    "topic": "Subsets II (Handling Duplicates)",
+    "domain": "dsa",
+    "subdomain": "subsets ii",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Subsets (Power Set)"],
+    "resources": [
+      {
+        "title": "Striver - Subsets II (Avoiding Duplicates)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Vn2v6ajA7U0"
+      },
+      {
+        "title": "NeetCode - Subsets II",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9Jry5-82I68"
+      },
+      {
+        "title": "GFG - Subsets II",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/subsets-ii/"
+      }
+    ],
+    "description": "Ensures only unique subsets are generated by sorting and skipping duplicate values."
+  },
+  {
+    "id": "bt_04",
+    "topic": "Permutations",
+    "domain": "dsa",
+    "subdomain": "permutations",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - Permutations Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=f2ic2Rsc9pU"
+      },
+      {
+        "title": "NeetCode - Permutations",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=s7AvT7cGdSo"
+      },
+      {
+        "title": "GFG - Permutations Using Backtracking",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/"
+      }
+    ],
+    "description": "Generates all permutations by swapping or building sequences recursively."
+  },
+  {
+    "id": "bt_05",
+    "topic": "Permutations II (Unique Permutations)",
+    "domain": "dsa",
+    "subdomain": "permutations ii",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Permutations"],
+    "resources": [
+      {
+        "title": "Striver - Unique Permutations",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=f2ic2Rsc9pU&t=420"
+      },
+      {
+        "title": "NeetCode - Unique Permutations",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1G9SybEVbnw"
+      },
+      {
+        "title": "GFG - Distinct Permutations",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/distinct-permutations-string-set-2/"
+      }
+    ],
+    "description": "Generates unique permutations when duplicates are present by tracking visited or skipping repeated values."
+  },
+  {
+    "id": "bt_06",
+    "topic": "Combination Sum",
+    "domain": "dsa",
+    "subdomain": "combination sum",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - Combination Sum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GBKI9VSKdGg"
+      },
+      {
+        "title": "NeetCode - Combination Sum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=X5e5Yv5PpKM"
+      },
+      {
+        "title": "GFG - Combination Sum Problem",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/combinational-sum/"
+      }
+    ],
+    "description": "Finds combinations that reach a target sum using recursive exploration and reuse of elements."
+  },
+  {
+    "id": "bt_07",
+    "topic": "Combination Sum II",
+    "domain": "dsa",
+    "subdomain": "combination sum ii",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Combination Sum"],
+    "resources": [
+      {
+        "title": "Striver - Combination Sum II",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WW1rYrR3qPY"
+      },
+      {
+        "title": "NeetCode - Combination Sum II",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BLU3HUL4dNI"
+      },
+      {
+        "title": "GFG - Combination Sum II",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/combination-sum-ii-find-all-unique-combinations/"
+      }
+    ],
+    "description": "Generates all unique combinations where each number may be used only once."
+  },
+  {
+    "id": "bt_08",
+    "topic": "N-Queens",
+    "domain": "dsa",
+    "subdomain": "n queens",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - N Queens",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ph95IHmRp5M"
+      },
+      {
+        "title": "NeetCode - N Queens",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0DeznFqrgAI"
+      },
+      {
+        "title": "GFG - N Queen Problem",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/"
+      }
+    ],
+    "description": "Places N queens on a chessboard while ensuring no two queens attack each other using constraints and recursion."
+  },
+  {
+    "id": "bt_09",
+    "topic": "Sudoku Solver",
+    "domain": "dsa",
+    "subdomain": "sudoku",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - Sudoku Solver",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ET4o0gyXc3Y"
+      },
+      {
+        "title": "NeetCode - Sudoku Solver",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FWAIf_EVUKE"
+      },
+      {
+        "title": "GFG - Sudoku Solver",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/sudoku-backtracking-7/"
+      }
+    ],
+    "description": "Solves Sudoku puzzles by trying digits 19 in each cell while ensuring constraints are satisfied."
+  },
+  {
+    "id": "bt_10",
+    "topic": "Rat in a Maze",
+    "domain": "dsa",
+    "subdomain": "maze",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - Rat in a Maze",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=bLGZhJlt4y0"
+      },
+      {
+        "title": "NeetCode - Backtracking Grid Template",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fO9Eby5wln0"
+      },
+      {
+        "title": "GFG - Rat in a Maze",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/"
+      }
+    ],
+    "description": "A classic grid-based search problem exploring all possible paths from start to destination via recursion."
+  },
+  {
+    "id": "bt_11",
+    "topic": "Word Search",
+    "domain": "dsa",
+    "subdomain": "word search",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Grid Recursion"],
+    "resources": [
+      {
+        "title": "Striver - Word Search",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pfiQ_PS1g8E"
+      },
+      {
+        "title": "NeetCode - Word Search",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pfiQ_PS1g8E"
+      },
+      {
+        "title": "GFG - Word Search Problem",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/word-search/"
+      }
+    ],
+    "description": "Searches a 2D grid for a word by recursively exploring adjacent characters with backtracking."
+  },
+  {
+    "id": "bt_12",
+    "topic": "Phone Number Letter Combinations",
+    "domain": "dsa",
+    "subdomain": "letter combinations",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Backtracking Basics"],
+    "resources": [
+      {
+        "title": "Striver - Letter Combinations of a Phone Number",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0snEunUacZY"
+      },
+      {
+        "title": "NeetCode - Letter Combinations",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0snEunUacZY"
+      },
+      {
+        "title": "GFG - Phone Number Letter Combinations",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/letter-combinations-of-a-phone-number/"
+      }
+    ],
+    "description": "Builds all possible character combinations formed from digits using DFS/backtracking."
+  },
+  {
+    "id": "bs_01",
+    "topic": "Binary Search Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Array Basics"],
+    "resources": [
+      {
+        "title": "Striver - Binary Search Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fDKy4f3-yaI"
+      },
+      {
+        "title": "NeetCode - Binary Search",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=s4DPM8ct1pI"
+      },
+      {
+        "title": "GFG - Binary Search",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/binary-search/"
+      }
+    ],
+    "description": "Introduces the binary search algorithm, mid calculation, and shrinking search space."
+  },
+  {
+    "id": "bs_02",
+    "topic": "Binary Search on Sorted Arrays",
+    "domain": "dsa",
+    "subdomain": "sorted arrays",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search Basics"],
+    "resources": [
+      {
+        "title": "Striver - Implement Binary Search",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=MHf6awe89xw"
+      },
+      {
+        "title": "NeetCode - Search in Sorted Array",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=f6UU7V3szVw"
+      },
+      {
+        "title": "GFG - Searching in Sorted Arrays",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/binary-search-in-sorted-array/"
+      }
+    ],
+    "description": "Covers binary search on classic sorted arrays including corner cases and variations."
+  },
+  {
+    "id": "bs_03",
+    "topic": "First and Last Occurrence",
+    "domain": "dsa",
+    "subdomain": "lower upper bound",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search Basics"],
+    "resources": [
+      {
+        "title": "Striver - First & Last Occurrence",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=hjR1IYVx9lY"
+      },
+      {
+        "title": "NeetCode - First Bad Version (Boundary Binary Search)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Zb4eRjuPHbM"
+      },
+      {
+        "title": "GFG - Find First and Last Occurrence",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-first-and-last-occurrences-of-x-in-a-sorted-array/"
+      }
+    ],
+    "description": "Binary search variations to find the left-most and right-most index of a target in sorted arrays."
+  },
+  {
+    "id": "bs_04",
+    "topic": "Lower Bound & Upper Bound",
+    "domain": "dsa",
+    "subdomain": "bounds",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search Basics"],
+    "resources": [
+      {
+        "title": "Striver - Lower & Upper Bound",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6zhGS79oQ4k"
+      },
+      {
+        "title": "NeetCode - Search Insert Position",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=K-RYzDZkzCI"
+      },
+      {
+        "title": "GFG - Lower Bound & Upper Bound",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/lower-bound-and-upper-bound-in-cpp-stl/"
+      }
+    ],
+    "description": "Finds the smallest index ≥ target (LB) and smallest index > target (UB) using binary search."
+  },
+  {
+    "id": "bs_05",
+    "topic": "Binary Search in Rotated Sorted Array",
+    "domain": "dsa",
+    "subdomain": "rotated array",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search Basics"],
+    "resources": [
+      {
+        "title": "Striver - Search in Rotated Sorted Array",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5qGrJbHhqFs"
+      },
+      {
+        "title": "NeetCode - Rotated Sorted Array Search",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=U8XENwh8Oy8"
+      },
+      {
+        "title": "GFG - Search in Rotated Sorted Array",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/"
+      }
+    ],
+    "description": "Searches efficiently in arrays rotated at an unknown pivot by identifying sorted halves."
+  },
+  {
+    "id": "bs_06",
+    "topic": "Minimum in Rotated Sorted Array",
+    "domain": "dsa",
+    "subdomain": "rotated array minimum",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search in Rotated Sorted Array"],
+    "resources": [
+      {
+        "title": "Striver - Find Minimum in Rotated Sorted Array",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=XuG2Nbx36Yo"
+      },
+      {
+        "title": "NeetCode - Minimum in Rotated Array",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=nIVW4P8b1VA"
+      },
+      {
+        "title": "GFG - Minimum Element in Rotated Array",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/"
+      }
+    ],
+    "description": "Finds the minimum element in a rotated sorted array using modified binary search."
+  },
+  {
+    "id": "bs_07",
+    "topic": "Peak Element / Mountain Array",
+    "domain": "dsa",
+    "subdomain": "peak element",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search Basics"],
+    "resources": [
+      {
+        "title": "Striver - Peak Element",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cXxmbemS6XM"
+      },
+      {
+        "title": "NeetCode - Find Peak Element",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=CFgUQUL7j_c"
+      },
+      {
+        "title": "GFG - Find Peak Element",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-a-peak-element/"
+      }
+    ],
+    "description": "Binary search is used to find local peaks or solve mountain array search problems."
+  },
+  {
+    "id": "bs_08",
+    "topic": "Binary Search on Answer (Minimized Maximum)",
+    "domain": "dsa",
+    "subdomain": "binary search on answer",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search Basics", "Prefix Sums"],
+    "resources": [
+      {
+        "title": "Striver - Binary Search on Answer Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Y0lT9Fck7qI"
+      },
+      {
+        "title": "NeetCode - Koko Eating Bananas",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=G0nQkZWkP64"
+      },
+      {
+        "title": "GFG - Binary Search on Answer",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/binary-search-on-answer-technique/"
+      }
+    ],
+    "description": "Used when searching on the value space instead of indices — popular in difficult optimization problems."
+  },
+  {
+    "id": "bs_09",
+    "topic": "Allocate Books / Painter's Partition",
+    "domain": "dsa",
+    "subdomain": "allocation problems",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search on Answer"],
+    "resources": [
+      {
+        "title": "Striver - Allocate Books / Split Array",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UvBKTVaG6U8"
+      },
+      {
+        "title": "NeetCode - Split Array Largest Sum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6hKMtGg_4-Q"
+      },
+      {
+        "title": "GFG - Book Allocation Problem",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/allocate-minimum-number-pages/"
+      }
+    ],
+    "description": "A tough binary search on answer problem where workloads must be divided optimally."
+  },
+  {
+    "id": "bs_10",
+    "topic": "Search in 2D Matrix",
+    "domain": "dsa",
+    "subdomain": "matrix binary search",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search Basics"],
+    "resources": [
+      {
+        "title": "Striver - Search in 2D Matrix",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ber2pi2C0j0"
+      },
+      {
+        "title": "NeetCode - Search 2D Matrix",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ber2pi2C0j0"
+      },
+      {
+        "title": "GFG - Search in 2D Matrix",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/"
+      }
+    ],
+    "description": "Treats a matrix as a flattened sorted array and applies binary search."
+  },
+  {
+    "id": "bs_11",
+    "topic": "Square Root Using Binary Search",
+    "domain": "dsa",
+    "subdomain": "square root",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search Basics"],
+    "resources": [
+      {
+        "title": "Striver - Square Root Using Binary Search",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=DJ4a7cmjZY0"
+      },
+      {
+        "title": "NeetCode - Square Root (search on answer)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zdMhGxRWutQ"
+      },
+      {
+        "title": "GFG - Square Root Using Binary Search",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/square-root-of-an-integer/"
+      }
+    ],
+    "description": "Uses binary search to compute square root of an integer efficiently."
+  },
+  {
+    "id": "bs_12",
+    "topic": "Binary Search in Infinite Array",
+    "domain": "dsa",
+    "subdomain": "infinite array",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search Basics"],
+    "resources": [
+      {
+        "title": "Striver - Search in Infinite Sorted Array",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=T_xkzEv5mDA"
+      },
+      {
+        "title": "NeetCode - Infinite Array Logic",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Peq4GCPNC5c"
+      },
+      {
+        "title": "GFG - Search in Infinite Sorted Array",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/"
+      }
+    ],
+    "description": "Expands search bounds exponentially until the target is within range, then applies binary search."
+  },
+  {
+    "id": "str_01",
+    "topic": "String Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver - Strings in C++ & Java",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EPVjG8m54B4"
+      },
+      {
+        "title": "NeetCode - Strings Introduction",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GhP9z3WYn8I"
+      },
+      {
+        "title": "GFG - Strings in Data Structures",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/string-data-structure/"
+      }
+    ],
+    "description": "Covers how strings are stored, manipulated, and processed in memory."
+  },
+  {
+    "id": "str_02",
+    "topic": "Reverse a String",
+    "domain": "dsa",
+    "subdomain": "string reversal",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["String Basics"],
+    "resources": [
+      {
+        "title": "Striver - Reverse a String",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5f0Dkqf7RE0"
+      },
+      {
+        "title": "NeetCode - Reverse String",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=twO6276YwYc"
+      },
+      {
+        "title": "GFG - Reverse a String",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/reverse-a-string-using-recursion/"
+      }
+    ],
+    "description": "Uses two pointers or recursion to reverse strings efficiently."
+  },
+  {
+    "id": "str_03",
+    "topic": "Valid Anagram",
+    "domain": "dsa",
+    "subdomain": "anagram",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["String Basics"],
+    "resources": [
+      {
+        "title": "Striver - Check for Anagram",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9UtInBqnCgA"
+      },
+      {
+        "title": "NeetCode - Valid Anagram",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6i3EGqOBRiU"
+      },
+      {
+        "title": "GFG - Check Anagram",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/"
+      }
+    ],
+    "description": "Two strings are anagrams if they contain the same characters in any order."
+  },
+  {
+    "id": "str_04",
+    "topic": "Palindrome Check",
+    "domain": "dsa",
+    "subdomain": "palindrome",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["String Basics"],
+    "resources": [
+      {
+        "title": "Striver - Check Palindrome",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=8r1NptPBu1c"
+      },
+      {
+        "title": "NeetCode - Valid Palindrome",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jJXJ16kPFWg"
+      },
+      {
+        "title": "GFG - Check Palindrome",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/check-string-palindrome/"
+      }
+    ],
+    "description": "Palindrome strings read the same forward and backward; solved using two pointers."
+  },
+  {
+    "id": "str_05",
+    "topic": "Longest Common Prefix",
+    "domain": "dsa",
+    "subdomain": "prefix",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["String Basics"],
+    "resources": [
+      {
+        "title": "Striver - Longest Common Prefix",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0sWShKIJoo4"
+      },
+      {
+        "title": "NeetCode - Longest Common Prefix",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=bl8UE_lka9s"
+      },
+      {
+        "title": "GFG - LCP Problem",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/longest-common-prefix-using-sorting/"
+      }
+    ],
+    "description": "Finds the longest starting substring common to all strings."
+  },
+  {
+    "id": "str_06",
+    "topic": "Longest Palindrome Substring",
+    "domain": "dsa",
+    "subdomain": "palindrome substring",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Palindrome Check"],
+    "resources": [
+      {
+        "title": "Striver - Longest Palindromic Substring",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WpYHNHofwjc"
+      },
+      {
+        "title": "NeetCode - Longest Palindromic Substring",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=y2BD4MJqV20"
+      },
+      {
+        "title": "GFG - Longest Palindrome Substring",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/"
+      }
+    ],
+    "description": "Uses expand-around-center or DP to find the longest palindromic substring."
+  },
+  {
+    "id": "str_07",
+    "topic": "Longest Substring Without Repeating Characters",
+    "domain": "dsa",
+    "subdomain": "sliding window",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Two Pointer Technique"],
+    "resources": [
+      {
+        "title": "Striver - Longest Substring Without Repeating",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qtVh-XEpsJo"
+      },
+      {
+        "title": "NeetCode - Longest Substring",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wiGpQwVHdE0"
+      },
+      {
+        "title": "GFG - Longest Non-Repeating Substring",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/"
+      }
+    ],
+    "description": "A sliding window + hashing problem to track character frequencies."
+  },
+  {
+    "id": "str_08",
+    "topic": "Rabin-Karp Algorithm (String Hashing)",
+    "domain": "dsa",
+    "subdomain": "string hashing",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Hashing Basics"],
+    "resources": [
+      {
+        "title": "Striver - Rabin Karp String Matching",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=H4VrKHVG5qI"
+      },
+      {
+        "title": "NeetCode - Rolling Hash Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=bJBce61MRPQ"
+      },
+      {
+        "title": "GFG - Rabin Karp Algorithm",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/"
+      }
+    ],
+    "description": "A hashing-based string searching algorithm for fast substring search."
+  },
+  {
+    "id": "str_09",
+    "topic": "KMP Algorithm (Prefix Function)",
+    "domain": "dsa",
+    "subdomain": "kmp",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Prefix Function", "String Basics"],
+    "resources": [
+      {
+        "title": "Striver - KMP Algorithm Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=V5-7GzOfADQ"
+      },
+      {
+        "title": "NeetCode - KMP Algorithm",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BXCEFAzhxGY"
+      },
+      {
+        "title": "GFG - KMP Algorithm",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/"
+      }
+    ],
+    "description": "Efficient pattern searching algorithm using prefix function / LPS array."
+  },
+  {
+    "id": "str_10",
+    "topic": "Z Algorithm (Pattern Matching)",
+    "domain": "dsa",
+    "subdomain": "z algorithm",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["String Basics"],
+    "resources": [
+      {
+        "title": "Striver - Z Algorithm Pattern Matching",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=CpZh4eF8QBw"
+      },
+      {
+        "title": "NeetCode - Z Function Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2l3-_qsYcoY"
+      },
+      {
+        "title": "GFG - Z Algorithm",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/"
+      }
+    ],
+    "description": "Computes a Z-array to find matches of pattern efficiently in linear time."
+  },
+  {
+    "id": "str_11",
+    "topic": "Minimum Window Substring",
+    "domain": "dsa",
+    "subdomain": "sliding window advanced",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Sliding Window", "Hashing Basics"],
+    "resources": [
+      {
+        "title": "Striver - Minimum Window Substring",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jSto0O4AJbM"
+      },
+      {
+        "title": "NeetCode - Minimum Window Substring",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2pndgvuKf4g"
+      },
+      {
+        "title": "GFG - Minimum Window Substring",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/minimum-window-substring/"
+      }
+    ],
+    "description": "A hard sliding-window problem requiring character frequency matching."
+  },
+  {
+    "id": "str_12",
+    "topic": "String Compression",
+    "domain": "dsa",
+    "subdomain": "compression",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["String Basics"],
+    "resources": [
+      {
+        "title": "Striver - String Compression",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IhJGJG-9YvY"
+      },
+      {
+        "title": "NeetCode - String Compression",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IqoYyZL8Ou8"
+      },
+      {
+        "title": "GFG - String Compression",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/run-length-encoding/"
+      }
+    ],
+    "description": "Compresses sequences of repeated characters using two-pointer techniques."
+  },
+  {
+    "id": "tree_01",
+    "topic": "Binary Tree Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver - Introduction to Binary Trees",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=-DzowlcaUmE"
+      },
+      {
+        "title": "NeetCode - Introduction to Trees",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=I37aT3JgYjI"
+      },
+      {
+        "title": "GFG - Binary Tree Data Structure",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/binary-tree-data-structure/"
+      }
+    ],
+    "description": "Introduces nodes, edges, height, depth, and binary tree representation."
+  },
+  {
+    "id": "tree_02",
+    "topic": "Tree Traversals (Inorder, Preorder, Postorder)",
+    "domain": "dsa",
+    "subdomain": "traversals",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Tree Basics"],
+    "resources": [
+      {
+        "title": "Striver - Inorder, Preorder & Postorder Traversal",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=btWDe9fRZoc"
+      },
+      {
+        "title": "NeetCode - Binary Tree Traversals",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EoAsWbO7sqg"
+      },
+      {
+        "title": "GFG - Tree Traversals",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/"
+      }
+    ],
+    "description": "Explains depth-first traversal techniques using recursion."
+  },
+  {
+    "id": "tree_03",
+    "topic": "Level Order Traversal (Breadth First Search)",
+    "domain": "dsa",
+    "subdomain": "level order",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Tree Basics"],
+    "resources": [
+      {
+        "title": "Striver - Level Order Traversal",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EoAsWbO7sqg"
+      },
+      {
+        "title": "NeetCode - Level Order Traversal",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6ZnyEApgFYg"
+      },
+      {
+        "title": "GFG - Level Order Traversal",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/level-order-tree-traversal/"
+      }
+    ],
+    "description": "Uses queues to traverse binary trees level by level."
+  },
+  {
+    "id": "tree_04",
+    "topic": "Height / Depth of a Tree",
+    "domain": "dsa",
+    "subdomain": "height depth",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Tree Basics"],
+    "resources": [
+      {
+        "title": "Striver - Height of Binary Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aqLTbtWh40E"
+      },
+      {
+        "title": "NeetCode - Tree Height",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ytUePj7c0E4"
+      },
+      {
+        "title": "GFG - Height of Binary Tree",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/write-a-c-program-to-find-the-maximum-depth-or-height-of-a-tree/"
+      }
+    ],
+    "description": "Finds the maximum depth of a binary tree using recursion."
+  },
+  {
+    "id": "tree_05",
+    "topic": "Diameter of Binary Tree",
+    "domain": "dsa",
+    "subdomain": "diameter",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Height / Depth of a Tree"],
+    "resources": [
+      {
+        "title": "Striver - Diameter of Binary Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Rezetez59Nk"
+      },
+      {
+        "title": "NeetCode - Diameter of Binary Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6p3bPmXOW8M"
+      },
+      {
+        "title": "GFG - Diameter of Binary Tree",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/diameter-of-a-binary-tree/"
+      }
+    ],
+    "description": "Computes the longest path between any two nodes using DFS + height."
+  },
+  {
+    "id": "tree_06",
+    "topic": "Balanced Binary Tree",
+    "domain": "dsa",
+    "subdomain": "balanced tree",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Height / Depth of a Tree"],
+    "resources": [
+      {
+        "title": "Striver - Check Balanced Binary Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Yt50Jfbd8Po"
+      },
+      {
+        "title": "NeetCode - Balanced Binary Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=QfJsau0ItOY"
+      },
+      {
+        "title": "GFG - Balanced Tree",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/"
+      }
+    ],
+    "description": "Verifies whether left and right subtree heights differ by no more than one."
+  },
+  {
+    "id": "tree_07",
+    "topic": "Path Sum Problems",
+    "domain": "dsa",
+    "subdomain": "path sum",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Tree Basics"],
+    "resources": [
+      {
+        "title": "Striver - Path Sum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LS1BddLH1Bc"
+      },
+      {
+        "title": "NeetCode - Path Sum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LS1BddLH1Bc"
+      },
+      {
+        "title": "GFG - Path Sum",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/"
+      }
+    ],
+    "description": "DFS-based problem checking if any root-to-leaf path equals a target value."
+  },
+  {
+    "id": "tree_08",
+    "topic": "Lowest Common Ancestor (LCA)",
+    "domain": "dsa",
+    "subdomain": "lca",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Tree Traversals"],
+    "resources": [
+      {
+        "title": "Striver - Lowest Common Ancestor",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=13m9ZCB8gjw"
+      },
+      {
+        "title": "NeetCode - LCA in Binary Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=py3R23a7U1w"
+      },
+      {
+        "title": "GFG - Lowest Common Ancestor",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/"
+      }
+    ],
+    "description": "Finds the common ancestor of two nodes using DFS or parent pointers."
+  },
+  {
+    "id": "tree_09",
+    "topic": "Zigzag Level Order Traversal",
+    "domain": "dsa",
+    "subdomain": "zigzag traversal",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Level Order Traversal"],
+    "resources": [
+      {
+        "title": "Striver - Zigzag Traversal",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5zujO8E7bQ0"
+      },
+      {
+        "title": "NeetCode - Zigzag Level Order",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7fujbpJ0LB4"
+      },
+      {
+        "title": "GFG - Zigzag Traversal",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/zigzag-tree-traversal/"
+      }
+    ],
+    "description": "A BFS-based traversal alternating between left-to-right and right-to-left each level."
+  },
+  {
+    "id": "tree_10",
+    "topic": "Vertical Order Traversal",
+    "domain": "dsa",
+    "subdomain": "vertical traversal",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Tree Traversals"],
+    "resources": [
+      {
+        "title": "Striver - Vertical Order Traversal",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q_a6lpbKJdw"
+      },
+      {
+        "title": "NeetCode - Vertical Order Traversal",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q_a6lpbKJdw"
+      },
+      {
+        "title": "GFG - Vertical Order Traversal",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/vertical-order-traversal-of-binary-tree/"
+      }
+    ],
+    "description": "Uses BFS + hashmap to group nodes by column index to produce vertical order."
+  },
+  {
+    "id": "tree_11",
+    "topic": "Top View & Bottom View of Tree",
+    "domain": "dsa",
+    "subdomain": "views",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Vertical Order Traversal"],
+    "resources": [
+      {
+        "title": "Striver - Top View of Binary Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4e3IGHZkP7k"
+      },
+      {
+        "title": "NeetCode - Tree Views (concept)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5DyqGzv64sM"
+      },
+      {
+        "title": "GFG - Top & Bottom View",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/top-view-of-binary-tree/"
+      }
+    ],
+    "description": "Shows which nodes are visible from the top or bottom perspective of the binary tree."
+  },
+  {
+    "id": "tree_12",
+    "topic": "Flatten Binary Tree to Linked List",
+    "domain": "dsa",
+    "subdomain": "flatten tree",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Tree Traversals"],
+    "resources": [
+      {
+        "title": "Striver - Flatten Binary Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sWf7k1x9XR4"
+      },
+      {
+        "title": "NeetCode - Flatten Binary Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WVx6TdM3pTI"
+      },
+      {
+        "title": "GFG - Flatten Binary Tree",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/flatten-binary-tree-to-linked-list/"
+      }
+    ],
+    "description": "Transforms a tree into a linked list following preorder traversal using recursion or stack."
+  },
+  {
+    "id": "bst_01",
+    "topic": "BST Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Tree Basics"],
+    "resources": [
+      {
+        "title": "Striver - Introduction to BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=omrY53kbVoA"
+      },
+      {
+        "title": "NeetCode - Binary Search Tree Introduction",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5cPbNCrdotA"
+      },
+      {
+        "title": "GFG - Binary Search Tree",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/binary-search-tree-data-structure/"
+      }
+    ],
+    "description": "Covers BST properties, node structure, and ordering rules enabling efficient search."
+  },
+  {
+    "id": "bst_02",
+    "topic": "Search in BST",
+    "domain": "dsa",
+    "subdomain": "search",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["BST Basics"],
+    "resources": [
+      {
+        "title": "Striver - Search in BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Kd0f2L1UQyA"
+      },
+      {
+        "title": "NeetCode - Search in BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5cPbNCrdotA&t=140"
+      },
+      {
+        "title": "GFG - Search in BST",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/search-a-node-in-binary-search-tree/"
+      }
+    ],
+    "description": "Efficiently searches for a value using left/right pointers according to BST rules."
+  },
+  {
+    "id": "bst_03",
+    "topic": "Insert into BST",
+    "domain": "dsa",
+    "subdomain": "insertion",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["BST Basics"],
+    "resources": [
+      {
+        "title": "Striver - Insert into BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FiFiNvM29ps"
+      },
+      {
+        "title": "NeetCode - Insert into BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=COZK7NATh4k"
+      },
+      {
+        "title": "GFG - Insert Node in BST",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/insertion-in-binary-search-tree/"
+      }
+    ],
+    "description": "Recursively inserts a new node maintaining the BST ordering property."
+  },
+  {
+    "id": "bst_04",
+    "topic": "Delete Node from BST",
+    "domain": "dsa",
+    "subdomain": "deletion",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Insert into BST"],
+    "resources": [
+      {
+        "title": "Striver - Delete Node from BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zcIR4Y0dF4k"
+      },
+      {
+        "title": "NeetCode - Delete Node in BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gcULXE7ViZw"
+      },
+      {
+        "title": "GFG - Delete Node in BST",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/"
+      }
+    ],
+    "description": "Handles deletion cases: leaf node, one child, or two children using inorder successor."
+  },
+  {
+    "id": "bst_05",
+    "topic": "Validate Binary Search Tree",
+    "domain": "dsa",
+    "subdomain": "validation",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["BST Basics"],
+    "resources": [
+      {
+        "title": "Striver - Validate BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=f-sj7I5oXEI"
+      },
+      {
+        "title": "NeetCode - Validate BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=s6ATEkipzow"
+      },
+      {
+        "title": "GFG - Validate BST",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/"
+      }
+    ],
+    "description": "Checks if a binary tree satisfies BST ordering using min/max bounds or inorder traversal."
+  },
+  {
+    "id": "bst_06",
+    "topic": "Lowest Common Ancestor in BST",
+    "domain": "dsa",
+    "subdomain": "lca",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["BST Basics"],
+    "resources": [
+      {
+        "title": "Striver - LCA in BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gs2LMfuOR9k"
+      },
+      {
+        "title": "NeetCode - LCA in BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cX_kPV_foZc"
+      },
+      {
+        "title": "GFG - LCA in BST",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/"
+      }
+    ],
+    "description": "Finds LCA using BST property without needing full tree traversal."
+  },
+  {
+    "id": "bst_07",
+    "topic": "Kth Smallest Element in BST",
+    "domain": "dsa",
+    "subdomain": "kth smallest",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Inorder Traversal"],
+    "resources": [
+      {
+        "title": "Striver - Kth Smallest in BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9TJYWh0adfk"
+      },
+      {
+        "title": "NeetCode - Kth Smallest in BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5LUXSvjmGCw"
+      },
+      {
+        "title": "GFG - Kth Smallest in BST",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst/"
+      }
+    ],
+    "description": "Uses inorder traversal because it yields sorted order for BST nodes."
+  },
+  {
+    "id": "bst_08",
+    "topic": "Kth Largest Element in BST",
+    "domain": "dsa",
+    "subdomain": "kth largest",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Reverse Inorder Traversal"],
+    "resources": [
+      {
+        "title": "Striver - Kth Largest Element",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2SXqBsTR6a8"
+      },
+      {
+        "title": "NeetCode - BST Kth Largest",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xqFJ6TgY6O8"
+      },
+      {
+        "title": "GFG - Kth Largest in BST",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-k-th-largest-element-in-bst-using-reverse-inorder-traversal/"
+      }
+    ],
+    "description": "Uses reverse inorder traversal which gives descending-sorted values in BST."
+  },
+  {
+    "id": "bst_09",
+    "topic": "Inorder Successor & Predecessor",
+    "domain": "dsa",
+    "subdomain": "successor predecessor",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Inorder Traversal"],
+    "resources": [
+      {
+        "title": "Striver - Inorder Successor & Predecessor",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=SXKAD2svfmI"
+      },
+      {
+        "title": "NeetCode - Successor Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=gs2LMfuOR9k&t=250"
+      },
+      {
+        "title": "GFG - Inorder Successor & Predecessor",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/"
+      }
+    ],
+    "description": "Finds the next and previous nodes in BST's inorder sequence efficiently."
+  },
+  {
+    "id": "bst_10",
+    "topic": "Floor & Ceil in BST",
+    "domain": "dsa",
+    "subdomain": "floor ceil",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["BST Basics"],
+    "resources": [
+      {
+        "title": "Striver - Floor in BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xm_W1y4rUTo"
+      },
+      {
+        "title": "NeetCode - BST Floor/Ceil Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5cPbNCrdotA&t=280"
+      },
+      {
+        "title": "GFG - Floor & Ceil",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/floor-and-ceil-from-a-bst/"
+      }
+    ],
+    "description": "Computes the closest smaller (floor) and closest larger (ceil) values relative to a target."
+  },
+  {
+    "id": "bst_11",
+    "topic": "BST to Sorted Doubly Linked List",
+    "domain": "dsa",
+    "subdomain": "convert to dll",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Inorder Traversal"],
+    "resources": [
+      {
+        "title": "Striver - BST to Doubly Linked List",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=V5hZoJ6uK-s"
+      },
+      {
+        "title": "NeetCode - Convert BST to DLL",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FiFiNvM29ps&t=340"
+      },
+      {
+        "title": "GFG - BST to DLL",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/convert-a-given-binary-search-tree-to-doubly-linked-list/"
+      }
+    ],
+    "description": "Converts BST nodes into a sorted doubly linked list using inorder traversal."
+  },
+  {
+    "id": "bst_12",
+    "topic": "Recover BST (Fix Swapped Nodes)",
+    "domain": "dsa",
+    "subdomain": "recover bst",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Inorder Traversal"],
+    "resources": [
+      {
+        "title": "Striver - Recover BST",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZWGW7FminDM"
+      },
+      {
+        "title": "NeetCode - Recover Binary Search Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Zx40udwDctg"
+      },
+      {
+        "title": "GFG - Recover BST",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/"
+      }
+    ],
+    "description": "Restores BST validity when two nodes have been incorrectly swapped."
+  },
+  {
+    "id": "graph_01",
+    "topic": "Graph Basics & Representation",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver  Graph Representation (Adj List & Adj Matrix)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZspR5PZemcs"
+      },
+      {
+        "title": "NeetCode  Graph Introduction",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=tWVWeAqZ0WU"
+      },
+      {
+        "title": "GFG  Graph Data Structure",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/"
+      }
+    ],
+    "description": "Introduces graph terminology, adjacency list, adjacency matrix, and edge types."
+  },
+  {
+    "id": "graph_02",
+    "topic": "Depth First Search (DFS)",
+    "domain": "dsa",
+    "subdomain": "dfs",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Graph Basics"],
+    "resources": [
+      {
+        "title": "Striver  Depth First Search (DFS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Qzf1a--rhp8"
+      },
+      {
+        "title": "NeetCode  DFS Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PMMc4VsIacU"
+      },
+      {
+        "title": "GFG  Depth First Search",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/"
+      }
+    ],
+    "description": "DFS explores deep across neighbors, helpful for components, cycles, and paths."
+  },
+  {
+    "id": "graph_03",
+    "topic": "Breadth First Search (BFS)",
+    "domain": "dsa",
+    "subdomain": "bfs",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Graph Basics"],
+    "resources": [
+      {
+        "title": "Striver  Breadth First Search (BFS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UeE67iCK2lQ"
+      },
+      {
+        "title": "NeetCode  BFS Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xlVX7dXLS64"
+      },
+      {
+        "title": "GFG  Breadth First Search",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/"
+      }
+    ],
+    "description": "BFS explores level by level and is useful for shortest path on unweighted graphs."
+  },
+  {
+    "id": "graph_04",
+    "topic": "Connected Components",
+    "domain": "dsa",
+    "subdomain": "components",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["DFS", "BFS"],
+    "resources": [
+      {
+        "title": "Striver  Connected Components (DFS/BFS)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uwW0b6jskm8"
+      },
+      {
+        "title": "NeetCode  Number of Islands (Component counting)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pV2kpPD66nE"
+      },
+      {
+        "title": "GFG  Connected Components",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/"
+      }
+    ],
+    "description": "Counts isolated groups of nodes in undirected graphs using BFS/DFS."
+  },
+  {
+    "id": "graph_05",
+    "topic": "Cycle Detection in Undirected Graph",
+    "domain": "dsa",
+    "subdomain": "cycle detection",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["DFS"],
+    "resources": [
+      {
+        "title": "Striver  Cycle Detection (Undirected)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BPlrALf1LDU"
+      },
+      {
+        "title": "NeetCode  Cycle in Graph",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jnYHOB5ZQO0"
+      },
+      {
+        "title": "GFG  Detect Cycle in Undirected Graph",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/detect-cycle-undirected-graph/"
+      }
+    ],
+    "description": "Detects presence of cycles using DFS parent tracking."
+  },
+  {
+    "id": "graph_06",
+    "topic": "Cycle Detection in Directed Graph",
+    "domain": "dsa",
+    "subdomain": "cycle detection directed",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["DFS"],
+    "resources": [
+      {
+        "title": "Striver  Cycle Detection (Directed Graph)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uzVUw90ZFIg"
+      },
+      {
+        "title": "NeetCode  Course Schedule (Cycle detection)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EgI5nU9etnU"
+      },
+      {
+        "title": "GFG  Detect Cycle in Directed Graph",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/detect-cycle-in-a-direct-graph-using-colors/"
+      }
+    ],
+    "description": "Detects cycles using DFS recursion stack or Kahn’s algorithm."
+  },
+  {
+    "id": "graph_07",
+    "topic": "Topological Sorting",
+    "domain": "dsa",
+    "subdomain": "toposort",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Cycle Detection (Directed Graph)"],
+    "resources": [
+      {
+        "title": "Striver  Topological Sort (DFS & BFS/Kahn)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Q9PIxaNGnig"
+      },
+      {
+        "title": "NeetCode  Course Schedule II (Toposort)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Akt3glAwyfY"
+      },
+      {
+        "title": "GFG  Topological Sort",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/topological-sorting/"
+      }
+    ],
+    "description": "Linear ordering of nodes in a directed acyclic graph using DFS or Kahn’s algorithm."
+  },
+  {
+    "id": "graph_08",
+    "topic": "Dijkstra’s Algorithm (Shortest Path)",
+    "domain": "dsa",
+    "subdomain": "shortest path",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Graph Basics"],
+    "resources": [
+      {
+        "title": "Striver  Dijkstra’s Algorithm",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jbhuqIASjoM"
+      },
+      {
+        "title": "NeetCode  Network Delay Time (Dijkstra)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EaphyqKU4PQ"
+      },
+      {
+        "title": "GFG  Dijkstra’s Algorithm",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/"
+      }
+    ],
+    "description": "Finds shortest path from a source to all nodes in weighted graphs with non-negative weights."
+  },
+  {
+    "id": "graph_09",
+    "topic": "Bellman-Ford Algorithm",
+    "domain": "dsa",
+    "subdomain": "bellman ford",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Dijkstra’s Algorithm"],
+    "resources": [
+      {
+        "title": "Striver  Bellman Ford Algorithm",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FtN3BYH2Zes"
+      },
+      {
+        "title": "NeetCode  Bellman-Ford Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=obWXjtg0L64"
+      },
+      {
+        "title": "GFG  Bellman Ford",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/"
+      }
+    ],
+    "description": "Handles negative weights and detects negative cycles using edge relaxation."
+  },
+  {
+    "id": "graph_10",
+    "topic": "FloydWarshall Algorithm",
+    "domain": "dsa",
+    "subdomain": "all pairs shortest path",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Bellman-Ford Algorithm"],
+    "resources": [
+      {
+        "title": "Striver  Floyd Warshall Algorithm",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oNI0rf2P9gE"
+      },
+      {
+        "title": "NeetCode  Floyd Warshall Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=KiCBXu4P-2Y"
+      },
+      {
+        "title": "GFG  Floyd Warshall Algorithm",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/"
+      }
+    ],
+    "description": "Computes shortest paths between all pairs of nodes in O(n³) time."
+  },
+  {
+    "id": "graph_11",
+    "topic": "Minimum Spanning Tree (Prim & Kruskal)",
+    "domain": "dsa",
+    "subdomain": "mst",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Graph Basics"],
+    "resources": [
+      {
+        "title": "Striver  Minimum Spanning Tree (Prim & Kruskal)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4ZlRH0eK-qQ"
+      },
+      {
+        "title": "NeetCode  MST (Union-Find)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wU6udHRIkcc"
+      },
+      {
+        "title": "GFG  Minimum Spanning Tree",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/minimum-spanning-tree-mst-algorithms/"
+      }
+    ],
+    "description": "Finds the minimum cost tree connecting all nodes using greedy algorithms."
+  },
+  {
+    "id": "graph_12",
+    "topic": "Union-Find / Disjoint Set",
+    "domain": "dsa",
+    "subdomain": "dsu",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Graph Basics"],
+    "resources": [
+      {
+        "title": "Striver  Disjoint Set (Union-Find)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=aBxjDBC4M1U"
+      },
+      {
+        "title": "NeetCode  Union Find",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ibjEGG7ylHk"
+      },
+      {
+        "title": "GFG  Disjoint Set Data Structure",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/disjoint-set-data-structures/"
+      }
+    ],
+    "description": "Efficient structure for merging sets and detecting connectivity using union by rank and path compression."
+  },
+  {
+    "id": "greedy_01",
+    "topic": "Greedy Algorithm Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver  Introduction to Greedy Algorithms",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ARvQcxW8KD0"
+      },
+      {
+        "title": "NeetCode  Greedy Algorithms Overview",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wSOfYesTBRk"
+      },
+      {
+        "title": "GFG  Greedy Algorithm",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/greedy-algorithms/"
+      }
+    ],
+    "description": "Covers the greedy choice property and optimal substructure required for greedy solutions."
+  },
+  {
+    "id": "greedy_02",
+    "topic": "Activity Selection Problem",
+    "domain": "dsa",
+    "subdomain": "interval scheduling",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Greedy Algorithm Basics"],
+    "resources": [
+      {
+        "title": "Striver  Activity Selection",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vcKYX8Co7B8"
+      },
+      {
+        "title": "NeetCode  Non-overlapping Intervals",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2HNnw2_g9jg"
+      },
+      {
+        "title": "GFG  Activity Selection",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/"
+      }
+    ],
+    "description": "Selects max non-overlapping activities using earliest end time first."
+  },
+  {
+    "id": "greedy_03",
+    "topic": "Fractional Knapsack",
+    "domain": "dsa",
+    "subdomain": "knapsack",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Sorting Basics"],
+    "resources": [
+      {
+        "title": "Striver  Fractional Knapsack",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=m1p-eWxrt6g"
+      },
+      {
+        "title": "NeetCode  Fractional Knapsack Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=8QGsoZk2Yp8"
+      },
+      {
+        "title": "GFG  Fractional Knapsack",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/fractional-knapsack-problem/"
+      }
+    ],
+    "description": "Sorts items by value-to-weight ratio to maximize profit."
+  },
+  {
+    "id": "greedy_04",
+    "topic": "Job Sequencing with Deadlines",
+    "domain": "dsa",
+    "subdomain": "scheduling",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Greedy Algorithm Basics"],
+    "resources": [
+      {
+        "title": "Striver  Job Sequencing Problem",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LjPx4wQaRIs"
+      },
+      {
+        "title": "NeetCode  Task Scheduling Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Y0lT9Fck7qI"
+      },
+      {
+        "title": "GFG  Job Sequencing",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/job-sequencing-problem/"
+      }
+    ],
+    "description": "Maximizes profit by scheduling jobs in decreasing order of profit before deadlines."
+  },
+  {
+    "id": "greedy_05",
+    "topic": "Minimum Number of Platforms",
+    "domain": "dsa",
+    "subdomain": "interval overlap",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Two Pointer Technique"],
+    "resources": [
+      {
+        "title": "Striver  Minimum Platforms",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=dxVcMDI7vyI"
+      },
+      {
+        "title": "NeetCode  Meeting Rooms II",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PWgFnSygWeI"
+      },
+      {
+        "title": "GFG  Minimum Platforms",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/"
+      }
+    ],
+    "description": "Uses sorting and two pointers to calculate overlapping intervals."
+  },
+  {
+    "id": "greedy_06",
+    "topic": "Gas Station / Circular Tour",
+    "domain": "dsa",
+    "subdomain": "circular tour",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Greedy Algorithm Basics"],
+    "resources": [
+      {
+        "title": "Striver  Gas Station",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=lJwbPZGo05A"
+      },
+      {
+        "title": "NeetCode  Gas Station",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=lJwbPZGo05A"
+      },
+      {
+        "title": "GFG  Circular Tour",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/"
+      }
+    ],
+    "description": "Finds a feasible starting station to complete the circular gas route."
+  },
+  {
+    "id": "greedy_07",
+    "topic": "Candy Distribution",
+    "domain": "dsa",
+    "subdomain": "rating distribution",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Greedy Algorithm Basics"],
+    "resources": [
+      {
+        "title": "Striver  Candy Problem",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IIqgZBbsmfM"
+      },
+      {
+        "title": "NeetCode  Candy",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5SwXbPZds40"
+      },
+      {
+        "title": "GFG  Candy Distribution",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/distributing-candy-problem/"
+      }
+    ],
+    "description": "Uses left-to-right and right-to-left passes to assign minimum candies."
+  },
+  {
+    "id": "greedy_08",
+    "topic": "Jump Game",
+    "domain": "dsa",
+    "subdomain": "reachability",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Array Basics"],
+    "resources": [
+      {
+        "title": "Striver  Jump Game",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Yan0cv2cLy8"
+      },
+      {
+        "title": "NeetCode  Jump Game",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Yan0cv2cLy8"
+      },
+      {
+        "title": "GFG  Jump Game",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/minimum-number-jumps-to-reach-end-of-a-given-array/"
+      }
+    ],
+    "description": "Greedy approach tracks maximum reachable index at each step."
+  },
+  {
+    "id": "greedy_09",
+    "topic": "Merge Intervals",
+    "domain": "dsa",
+    "subdomain": "interval merging",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Sorting"],
+    "resources": [
+      {
+        "title": "Striver  Merge Intervals",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=44H3cEC2fFM"
+      },
+      {
+        "title": "NeetCode  Merge Intervals",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=44H3cEC2fFM"
+      },
+      {
+        "title": "GFG  Merge Overlapping Intervals",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/merging-intervals/"
+      }
+    ],
+    "description": "Combines overlapping intervals after sorting them by start time."
+  },
+  {
+    "id": "greedy_10",
+    "topic": "Minimum Coins (Coin Change - Greedy)",
+    "domain": "dsa",
+    "subdomain": "coin change greedy",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Sorting"],
+    "resources": [
+      {
+        "title": "Striver  Coin Change (Greedy Approach)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=mVg9CfJvayM"
+      },
+      {
+        "title": "NeetCode  Coin Change Greedy Explanation",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1R0_7HqNaW0"
+      },
+      {
+        "title": "GFG  Coin Change Greedy",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/greedy-algorithm-to-find-minimum-number-of-coins/"
+      }
+    ],
+    "description": "Selects largest possible denomination at each step for canonical coin systems."
+  },
+  {
+    "id": "greedy_11",
+    "topic": "Huffman Coding (Optimal Merge Pattern)",
+    "domain": "dsa",
+    "subdomain": "encoding",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Priority Queue"],
+    "resources": [
+      {
+        "title": "Striver  Huffman Coding",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zZvjOC9ZCwE"
+      },
+      {
+        "title": "NeetCode  Huffman Coding Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Qzbp-9FOE10"
+      },
+      {
+        "title": "GFG  Huffman Coding",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/"
+      }
+    ],
+    "description": "Builds optimal prefix codes using a min-heap, minimizing weighted path length."
+  },
+  {
+    "id": "greedy_12",
+    "topic": "Reorganize String / Task Scheduler",
+    "domain": "dsa",
+    "subdomain": "frequency based greedy",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Heaps", "Hashing"],
+    "resources": [
+      {
+        "title": "Striver  Task Scheduler / Reorganize String",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=YCD_iYxyXoo"
+      },
+      {
+        "title": "NeetCode  Task Scheduler (Greedy + PQ)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=s8p8ukTyA2I"
+      },
+      {
+        "title": "GFG  Task Scheduler Problem",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/task-scheduler/"
+      }
+    ],
+    "description": "Greedy + priority queue based approach to avoid adjacent identical tasks."
+  },
+  {
+    "id": "dp_01",
+    "topic": "DP Basics (Memoization & Tabulation)",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver  Introduction to Dynamic Programming",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=lsOOs5J8ycw"
+      },
+      {
+        "title": "NeetCode  1D DP Overview",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Hlovv3ooGKk"
+      },
+      {
+        "title": "GFG  Dynamic Programming Introduction",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/dynamic-programming/"
+      }
+    ],
+    "description": "Explains overlapping subproblems, optimal substructure, memoization, and tabulation."
+  },
+  {
+    "id": "dp_02",
+    "topic": "Fibonacci (Memoization & Tabulation)",
+    "domain": "dsa",
+    "subdomain": "1d dp",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["DP Basics"],
+    "resources": [
+      {
+        "title": "Striver  Fibonacci DP",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=tyB0ztf0DNY"
+      },
+      {
+        "title": "NeetCode  Fibonacci Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Y0lT9Fck7qI"
+      },
+      {
+        "title": "GFG  Fibonacci Using DP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/"
+      }
+    ],
+    "description": "Introduces DP through Fibonacci using memoization and tabulation."
+  },
+  {
+    "id": "dp_03",
+    "topic": "Climbing Stairs",
+    "domain": "dsa",
+    "subdomain": "1d dp",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["DP Basics"],
+    "resources": [
+      {
+        "title": "Striver  Climbing Stairs DP",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=mLfjzJsN8us"
+      },
+      {
+        "title": "NeetCode  Climbing Stairs",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Y0lT9Fck7qI"
+      },
+      {
+        "title": "GFG  Count Ways to Reach the Nth Stair",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/count-ways-to-reach-the-nth-stair/"
+      }
+    ],
+    "description": "Classic staircase DP problem using the Fibonacci recurrence pattern."
+  },
+  {
+    "id": "dp_04",
+    "topic": "House Robber I",
+    "domain": "dsa",
+    "subdomain": "1d dp",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["DP Basics"],
+    "resources": [
+      {
+        "title": "Striver  House Robber",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GrMBfJNk_NY"
+      },
+      {
+        "title": "NeetCode  House Robber",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=73r3KWiEvyk"
+      },
+      {
+        "title": "GFG  Maximum Stolen Value",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-maximum-possible-stolen-value-houses/"
+      }
+    ],
+    "description": "Computes maximum money without robbing adjacent houses using DP."
+  },
+  {
+    "id": "dp_05",
+    "topic": "House Robber II",
+    "domain": "dsa",
+    "subdomain": "1d dp",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["House Robber I"],
+    "resources": [
+      {
+        "title": "Striver  House Robber II",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3WaxQMELSkw"
+      },
+      {
+        "title": "NeetCode  House Robber II",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rWAJCfYYOvM"
+      },
+      {
+        "title": "GFG  Circular House Robber",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent-set-2/"
+      }
+    ],
+    "description": "Handles circular arrangement by splitting into two DP runs."
+  },
+  {
+    "id": "dp_06",
+    "topic": "0/1 Knapsack",
+    "domain": "dsa",
+    "subdomain": "knapsack",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["DP Basics"],
+    "resources": [
+      {
+        "title": "Striver  0/1 Knapsack",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GqOmJHQZivw"
+      },
+      {
+        "title": "NeetCode  Knapsack Pattern",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xOlhR_2QCXY"
+      },
+      {
+        "title": "GFG  0/1 Knapsack DP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/"
+      }
+    ],
+    "description": "Optimizes item selection under weight constraints using DP."
+  },
+  {
+    "id": "dp_07",
+    "topic": "Subset Sum",
+    "domain": "dsa",
+    "subdomain": "subset dp",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["0/1 Knapsack"],
+    "resources": [
+      {
+        "title": "Striver  Subset Sum DP",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fWX9xDmIzRI"
+      },
+      {
+        "title": "NeetCode  Subset Sum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=s6FhG--P7z0"
+      },
+      {
+        "title": "GFG  Subset Sum Problem",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/subset-sum-problem-dp-25/"
+      }
+    ],
+    "description": "Checks if a subset with a given sum exists using DP table."
+  },
+  {
+    "id": "dp_08",
+    "topic": "Partition Equal Subset Sum",
+    "domain": "dsa",
+    "subdomain": "subset dp",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Subset Sum"],
+    "resources": [
+      {
+        "title": "Striver  Partition Equal Subset Sum",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Ozk7P4EwRkU"
+      },
+      {
+        "title": "NeetCode  Equal Subset Partition",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UmMh7xp07kY"
+      },
+      {
+        "title": "GFG  Partition Problem",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/partition-problem-dp-18/"
+      }
+    ],
+    "description": "Determines whether the array can be divided into two equal-sum subsets."
+  },
+  {
+    "id": "dp_09",
+    "topic": "Coin Change I (Count Ways)",
+    "domain": "dsa",
+    "subdomain": "coin change",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Knapsack"],
+    "resources": [
+      {
+        "title": "Striver  Coin Change I",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=HgyouUi11zk"
+      },
+      {
+        "title": "NeetCode  Coin Change (Ways)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1R0_7HqNaW0"
+      },
+      {
+        "title": "GFG  Coin Change Ways",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/coin-change-dp-7/"
+      }
+    ],
+    "description": "Counts number of ways to make the target sum using unlimited coins."
+  },
+  {
+    "id": "dp_10",
+    "topic": "Coin Change II (Min Coins)",
+    "domain": "dsa",
+    "subdomain": "coin change",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Coin Change I"],
+    "resources": [
+      {
+        "title": "Striver  Minimum Coins DP",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=myPeWb3Y68A"
+      },
+      {
+        "title": "NeetCode  Minimum Coin Change",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1R0_7HqNaW0"
+      },
+      {
+        "title": "GFG  Minimum Coins",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/"
+      }
+    ],
+    "description": "Computes the minimum coins needed to form a target sum."
+  },
+  {
+    "id": "dp_11",
+    "topic": "Longest Increasing Subsequence (LIS)",
+    "domain": "dsa",
+    "subdomain": "subsequence dp",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Binary Search Basics"],
+    "resources": [
+      {
+        "title": "Striver  LIS (O(n log n) + DP)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=odrfUCS9sQk"
+      },
+      {
+        "title": "NeetCode  LIS",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=cjWnW0hdF1Y"
+      },
+      {
+        "title": "GFG  LIS DP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/"
+      }
+    ],
+    "description": "Finds the longest strictly increasing subsequence using DP + binary search."
+  },
+  {
+    "id": "dp_12",
+    "topic": "Longest Common Subsequence (LCS)",
+    "domain": "dsa",
+    "subdomain": "string dp",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["2D DP Basics"],
+    "resources": [
+      {
+        "title": "Striver  LCS",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=NP9c2gFkKwk"
+      },
+      {
+        "title": "NeetCode  LCS Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=sSno9rV8Rhg"
+      },
+      {
+        "title": "GFG  LCS DP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/"
+      }
+    ],
+    "description": "Computes longest subsequence common between two strings using DP table."
+  },
+  {
+    "id": "dp_13",
+    "topic": "Edit Distance",
+    "domain": "dsa",
+    "subdomain": "string dp",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["LCS"],
+    "resources": [
+      {
+        "title": "Striver  Edit Distance",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=AuYujVj646Q"
+      },
+      {
+        "title": "NeetCode  Edit Distance",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=XYi2-LPrwm4"
+      },
+      {
+        "title": "GFG  Edit Distance",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/edit-distance-dp-5/"
+      }
+    ],
+    "description": "Finds minimum edits (insert/delete/replace) required to transform one string into another."
+  },
+  {
+    "id": "dp_14",
+    "topic": "Matrix Chain Multiplication (MCM)",
+    "domain": "dsa",
+    "subdomain": "mcm",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Recursion", "2D DP"],
+    "resources": [
+      {
+        "title": "Striver  Matrix Chain Multiplication",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vRVfmbCFW7Y"
+      },
+      {
+        "title": "NeetCode  DP on Splitting Intervals",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3YILP-PdEJA"
+      },
+      {
+        "title": "GFG  MCM DP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/"
+      }
+    ],
+    "description": "DP on intervals to find optimal matrix multiplication order."
+  },
+  {
+    "id": "dp_15",
+    "topic": "DP on Grids (Unique Paths, Min Path Sum)",
+    "domain": "dsa",
+    "subdomain": "grid dp",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["DP Basics"],
+    "resources": [
+      {
+        "title": "Striver  Grid DP",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=t_f0nwwdg5o"
+      },
+      {
+        "title": "NeetCode  Unique Paths",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=IlEsdxuD4lY"
+      },
+      {
+        "title": "GFG  Unique Paths in Grid",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/unique-paths-in-a-grid/"
+      }
+    ],
+    "description": "2D DP covering unique paths, minimum path sum, and obstacle grids."
+  },
+  {
+    "id": "bit_01",
+    "topic": "Bit Manipulation Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Striver  Bit Manipulation Introduction",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=VKmPGmFY7H4"
+      },
+      {
+        "title": "NeetCode  Bitwise Operators Explained",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZhufVd9XgQY"
+      },
+      {
+        "title": "GFG  Bit Manipulation Basics",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/"
+      }
+    ],
+    "description": "Covers bit operations such as AND, OR, XOR, NOT and bit shifting."
+  },
+  {
+    "id": "bit_02",
+    "topic": "Check Odd or Even",
+    "domain": "dsa",
+    "subdomain": "bit tricks",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Bit Manipulation Basics"],
+    "resources": [
+      {
+        "title": "Striver  Odd/Even Using Bit Manipulation",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=VKmPGmFY7H4&t=180"
+      },
+      {
+        "title": "NeetCode  Bitwise Tricks",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZhufVd9XgQY"
+      },
+      {
+        "title": "GFG  Check Odd or Even Using Bitwise",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/check-whether-number-is-even-or-odd/"
+      }
+    ],
+    "description": "Uses `num & 1` to determine if a number is odd or even efficiently."
+  },
+  {
+    "id": "bit_03",
+    "topic": "Get / Set / Clear / Toggle Bits",
+    "domain": "dsa",
+    "subdomain": "bit operations",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Bit Manipulation Basics"],
+    "resources": [
+      {
+        "title": "Striver  Important Bit Operations",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=AAx8VgqI2cU"
+      },
+      {
+        "title": "NeetCode  Bitmasking Essentials",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1cqF93I7C6A"
+      },
+      {
+        "title": "GFG  Bit Masks and Bit Operations",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/"
+      }
+    ],
+    "description": "Learn how to access individual bits via bit masks for efficient operations."
+  },
+  {
+    "id": "bit_04",
+    "topic": "Count Set Bits",
+    "domain": "dsa",
+    "subdomain": "bit counting",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Bit Manipulation Basics"],
+    "resources": [
+      {
+        "title": "Striver  Count Set Bits (Brian Kernighan)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=MM6Y0S9Uqfo"
+      },
+      {
+        "title": "NeetCode  Hamming Weight",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5Km3utixwZs"
+      },
+      {
+        "title": "GFG  Count Set Bits",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/count-set-bits-in-an-integer/"
+      }
+    ],
+    "description": "Counts number of 1s in binary representation using efficient bit tricks."
+  },
+  {
+    "id": "bit_05",
+    "topic": "Power of Two Check",
+    "domain": "dsa",
+    "subdomain": "bit tricks",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Count Set Bits"],
+    "resources": [
+      {
+        "title": "Striver  Check Power of Two",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fzip9Aml6og"
+      },
+      {
+        "title": "NeetCode  Power of Two",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ldG3BRpTLuo"
+      },
+      {
+        "title": "GFG  Power of Two Check Using Bits",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/program-to-find-whether-no-is-power-of-two/"
+      }
+    ],
+    "description": "Efficiently checks if `n & (n-1) == 0` to determine power-of-two numbers."
+  },
+  {
+    "id": "bit_06",
+    "topic": "Single Number (Using XOR)",
+    "domain": "dsa",
+    "subdomain": "xor logic",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["XOR Basics"],
+    "resources": [
+      {
+        "title": "Striver  Single Number (XOR)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qMPX1AOa83k"
+      },
+      {
+        "title": "NeetCode  Single Number",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qMPX1AOa83k"
+      },
+      {
+        "title": "GFG  Single Number (XOR Logic)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-the-element-that-appears-once/"
+      }
+    ],
+    "description": "Uses XOR property to find the unique element in linear time."
+  },
+  {
+    "id": "bit_07",
+    "topic": "Two Single Numbers (XOR Partition)",
+    "domain": "dsa",
+    "subdomain": "xor logic",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Single Number"],
+    "resources": [
+      {
+        "title": "Striver  Two Single Numbers",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pnx5JA9LNM4"
+      },
+      {
+        "title": "NeetCode  Two Single Numbers",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pnx5JA9LNM4"
+      },
+      {
+        "title": "GFG  Two Non-Repeating Elements",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-two-non-repeating-elements-in-an-array-of-repeating-elements/"
+      }
+    ],
+    "description": "Uses XOR partition to identify two unique numbers in an array."
+  },
+  {
+    "id": "bit_08",
+    "topic": "Bitmasking for Subsets",
+    "domain": "dsa",
+    "subdomain": "bitmasking",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Bit Manipulation Basics"],
+    "resources": [
+      {
+        "title": "Striver  Generate All Subsets Using Bitmask",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=b7AYbpM5YrE"
+      },
+      {
+        "title": "NeetCode  Power Set (Bitmasking)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=q0s6m7AiO44"
+      },
+      {
+        "title": "GFG  Subset Generation Using Bitmask",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/power-set/"
+      }
+    ],
+    "description": "Generates all subsets using bitmask representation from 0 to (2^n - 1)."
+  },
+  {
+    "id": "bit_09",
+    "topic": "Swap Numbers Without Temp",
+    "domain": "dsa",
+    "subdomain": "xor tricks",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["XOR Basics"],
+    "resources": [
+      {
+        "title": "Striver  XOR Tricks",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qMPX1AOa83k&t=240"
+      },
+      {
+        "title": "NeetCode  XOR Trick Explanation",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZhufVd9XgQY"
+      },
+      {
+        "title": "GFG  Swap Numbers Using XOR",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/swap-two-numbers-without-using-temporary-variable/"
+      }
+    ],
+    "description": "Uses XOR to swap numbers without needing extra space."
+  },
+  {
+    "id": "bit_10",
+    "topic": "Find Missing Number (XOR)",
+    "domain": "dsa",
+    "subdomain": "xor logic",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Single Number"],
+    "resources": [
+      {
+        "title": "Striver  Missing Number (XOR)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=WnPLSRLSANE"
+      },
+      {
+        "title": "NeetCode  Missing Number",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=iCrQG_kbuP0"
+      },
+      {
+        "title": "GFG  Missing Number Using XOR",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/find-the-missing-number/"
+      }
+    ],
+    "description": "Uses XOR of numbers 1..n with array contents to detect the missing number."
+  },
+  {
+    "id": "trie_01",
+    "topic": "Trie Basics (Prefix Tree Introduction)",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Strings Basics"],
+    "resources": [
+      {
+        "title": "Striver  Trie (Prefix Tree) Introduction",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6U9uDY8ac5M"
+      },
+      {
+        "title": "NeetCode  Trie Explanation",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oobqoCJlHA0"
+      },
+      {
+        "title": "GFG  Trie Data Structure Introduction",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/trie-insert-and-search/"
+      }
+    ],
+    "description": "Introduces prefix trees, their structure, and how to represent characters in nodes efficiently."
+  },
+  {
+    "id": "trie_02",
+    "topic": "Insert and Search in Trie",
+    "domain": "dsa",
+    "subdomain": "insert search",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Trie Basics"],
+    "resources": [
+      {
+        "title": "Striver  Insert & Search in Trie",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=yLwdgkS5w6k"
+      },
+      {
+        "title": "NeetCode  Implement Trie (LeetCode 208)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oobqoCJlHA0&t=200"
+      },
+      {
+        "title": "GFG  Insert and Search in Trie",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/trie-insert-and-search/"
+      }
+    ],
+    "description": "Covers fundamental operations of prefix trees including insertion and word searching."
+  },
+  {
+    "id": "trie_03",
+    "topic": "Delete Operation in Trie",
+    "domain": "dsa",
+    "subdomain": "deletion",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Insert and Search in Trie"],
+    "resources": [
+      {
+        "title": "Striver  Trie Delete Operation",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=kXK5xL1wQGg"
+      },
+      {
+        "title": "NeetCode  Trie Concepts (Deletion Explained)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oobqoCJlHA0"
+      },
+      {
+        "title": "GFG  Trie Deletion",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/trie-delete/"
+      }
+    ],
+    "description": "Explains how to safely delete keys from Trie while preserving prefixes."
+  },
+  {
+    "id": "trie_04",
+    "topic": "Longest Prefix Matching",
+    "domain": "dsa",
+    "subdomain": "prefix matching",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Trie Basics"],
+    "resources": [
+      {
+        "title": "Striver  Longest Prefix Using Trie",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6U9uDY8ac5M&t=480"
+      },
+      {
+        "title": "NeetCode  Longest Common Prefix (Trie Approach)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0sWShKIJoo4"
+      },
+      {
+        "title": "GFG  Longest Prefix Matching",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/longest-prefix-matching-a-trie-based-solution-for-an-ip-routing-table/"
+      }
+    ],
+    "description": "Uses trie traversal to detect longest matching prefix for given input strings."
+  },
+  {
+    "id": "trie_05",
+    "topic": "Word Break Problem (Trie Based)",
+    "domain": "dsa",
+    "subdomain": "word break",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Trie Basics", "Strings"],
+    "resources": [
+      {
+        "title": "Striver  Word Break Problem",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=2NaaM_z_Jig"
+      },
+      {
+        "title": "NeetCode  Word Break (Trie/DP)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Sx9NNgInc3A"
+      },
+      {
+        "title": "GFG  Word Break Using Trie",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/word-break-problem-dp-32/"
+      }
+    ],
+    "description": "Determines if a string can be segmented into dictionary words using Trie + DP."
+  },
+  {
+    "id": "trie_06",
+    "topic": "Auto-complete System Using Trie",
+    "domain": "dsa",
+    "subdomain": "autocomplete",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Trie Basics"],
+    "resources": [
+      {
+        "title": "Striver  Auto-complete Using Trie",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=zo0D1hv8tW0"
+      },
+      {
+        "title": "NeetCode  Autocomplete System",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=We3YDTzNXEk"
+      },
+      {
+        "title": "GFG  Auto-complete Using Trie",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/implement-a-phone-directory-using-trie/"
+      }
+    ],
+    "description": "Builds a suggestion system using prefix search for fast auto-complete queries."
+  },
+  {
+    "id": "trie_07",
+    "topic": "Count Words / Prefixes Using Trie",
+    "domain": "dsa",
+    "subdomain": "prefix count",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Trie Basics"],
+    "resources": [
+      {
+        "title": "Striver  Count Words in Trie",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=b7AYbpM5YrE&t=480"
+      },
+      {
+        "title": "NeetCode  Prefix Count Logic",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oobqoCJlHA0"
+      },
+      {
+        "title": "GFG  Count Words Using Trie",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/counting-number-of-words-in-trie/"
+      }
+    ],
+    "description": "Stores frequency and prefix counts to answer fast queries."
+  },
+  {
+    "id": "trie_08",
+    "topic": "Trie With Hashmap (Optimized Space)",
+    "domain": "dsa",
+    "subdomain": "optimized trie",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Trie Basics"],
+    "resources": [
+      {
+        "title": "Striver  Optimized Trie Using HashMap",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=NinWepSH4WI"
+      },
+      {
+        "title": "NeetCode  Trie Optimization Techniques",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=oobqoCJlHA0"
+      },
+      {
+        "title": "GFG  Trie Using HashMap",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/trie-using-hashmap-insert-and-search/"
+      }
+    ],
+    "description": "Improves Trie space usage using hashmaps instead of static arrays."
+  },
+  {
+    "id": "trie_09",
+    "topic": "Maximum XOR of Two Numbers (Trie)",
+    "domain": "dsa",
+    "subdomain": "xor trie",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Bit Manipulation", "Trie Basics"],
+    "resources": [
+      {
+        "title": "Striver  Maximum XOR Using Trie",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=1IQOtJ4NI_0"
+      },
+      {
+        "title": "NeetCode  Maximum XOR of Two Numbers",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=6IVwIYjZC-A"
+      },
+      {
+        "title": "GFG  Maximum XOR Pair Using Trie",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/maximum-xor-of-two-numbers-in-an-array/"
+      }
+    ],
+    "description": "Stores binary representation in Trie to compute maximum XOR efficiently."
+  },
+  {
+    "id": "trie_10",
+    "topic": "Hard: Word Dictionary (Add & Search with Wildcards)",
+    "domain": "dsa",
+    "subdomain": "wildcard trie",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Insert & Search in Trie"],
+    "resources": [
+      {
+        "title": "Striver  Word Dictionary (Wildcard Search)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=U3P3C65H1as"
+      },
+      {
+        "title": "NeetCode  Word Dictionary (DFS + Trie)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=BTf05gs_8iU"
+      },
+      {
+        "title": "GFG  Word Dictionary Using Trie",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/design-add-and-search-words-data-structure/"
+      }
+    ],
+    "description": "Supports '.' wildcard matching using DFS + Trie backtracking."
+  },
+  {
+    "id": "segment_01",
+    "topic": "Segment Tree Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Arrays", "Recursion"],
+    "resources": [
+      {
+        "title": "Striver  Segment Tree Introduction",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Oq2E2yGadnU"
+      },
+      {
+        "title": "NeetCode  Segment Tree Explained (Range Sum Query)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rYBtViWXYeI"
+      },
+      {
+        "title": "GFG  Segment Tree Overview",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/"
+      }
+    ],
+    "description": "Introduces the concept of segment trees, tree structure, and how they support fast range queries."
+  },
+  {
+    "id": "segment_02",
+    "topic": "Build Segment Tree",
+    "domain": "dsa",
+    "subdomain": "construction",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Segment Tree Basics"],
+    "resources": [
+      {
+        "title": "Striver  Building a Segment Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=E1ZVSFfCk9g"
+      },
+      {
+        "title": "NeetCode  Build Segment Tree Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rYBtViWXYeI&t=200"
+      },
+      {
+        "title": "GFG  Segment Tree Construction",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/"
+      }
+    ],
+    "description": "Creates the segment tree using recursive interval splitting for range queries."
+  },
+  {
+    "id": "segment_03",
+    "topic": "Range Sum Query (RSQ)",
+    "domain": "dsa",
+    "subdomain": "range sum",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Build Segment Tree"],
+    "resources": [
+      {
+        "title": "Striver  Range Sum Query using Segment Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Oq2E2yGadnU&t=420"
+      },
+      {
+        "title": "NeetCode  Range Sum Query (Segment Tree)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rYBtViWXYeI"
+      },
+      {
+        "title": "GFG  Range Sum Query",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/segment-tree-sum-of-given-range/"
+      }
+    ],
+    "description": "Queries sum over a range in O(log n) using the segment tree."
+  },
+  {
+    "id": "segment_04",
+    "topic": "Point Update",
+    "domain": "dsa",
+    "subdomain": "update",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Range Sum Query"],
+    "resources": [
+      {
+        "title": "Striver  Point Update in Segment Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=H0bkmZ7pMUk"
+      },
+      {
+        "title": "NeetCode  Segment Tree Updates Explanation",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rYBtViWXYeI&t=350"
+      },
+      {
+        "title": "GFG  Point Update in Segment Tree",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/#update"
+      }
+    ],
+    "description": "Updates a single element and propagates changes up the tree efficiently."
+  },
+  {
+    "id": "segment_05",
+    "topic": "Range Minimum Query (RMQ)",
+    "domain": "dsa",
+    "subdomain": "range minimum",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Segment Tree Basics"],
+    "resources": [
+      {
+        "title": "Striver  Range Minimum Query using Segment Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=ZBHKZF5w4YU"
+      },
+      {
+        "title": "NeetCode  RMQ using Segment Tree Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rYBtViWXYeI"
+      },
+      {
+        "title": "GFG  Range Minimum Query using Segment Tree",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/segment-tree-range-minimum-query/"
+      }
+    ],
+    "description": "Finds the minimum in any array interval using log-time segment tree traversal."
+  },
+  {
+    "id": "segment_06",
+    "topic": "Lazy Propagation (Range Update)",
+    "domain": "dsa",
+    "subdomain": "lazy propagation",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Point Update", "Range Sum Query"],
+    "resources": [
+      {
+        "title": "Striver  Lazy Propagation (Range Update, Range Query)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xuoQdt5pHj0"
+      },
+      {
+        "title": "NeetCode  Segment Tree Lazy Propagation Concept",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rYBtViWXYeI&t=500"
+      },
+      {
+        "title": "GFG  Lazy Propagation in Segment Trees",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/lazy-propagation-in-segment-tree/"
+      }
+    ],
+    "description": "Optimizes range updates and queries by delaying propagation of updates."
+  },
+  {
+    "id": "segment_07",
+    "topic": "Segment Tree for Max Subarray Sum",
+    "domain": "dsa",
+    "subdomain": "max subarray segment tree",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Segment Tree Basics"],
+    "resources": [
+      {
+        "title": "Striver  Max Subarray Sum using Segment Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0u78hx-66Xk"
+      },
+      {
+        "title": "NeetCode  Max Subarray Concept (Kadane + Extensions)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=5WZl3MMT0Eg"
+      },
+      {
+        "title": "GFG  Max Subarray Using Segment Tree",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/maximum-subarray-sum-using-segment-tree/"
+      }
+    ],
+    "description": "Stores max-prefix, max-suffix, and total-sum to compute maximum subarray with merge logic."
+  },
+  {
+    "id": "segment_08",
+    "topic": "Segment Tree Beats (Advanced)",
+    "domain": "dsa",
+    "subdomain": "advanced segment tree",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Lazy Propagation"],
+    "resources": [
+      {
+        "title": "Striver  Advanced Segment Trees Overview",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=YrYyT6Hxg5Q"
+      },
+      {
+        "title": "NeetCode  Advanced Range Query Concepts",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rYBtViWXYeI"
+      },
+      {
+        "title": "GFG  Advanced Segment Tree Techniques",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/advanced-segment-tree-and-lazy-propagation/"
+      }
+    ],
+    "description": "Used for complex range operations like range chmin, chmax, sum operations with optimal time."
+  },
+  {
+    "id": "fenwick_01",
+    "topic": "Fenwick Tree Basics (Binary Indexed Tree)",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Prefix Sum", "Binary Representation"],
+    "resources": [
+      {
+        "title": "Striver  Binary Indexed Tree (Fenwick Tree) Introduction",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9uaXG62Y8Uw"
+      },
+      {
+        "title": "NeetCode  Range Sum / BIT Concept Explanation",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=dp0mwGmhRUM"
+      },
+      {
+        "title": "GFG  Fenwick Tree Introduction",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/"
+      }
+    ],
+    "description": "Introduces Binary Indexed Trees, tree structure, LSOne computation, and range sum logic."
+  },
+  {
+    "id": "fenwick_02",
+    "topic": "Construct Fenwick Tree",
+    "domain": "dsa",
+    "subdomain": "construction",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Fenwick Tree Basics"],
+    "resources": [
+      {
+        "title": "Striver  Build Fenwick Tree",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=rY4yLZl8NRw"
+      },
+      {
+        "title": "NeetCode  Construct BIT Logic",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=dp0mwGmhRUM"
+      },
+      {
+        "title": "GFG  Construct Binary Indexed Tree",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/construct-a-binary-indexed-tree-in-1-based-indexing/"
+      }
+    ],
+    "description": "Builds the BIT using cumulative updates while leveraging least significant bits."
+  },
+  {
+    "id": "fenwick_03",
+    "topic": "Range Sum Query Using Fenwick Tree",
+    "domain": "dsa",
+    "subdomain": "range sum",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Construct Fenwick Tree"],
+    "resources": [
+      {
+        "title": "Striver  Range Sum Query Using BIT",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=PrqEdoZ5rRc"
+      },
+      {
+        "title": "NeetCode  BIT Prefix Sum Query",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=dp0mwGmhRUM&t=180"
+      },
+      {
+        "title": "GFG  Range Sum Query using BIT",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/range-sum-queries-using-binary-indexed-tree-bit/"
+      }
+    ],
+    "description": "Computes prefix sums and range sums in O(log n) using bit operations."
+  },
+  {
+    "id": "fenwick_04",
+    "topic": "Update Operation in Fenwick Tree",
+    "domain": "dsa",
+    "subdomain": "updates",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Fenwick Tree Basics"],
+    "resources": [
+      {
+        "title": "Striver  BIT Update Operation",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=prEC7bQ4G8I"
+      },
+      {
+        "title": "NeetCode  Fenwick Tree Update",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=dp0mwGmhRUM&t=260"
+      },
+      {
+        "title": "GFG  BIT Update Operation Explained",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/#updateBIT"
+      }
+    ],
+    "description": "Updates BIT indexes by moving up through significant bits to propagate changes."
+  },
+  {
+    "id": "fenwick_05",
+    "topic": "Range Updates and Range Queries (Fenwick Tree 2D Variant)",
+    "domain": "dsa",
+    "subdomain": "range update",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Range Sum Query", "Update Operation"],
+    "resources": [
+      {
+        "title": "Striver  Advanced Fenwick Tree (Range Updates)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jlt3vB02hAk"
+      },
+      {
+        "title": "NeetCode  2D BIT / Advanced BIT Concepts",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=dp0mwGmhRUM"
+      },
+      {
+        "title": "GFG  Range Update and Range Query Using BIT",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/binary-indexed-tree-range-updates-range-queries/"
+      }
+    ],
+    "description": "Supports efficient range updates and range sum queries using dual BIT or 2D BIT techniques."
+  },
+  {
+    "id": "hash_01",
+    "topic": "Hashing Basics",
+    "domain": "dsa",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Arrays"],
+    "resources": [
+      {
+        "title": "Striver  Hashing Introduction",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=KEs5UyBJ39g"
+      },
+      {
+        "title": "NeetCode  Arrays & Hashing Intro",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=S-aLyieDlyQ"
+      },
+      {
+        "title": "GFG  Hashing Data Structure",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/hashing-data-structure/"
+      }
+    ],
+    "description": "Introduces hash tables, hashing functions, collisions, and average O(1) access time."
+  },
+  {
+    "id": "hash_02",
+    "topic": "Frequency Counting Using Hashmaps",
+    "domain": "dsa",
+    "subdomain": "frequency maps",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Hashing Basics"],
+    "resources": [
+      {
+        "title": "Striver  Hashmap Frequency Counting",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=KEs5UyBJ39g&t=350"
+      },
+      {
+        "title": "NeetCode  Contains Duplicate (Hash Set)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=3OamzN90kPg"
+      },
+      {
+        "title": "GFG  Count Frequency of Elements",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/counting-frequencies-of-array-elements/"
+      }
+    ],
+    "description": "Uses hashmaps to count element frequencies for many interview problems."
+  },
+  {
+    "id": "hash_03",
+    "topic": "Two Sum using Hashing",
+    "domain": "dsa",
+    "subdomain": "hash maps",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Frequency Counting"],
+    "resources": [
+      {
+        "title": "Striver  Two Sum Problem",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=UXDSeD9mN-k"
+      },
+      {
+        "title": "NeetCode  Two Sum (Hashmap)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=KLlXCFG5TnA"
+      },
+      {
+        "title": "GFG  Two Sum Hashing",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/two-sum-problem/"
+      }
+    ],
+    "description": "Uses hashmap to find two indices whose values sum to a target in O(n)."
+  },
+  {
+    "id": "hash_04",
+    "topic": "Anagrams Using Hashmaps",
+    "domain": "dsa",
+    "subdomain": "string hashing",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Strings Basics"],
+    "resources": [
+      {
+        "title": "Striver  Valid Anagram",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9UtInBqnCgA"
+      },
+      {
+        "title": "NeetCode  Valid Anagram",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=EUyEP4uJ8Bg"
+      },
+      {
+        "title": "GFG  Check Anagram using Hashmap",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/"
+      }
+    ],
+    "description": "Uses character frequency maps to identify anagrams efficiently."
+  },
+  {
+    "id": "hash_05",
+    "topic": "Longest Substring Without Repeating Characters",
+    "domain": "dsa",
+    "subdomain": "sliding window + hashing",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Sliding Window", "Hashing Basics"],
+    "resources": [
+      {
+        "title": "Striver  Longest Substring Without Repeat",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=qtVh-XEpsJo"
+      },
+      {
+        "title": "NeetCode  Longest Substring Without Repeating Characters",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=wiGpQwVHdE0"
+      },
+      {
+        "title": "GFG  Longest Substring Without Repeating Characters",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/"
+      }
+    ],
+    "description": "A classic sliding window + hashmap problem using index tracking of last occurrences."
+  },
+  {
+    "id": "hash_06",
+    "topic": "Subarray Sum Equals K",
+    "domain": "dsa",
+    "subdomain": "prefix sum + hashmap",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Prefix Sum", "Hashing Basics"],
+    "resources": [
+      {
+        "title": "Striver  Subarray Sum Equals K",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=AmlVSNBHzJg"
+      },
+      {
+        "title": "NeetCode  Subarray Sum Equals K",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=fFVZt-6sgyo"
+      },
+      {
+        "title": "GFG  Subarray Sum Equals K (Hashmap)",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/number-subarrays-sum-exactly-equals-k/"
+      }
+    ],
+    "description": "Uses prefix sum and hashmap to count subarrays with a given sum in O(n)."
+  },
+  {
+    "id": "hash_07",
+    "topic": "Group Anagrams",
+    "domain": "dsa",
+    "subdomain": "string hashing",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Anagrams"],
+    "resources": [
+      {
+        "title": "Striver  Group Anagrams",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=vzdNOK2oB2E"
+      },
+      {
+        "title": "NeetCode  Group Anagrams",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=4n5WjkQ6YQo"
+      },
+      {
+        "title": "GFG  Group Anagrams Using Hashmap",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/group-anagrams-together/"
+      }
+    ],
+    "description": "Groups words using a hash signature such as sorted string or char frequency map."
+  },
+  {
+    "id": "hash_08",
+    "topic": "Hashing for Cycles & Frequency Windows",
+    "domain": "dsa",
+    "subdomain": "window hashing",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Hashing Basics", "Sliding Window"],
+    "resources": [
+      {
+        "title": "Striver  Advanced Hashing Applications",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=KEs5UyBJ39g&t=500"
+      },
+      {
+        "title": "NeetCode  Minimum Window Substring (Hashmaps)",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9gZgXbE2iRk"
+      },
+      {
+        "title": "GFG  Sliding Window with Hashmap",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/window-sliding-technique/"
+      }
+    ],
+    "description": "Covers hashmap-based windows used in substring search and frequency window problems."
+  },
+  {
+    "id": "hash_09",
+    "topic": "Custom Hash Function & Collisions",
+    "domain": "dsa",
+    "subdomain": "hash functions",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Hashing Basics"],
+    "resources": [
+      {
+        "title": "Striver  Hash Function & Collision Resolution",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=KEs5UyBJ39g&t=600"
+      },
+      {
+        "title": "NeetCode  Hashing Deep Dive Concepts",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=S-aLyieDlyQ"
+      },
+      {
+        "title": "GFG  Collision Handling Techniques",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/hashing-set-3-open-addressing/"
+      }
+    ],
+    "description": "Explains hashing functions, modular arithmetic, load factor, and collision resolution."
+  },
+  {
+    "id": "hash_10",
+    "topic": "Design HashMap (LeetCode 706)",
+    "domain": "dsa",
+    "subdomain": "design hashing",
+    "difficulty": "hard",
+    "estimated_hours": 3,
+    "prerequisites": ["Custom Hash Function"],
+    "resources": [
+      {
+        "title": "Striver  Design HashMap",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Z45-bBQC1k4"
+      },
+      {
+        "title": "NeetCode  Design HashMap",
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=Fr5B8T4BYR4"
+      },
+      {
+        "title": "GFG  Design HashMap From Scratch",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/design-hashmap-using-linked-list/"
+      }
+    ],
+    "description": "Implements a hash map from scratch using arrays + linked lists for collision handling."
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
