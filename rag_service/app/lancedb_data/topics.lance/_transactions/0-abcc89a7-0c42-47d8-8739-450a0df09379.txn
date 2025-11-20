@@ -1,0 +1,8 @@
+$abcc89a7-0c42-47d8-8739-450a0df09379²Õ$id ÿÿÿÿÿÿÿÿÿ*string08Zdefault)topic ÿÿÿÿÿÿÿÿÿ*string08Zdefault*domain ÿÿÿÿÿÿÿÿÿ*string08Zdefault-	subdomain ÿÿÿÿÿÿÿÿÿ*string08Zdefault.
+difficulty ÿÿÿÿÿÿÿÿÿ*string08Zdefault2estimated_hours ÿÿÿÿÿÿÿÿÿ*int3208Zdefault/description ÿÿÿÿÿÿÿÿÿ*string08Zdefault/prerequisites ÿÿÿÿÿÿÿÿÿ*list08Zdefaultitem *string08Zdefault2	resources	 ÿÿÿÿÿÿÿÿÿ*list.struct08Zdefaultitem
+ 	*struct0Zdefault title 
+*string08Zdefaulttype 
+*string08Zdefaulturl 
+*string08Zdefault>vector ÿÿÿÿÿÿÿÿÿ*fixed_size_list:float:102408Zdefault"!
+lance.auto_cleanup.interval20"'
+lance.auto_cleanup.older_than14days

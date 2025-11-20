@@ -6,7 +6,13 @@ pydantic==2.7.0
 FlagEmbedding==1.2.9
 
 # Vector Database
-chromadb==0.5.4
+lancedb==0.25.3
+
+# LLM for roadmap generation
+google-generativeai==0.3.2
+
+# Environment variable management
+python-dotenv==1.0.0
 
 # Needed for file handling + requests
 python-multipart==0.0.9

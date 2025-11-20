@@ -1,0 +1,2871 @@
+[
+  {
+    "id": "oops_01",
+    "topic": "OOP Basics",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "GFG – Object Oriented Programming Basics",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/"
+      },
+      {
+        "title": "InterviewBit – OOP Concepts",
+        "type": "article",
+        "url": "https://www.interviewbit.com/oops-interview-questions/"
+      },
+      {
+        "title": "Javatpoint – OOPs Concepts",
+        "type": "article",
+        "url": "https://www.javatpoint.com/oops-concepts"
+      },
+      {
+        "title": "YouTube – Kunal Kushwaha OOP Playlist",
+        "type": "youtube",
+        "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYq"
+      }
+    ],
+    "description": "Covers classes, objects, abstraction, encapsulation, inheritance, and polymorphism with practical examples."
+  },
+  {
+    "id": "oops_01_1",
+    "topic": "Classes and Objects",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["OOP Basics"],
+    "resources": [
+      {
+        "title": "GFG – Classes and Objects in C++",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/c-classes-and-objects/"
+      },
+      {
+        "title": "Programiz – Classes and Objects in Java",
+        "type": "article",
+        "url": "https://www.programiz.com/java-programming/class-objects"
+      },
+      {
+        "title": "YouTube – Classes & Objects Explanation",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=IUqKuGNasdM"
+      }
+    ],
+    "description": "Explains real-world entities, how classes define structure, and objects represent runtime instances."
+  },
+  {
+    "id": "oops_01_2",
+    "topic": "Abstraction",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": ["Classes and Objects"],
+    "resources": [
+      {
+        "title": "GFG – Abstraction in Java",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/abstraction-in-java/"
+      },
+      {
+        "title": "Programiz – Abstract Classes & Interfaces",
+        "type": "article",
+        "url": "https://www.programiz.com/java-programming/abstract-classes-interfaces"
+      },
+      {
+        "title": "YouTube – Abstraction Crash Course",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=4B8XKEORJss"
+      }
+    ],
+    "description": "Explains hiding implementation details while exposing essential features."
+  },
+  {
+    "id": "oops_01_3",
+    "topic": "Encapsulation",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": ["Classes and Objects"],
+    "resources": [
+      {
+        "title": "GFG – Encapsulation in Java",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/encapsulation-in-java/"
+      },
+      {
+        "title": "Programiz – Java Encapsulation",
+        "type": "article",
+        "url": "https://www.programiz.com/java-programming/encapsulation"
+      },
+      {
+        "title": "YouTube – Encapsulation Example",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=4VBdNbWeTZw"
+      }
+    ],
+    "description": "Covers data hiding, getters, setters, and securing object state."
+  },
+  {
+    "id": "oops_01_4",
+    "topic": "Inheritance",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Classes and Objects"],
+    "resources": [
+      {
+        "title": "GFG – Inheritance in Java",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/inheritance-in-java/"
+      },
+      {
+        "title": "Programiz – Java Inheritance",
+        "type": "article",
+        "url": "https://www.programiz.com/java-programming/inheritance"
+      },
+      {
+        "title": "YouTube – Inheritance Full Tutorial",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=46T2wD3IuhM"
+      }
+    ],
+    "description": "Explains IS-A relationship, types of inheritance, and extending class functionality."
+  },
+  {
+    "id": "oops_01_5",
+    "topic": "Polymorphism",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Inheritance"],
+    "resources": [
+      {
+        "title": "GFG – Polymorphism in Java",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/polymorphism-in-java/"
+      },
+      {
+        "title": "Programiz – Java Polymorphism",
+        "type": "article",
+        "url": "https://www.programiz.com/java-programming/polymorphism"
+      },
+      {
+        "title": "YouTube – Overloading & Overriding",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=bSrm9RXwBaI"
+      }
+    ],
+    "description": "Covers compile-time & runtime polymorphism, overriding, and dynamic dispatch."
+  },
+  {
+    "id": "oops_01_6",
+    "topic": "Constructors and Destructors",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Classes and Objects"],
+    "resources": [
+      {
+        "title": "GFG – Constructors in C++",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/constructors-c/"
+      },
+      {
+        "title": "GFG – Destructors in C++",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/destructors-c/"
+      },
+      {
+        "title": "Programiz – Java Constructors",
+        "type": "article",
+        "url": "https://www.programiz.com/java-programming/constructors"
+      },
+      {
+        "title": "YouTube – Java Constructors",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=pgBk8HC7jbU"
+      }
+    ],
+    "description": "Explains constructor types, overloading, object initialization, and destructors."
+  },
+  {
+    "id": "oops_01_7",
+    "topic": "Access Modifiers",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": ["Encapsulation"],
+    "resources": [
+      {
+        "title": "GFG – Access Modifiers in Java",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/access-modifiers-java/"
+      },
+      {
+        "title": "Programiz – Access Modifiers",
+        "type": "article",
+        "url": "https://www.programiz.com/java-programming/access-modifiers"
+      },
+      {
+        "title": "YouTube – Access Modifiers Tutorial",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=25zw-ljLLw0"
+      }
+    ],
+    "description": "Explains public, private, protected, and default access levels."
+  },
+  {
+    "id": "oops_01_8",
+    "topic": "Static and Instance Members",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": ["Classes and Objects"],
+    "resources": [
+      {
+        "title": "GFG – static Keyword",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/static-keyword-java/"
+      },
+      {
+        "title": "Programiz – static in Java",
+        "type": "article",
+        "url": "https://www.programiz.com/java-programming/static-keyword"
+      },
+      {
+        "title": "YouTube – Static Keyword in Java",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=qRCEdWQ0f4Q"
+      }
+    ],
+    "description": "Explains class-level members, static blocks, static methods, and differences from instance members."
+  },
+  {
+    "id": "oops_01_9",
+    "topic": "Method Overloading",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": ["Polymorphism"],
+    "resources": [
+      {
+        "title": "GFG – Method Overloading",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/method-overloading-in-java/"
+      },
+      {
+        "title": "Programiz – Overloading",
+        "type": "article",
+        "url": "https://www.programiz.com/java-programming/method-overloading"
+      },
+      {
+        "title": "YouTube – Overloading Tutorial",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=cAb0nbNzaBo"
+      }
+    ],
+    "description": "Covers compile-time polymorphism implemented using method signatures."
+  },
+  {
+    "id": "oops_01_10",
+    "topic": "Method Overriding",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Inheritance"],
+    "resources": [
+      {
+        "title": "GFG – Overriding",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/overriding-in-java/"
+      },
+      {
+        "title": "Programiz – Overriding",
+        "type": "article",
+        "url": "https://www.programiz.com/java-programming/method-overriding"
+      },
+      {
+        "title": "YouTube – Overriding Guide",
+        "type": "youtube",
+        "url": "https://www.youtube.com/playlist?list=PLmCsXDGbJHdgYQzJxSH2gwifyiDR_ClZf"
+      }
+    ],
+    "description": "Explains runtime polymorphism using method overriding."
+  },
+  {
+    "id": "oops_01_11",
+    "topic": "Interfaces and Abstract Classes",
+    "domain": "oops",
+    "subdomain": "fundamentals",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Abstraction"],
+    "resources": [
+      {
+        "title": "GFG – Abstract Classes",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/abstract-classes-in-java/"
+      },
+      {
+        "title": "GFG – Interfaces",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/interfaces-in-java/"
+      },
+      {
+        "title": "YouTube – Interfaces vs Abstract Classes",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rgHZa7-Dibg"
+      }
+    ],
+    "description": "Explains complete vs partial abstraction and interface-based design."
+  },
+  {
+    "id": "oops_01_12",
+    "topic": "Composition vs Inheritance",
+    "domain": "oops",
+    "subdomain": "design",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Inheritance"],
+    "resources": [
+      {
+        "title": "GFG – Composition",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/composition-in-java/"
+      },
+      {
+        "title": "Baeldung – Inheritance vs Composition",
+        "type": "article",
+        "url": "https://www.baeldung.com/java-inheritance-composition"
+      },
+      {
+        "title": "YouTube – Composition vs Inheritance",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9ogGan-R1pc"
+      }
+    ],
+    "description": "Explains HAS-A vs IS-A relationships in OOP design."
+  },
+  {
+    "id": "oops_01_13",
+    "topic": "OOP Real-Life Examples",
+    "domain": "oops",
+    "subdomain": "applications",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": ["OOP Basics"],
+    "resources": [
+      {
+        "title": "GFG – OOP Applications",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/applications-of-object-oriented-programming-oop/"
+      },
+      {
+        "title": "Javatpoint – OOP Examples",
+        "type": "article",
+        "url": "https://www.javatpoint.com/oops-concepts-with-real-time-examples"
+      },
+      {
+        "title": "YouTube – OOP Examples",
+        "type": "youtube",
+        "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYq"
+      }
+    ],
+    "description": "Shows OOP in banking, games, vehicles, authentication systems, and real projects."
+  },
+  {
+    "id": "cn_01",
+    "topic": "Introduction to Computer Networks",
+    "domain": "computer_networks",
+    "subdomain": "basics",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "GFG – Computer Network Basics",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/basics-computer-networking/"
+      },
+      {
+        "title": "Tutorialspoint – Introduction to Computer Networks",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/computer_fundamentals/computer_networking.htm"
+      },
+      {
+        "title": "YouTube – Computer Networks Full Course (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8"
+      }
+    ],
+    "description": "Overview of computer networks, types of networks, benefits, and basic terminology."
+  },
+  {
+    "id": "cn_02",
+    "topic": "OSI Model",
+    "domain": "computer_networks",
+    "subdomain": "models",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Introduction to Computer Networks"],
+    "resources": [
+      {
+        "title": "GFG – OSI Model Explained",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/layers-of-osi-model/"
+      },
+      {
+        "title": "Tutorialspoint – OSI Model",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/data_communication_computer_network/osi_model.htm"
+      },
+      {
+        "title": "YouTube – OSI Model Explained (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=olkiQf0g0Js"
+      }
+    ],
+    "description": "Explains the 7 layers of OSI, functions, PDU flow, and protocols."
+  },
+  {
+    "id": "cn_03",
+    "topic": "TCP/IP Model",
+    "domain": "computer_networks",
+    "subdomain": "models",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["OSI Model"],
+    "resources": [
+      {
+        "title": "GFG – TCP/IP Model",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/tcp-ip-model/"
+      },
+      {
+        "title": "Cisco – TCP/IP Fundamentals",
+        "type": "article",
+        "url": "https://www.cisco.com/c/en/us/products/security/common-cybersecurity-terms/what-is-tcp-ip.html"
+      },
+      {
+        "title": "YouTube – TCP/IP Model (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1pfTxp25MA8"
+      }
+    ],
+    "description": "Covers the 4-layer TCP/IP architecture, protocols, and OSI comparison."
+  },
+  {
+    "id": "cn_04",
+    "topic": "IP Addressing and Subnetting",
+    "domain": "computer_networks",
+    "subdomain": "addressing",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Introduction to Computer Networks"],
+    "resources": [
+      {
+        "title": "GFG – IP Addressing",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/"
+      },
+      {
+        "title": "GFG – Subnetting",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/subnetting-in-computer-network/"
+      },
+      {
+        "title": "Cisco – Subnetting Guide",
+        "type": "article",
+        "url": "https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html"
+      },
+      {
+        "title": "YouTube – Subnetting Made Easy (NetworkChuck)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZxAwQB8TZsM"
+      }
+    ],
+    "description": "Explains IPv4 classes, CIDR, subnet masks, VLSM, and manual subnet calculations."
+  },
+  {
+    "id": "cn_05",
+    "topic": "Routing Basics",
+    "domain": "computer_networks",
+    "subdomain": "routing",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["IP Addressing and Subnetting"],
+    "resources": [
+      {
+        "title": "GFG – Routing Algorithms",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/routing-algorithms-in-computer-networks/"
+      },
+      {
+        "title": "Cisco – What is Routing?",
+        "type": "article",
+        "url": "https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/what-is-routing.html"
+      },
+      {
+        "title": "Cisco – Static Routing Overview",
+        "type": "article",
+        "url": "https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13769-12.html"
+      },
+      {
+        "title": "YouTube – Routing Explained (PowerCert)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q-Ha4ivGlDI"
+      }
+    ],
+    "description": "Explains routing tables, static routing, dynamic routing (RIP, OSPF, EIGRP), and path selection."
+  },
+  {
+    "id": "cn_06",
+    "topic": "Switching Basics",
+    "domain": "computer_networks",
+    "subdomain": "switching",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Introduction to Computer Networks"],
+    "resources": [
+      {
+        "title": "GFG – Switching Techniques",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/switching-techniques-in-computer-networks/"
+      },
+      {
+        "title": "Cisco – Switching Overview",
+        "type": "article",
+        "url": "https://www.cisco.com/c/en/us/td/docs/switches/lan/campus_lan_networking/CLNB_Intro.html"
+      },
+      {
+        "title": "YouTube – Switching Explained (PowerCert)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=69K-RnEFYVg"
+      }
+    ],
+    "description": "Covers MAC learning, forwarding, switching types, and VLAN basics."
+  },
+  {
+    "id": "cn_07",
+    "topic": "MAC Address and ARP",
+    "domain": "computer_networks",
+    "subdomain": "address_resolution",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": ["Switching Basics"],
+    "resources": [
+      {
+        "title": "GFG – MAC Address",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/mac-address-in-computer-network/"
+      },
+      {
+        "title": "GFG – ARP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/address-resolution-protocol-arp/"
+      },
+      {
+        "title": "Cisco – ARP Overview",
+        "type": "article",
+        "url": "https://www.cisco.com/assets/sol/sb/Switches_Emulators_v2.5/emulator_SW_2960_24TT/LAN_LANBasics/overview/165.html"
+      },
+      {
+        "title": "YouTube – ARP Explained (PowerCert)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Qx5XG4Q1KpM"
+      }
+    ],
+    "description": "Explains MAC addressing, ARP requests, replies, ARP table, and local delivery."
+  },
+  {
+    "id": "cn_08",
+    "topic": "DNS and DHCP",
+    "domain": "computer_networks",
+    "subdomain": "services",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["IP Addressing and Subnetting"],
+    "resources": [
+      {
+        "title": "GFG – DNS",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/domain-name-system-dns-in-application-layer/"
+      },
+      {
+        "title": "GFG – DHCP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/dynamic-host-configuration-protocol-dhcp/"
+      },
+      {
+        "title": "Cloudflare – What is DNS?",
+        "type": "article",
+        "url": "https://www.cloudflare.com/learning/dns/what-is-dns/"
+      },
+      {
+        "title": "YouTube – DNS & DHCP (PowerCert)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8ZtInClXe1Q"
+      }
+    ],
+    "description": "Explains domain name resolution, DHCP DORA process, and IP allocation."
+  },
+  {
+    "id": "cn_09",
+    "topic": "HTTP and HTTPS",
+    "domain": "computer_networks",
+    "subdomain": "application_layer",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": ["TCP/IP Model"],
+    "resources": [
+      {
+        "title": "GFG – HTTP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/http-full-form/"
+      },
+      {
+        "title": "Mozilla MDN – HTTP Overview",
+        "type": "article",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
+      },
+      {
+        "title": "Cloudflare – What is HTTPS?",
+        "type": "article",
+        "url": "https://www.cloudflare.com/learning/ssl/what-is-https/"
+      },
+      {
+        "title": "YouTube – HTTP vs HTTPS (PowerCert)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hExRDVZHhig"
+      }
+    ],
+    "description": "Explains HTTP request/response, HTTPS encryption, TLS handshake, and secure communication."
+  },
+  {
+    "id": "cn_10",
+    "topic": "TCP and UDP",
+    "domain": "computer_networks",
+    "subdomain": "transport_layer",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["TCP/IP Model"],
+    "resources": [
+      {
+        "title": "GFG – TCP vs UDP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/difference-between-tcp-and-udp/"
+      },
+      {
+        "title": "GFG – TCP",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/transmission-control-protocol-tcp/"
+      },
+      {
+        "title": "Cloudflare – What is TCP?",
+        "type": "article",
+        "url": "https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/"
+      },
+      {
+        "title": "YouTube – TCP vs UDP (PowerCert)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Vdc8TCESIg8"
+      }
+    ],
+    "description": "Covers TCP features, handshaking, UDP features, flow control, reliability, and use cases."
+  },
+  {
+    "id": "cn_11",
+    "topic": "Network Devices",
+    "domain": "computer_networks",
+    "subdomain": "devices",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": ["Introduction to Computer Networks"],
+    "resources": [
+      {
+        "title": "GFG – Networking Devices",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/network-devices-hub-switch-router-gateways/"
+      },
+      {
+        "title": "Cisco – What is a Router?",
+        "type": "article",
+        "url": "https://www.cisco.com/c/en/us/products/routers/what-is-a-router.html"
+      },
+      {
+        "title": "Cisco – What is a Network Switch?",
+        "type": "article",
+        "url": "https://www.cisco.com/c/en/us/products/switches/what-is-a-network-switch.html"
+      },
+      {
+        "title": "YouTube – Network Devices Explained (PowerCert)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=1z0ULvg_pW8"
+      }
+    ],
+    "description": "Explains routers, switches, hubs, bridges, and access points."
+  },
+  {
+    "id": "cn_12",
+    "topic": "Firewalls and NAT",
+    "domain": "computer_networks",
+    "subdomain": "security",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Routing Basics", "IP Addressing and Subnetting"],
+    "resources": [
+      {
+        "title": "GFG – NAT",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/network-address-translation-nat/"
+      },
+      {
+        "title": "Cloudflare – What is a Firewall?",
+        "type": "article",
+        "url": "https://www.cloudflare.com/learning/network-layer/what-is-a-firewall/"
+      },
+      {
+        "title": "Cisco – NAT Overview",
+        "type": "article",
+        "url": "https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/13772-12.html"
+      },
+      {
+        "title": "YouTube – NAT & Firewalls (PowerCert)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FTUV0t6JaDA"
+      }
+    ],
+    "description": "Explains NAT, PAT, firewall filtering, packet inspection, and network protection."
+  },
+  {
+    "id": "cn_13",
+    "topic": "Network Security Basics",
+    "domain": "computer_networks",
+    "subdomain": "security",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Firewalls and NAT"],
+    "resources": [
+      {
+        "title": "GFG – Network Security",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/network-security/"
+      },
+      {
+        "title": "Cisco – Cybersecurity Overview",
+        "type": "article",
+        "url": "https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html"
+      },
+      {
+        "title": "Cloudflare – What is Network Security?",
+        "type": "article",
+        "url": "https://www.cloudflare.com/learning/security/what-is-network-security/"
+      },
+      {
+        "title": "YouTube – Network Security Basics (PowerCert)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8d4RtvMQp10"
+      }
+    ],
+    "description": "Covers CIA triad, encryption, common attacks, VPN, firewalls, and secure networking practices."
+  },
+  {
+    "id": "dbms_01",
+    "topic": "DBMS Basics",
+    "domain": "dbms",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "GFG – Introduction to DBMS",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/"
+      },
+      {
+        "title": "TutorialsPoint – DBMS Introduction",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/dbms/dbms_overview.htm"
+      },
+      {
+        "title": "YouTube – DBMS Full Course (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+      }
+    ],
+    "description": "Explains DBMS concepts, advantages, architecture, and basic database terms."
+  },
+  {
+    "id": "dbms_02",
+    "topic": "ER Model",
+    "domain": "dbms",
+    "subdomain": "modeling",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["DBMS Basics"],
+    "resources": [
+      {
+        "title": "GFG – ER Model",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/er-model-basic-concepts/"
+      },
+      {
+        "title": "Javatpoint – ER Diagram",
+        "type": "article",
+        "url": "https://www.javatpoint.com/er-diagram"
+      },
+      {
+        "title": "YouTube – ER Model (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Qf0sCqFypaE"
+      }
+    ],
+    "description": "Explains entity sets, attributes, relationships, keys, and ER diagrams."
+  },
+  {
+    "id": "dbms_03",
+    "topic": "Relational Model & Keys",
+    "domain": "dbms",
+    "subdomain": "modeling",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["ER Model"],
+    "resources": [
+      {
+        "title": "GFG – Relational Model",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/relational-model-in-dbms/"
+      },
+      {
+        "title": "Javatpoint – Keys in DBMS",
+        "type": "article",
+        "url": "https://www.javatpoint.com/dbms-key"
+      },
+      {
+        "title": "YouTube – Keys in DBMS (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=RZbhFun-1SM"
+      }
+    ],
+    "description": "Explains relations, attributes, primary key, foreign key, candidate key, and constraints."
+  },
+  {
+    "id": "dbms_04",
+    "topic": "SQL Basics (DDL, DML)",
+    "domain": "dbms",
+    "subdomain": "sql",
+    "difficulty": "easy",
+    "estimated_hours": 4,
+    "prerequisites": ["DBMS Basics"],
+    "resources": [
+      {
+        "title": "W3Schools – SQL Tutorial",
+        "type": "article",
+        "url": "https://www.w3schools.com/sql/"
+      },
+      {
+        "title": "GFG – SQL Commands",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/"
+      },
+      {
+        "title": "YouTube – SQL Full Course (BroCode)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
+      }
+    ],
+    "description": "Covers SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, and ALTER commands."
+  },
+  {
+    "id": "dbms_05",
+    "topic": "Advanced SQL (Joins, Subqueries)",
+    "domain": "dbms",
+    "subdomain": "sql",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["SQL Basics"],
+    "resources": [
+      {
+        "title": "GFG – SQL Joins",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/"
+      },
+      {
+        "title": "W3Schools – SQL Subqueries",
+        "type": "article",
+        "url": "https://www.w3schools.com/sql/sql_subqueries.asp"
+      },
+      {
+        "title": "YouTube – Joins & Subqueries",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9yeOJ0ZMUYw"
+      }
+    ],
+    "description": "Explains inner/outer joins, self joins, nested queries, and multi-table operations."
+  },
+  {
+    "id": "dbms_06",
+    "topic": "Normalization",
+    "domain": "dbms",
+    "subdomain": "design",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Relational Model & Keys"],
+    "resources": [
+      {
+        "title": "GFG – Normalization",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/database-normalization/"
+      },
+      {
+        "title": "Javatpoint – Normalization",
+        "type": "article",
+        "url": "https://www.javatpoint.com/dbms-normalization"
+      },
+      {
+        "title": "YouTube – Normalization (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=UrYLYV7WSHM"
+      }
+    ],
+    "description": "Explains 1NF, 2NF, 3NF, BCNF with examples and decomposition rules."
+  },
+  {
+    "id": "dbms_07",
+    "topic": "Transactions & ACID Properties",
+    "domain": "dbms",
+    "subdomain": "transactions",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["DBMS Basics"],
+    "resources": [
+      {
+        "title": "GFG – ACID Properties",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/acid-properties-in-dbms/"
+      },
+      {
+        "title": "TutorialsPoint – Transactions",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/dbms/dbms_transactions.htm"
+      },
+      {
+        "title": "YouTube – Transactions in DBMS (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=tJST9u2sQ8E"
+      }
+    ],
+    "description": "Explains consistency, isolation, atomicity, durability, and transaction states."
+  },
+  {
+    "id": "dbms_08",
+    "topic": "Indexes",
+    "domain": "dbms",
+    "subdomain": "performance",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Advanced SQL"],
+    "resources": [
+      {
+        "title": "GFG – Indexing in DBMS",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/indexing-in-databases-set-1/"
+      },
+      {
+        "title": "Javatpoint – Indexes",
+        "type": "article",
+        "url": "https://www.javatpoint.com/dbms-index"
+      },
+      {
+        "title": "YouTube – Indexing Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=HubezKbFL7E"
+      }
+    ],
+    "description": "Explains primary, clustered, non-clustered indexes and performance optimization."
+  },
+  {
+    "id": "dbms_09",
+    "topic": "Query Processing",
+    "domain": "dbms",
+    "subdomain": "query_engine",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["SQL Basics"],
+    "resources": [
+      {
+        "title": "GFG – Query Processing",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/query-processing-in-dbms/"
+      },
+      {
+        "title": "TutorialsPoint – Query Processing",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/dbms/dbms_query_processing.htm"
+      },
+      {
+        "title": "YouTube – Query Processing (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2s9gFQ_tC98"
+      }
+    ],
+    "description": "Explains parsing, optimization, evaluation, and cost-based query planning."
+  },
+  {
+    "id": "dbms_10",
+    "topic": "Concurrency Control",
+    "domain": "dbms",
+    "subdomain": "transactions",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Transactions & ACID Properties"],
+    "resources": [
+      {
+        "title": "GFG – Concurrency Control",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/concurrency-control-in-dbms/"
+      },
+      {
+        "title": "TutorialsPoint – Concurrency",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/dbms/dbms_concurrency_control.htm"
+      },
+      {
+        "title": "YouTube – Concurrency Control (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kosN2OhBVAI"
+      }
+    ],
+    "description": "Explains locking, 2PL, timestamp ordering, deadlocks, and serializability."
+  },
+  {
+    "id": "dbms_11",
+    "topic": "File Organization",
+    "domain": "dbms",
+    "subdomain": "storage",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["DBMS Basics"],
+    "resources": [
+      {
+        "title": "GFG – File Organization",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/file-organization-in-dbms/"
+      },
+      {
+        "title": "Javatpoint – File Organization",
+        "type": "article",
+        "url": "https://www.javatpoint.com/dbms-file-organization"
+      },
+      {
+        "title": "YouTube – File Organization (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=uky9QGqY8K8"
+      }
+    ],
+    "description": "Covers heap, sequential, hashed, and clustered file organization techniques."
+  },
+  {
+    "id": "dbms_12",
+    "topic": "Joins & Relational Algebra",
+    "domain": "dbms",
+    "subdomain": "theory",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["Relational Model & Keys"],
+    "resources": [
+      {
+        "title": "GFG – Relational Algebra",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/relational-algebra-in-dbms/"
+      },
+      {
+        "title": "Javatpoint – Relational Algebra",
+        "type": "article",
+        "url": "https://www.javatpoint.com/dbms-relational-algebra"
+      },
+      {
+        "title": "YouTube – Relational Algebra (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Wb5p3d9ZL1Y"
+      }
+    ],
+    "description": "Teaches union, projection, selection, join, rename, and RA expressions."
+  },
+  {
+    "id": "dbms_13",
+    "topic": "Data Storage & Buffer Management",
+    "domain": "dbms",
+    "subdomain": "storage",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["File Organization"],
+    "resources": [
+      {
+        "title": "GFG – Buffer Manager",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/buffer-manager-in-dbms/"
+      },
+      {
+        "title": "TutorialsPoint – Storage Management",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/dbms/dbms_storage_system.htm"
+      },
+      {
+        "title": "YouTube – Storage & Buffering",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SFEg0EyrwWw"
+      }
+    ],
+    "description": "Explains disk storage, blocks, buffer manager, and file handling."
+  },
+  {
+    "id": "dbms_14",
+    "topic": "Distributed Databases",
+    "domain": "dbms",
+    "subdomain": "distributed",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["DBMS Basics"],
+    "resources": [
+      {
+        "title": "GFG – Distributed Databases",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/distributed-database/"
+      },
+      {
+        "title": "Javatpoint – Distributed DBMS",
+        "type": "article",
+        "url": "https://www.javatpoint.com/distributed-dbms"
+      },
+      {
+        "title": "YouTube – Distributed DBMS (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-HNBKxv6Uuk"
+      }
+    ],
+    "description": "Explains fragmentation, replication, distributed queries, and distributed transactions."
+  },
+  {
+    "id": "dbms_15",
+    "topic": "NoSQL Databases",
+    "domain": "dbms",
+    "subdomain": "nosql",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["DBMS Basics"],
+    "resources": [
+      {
+        "title": "MongoDB – NoSQL Introduction",
+        "type": "article",
+        "url": "https://www.mongodb.com/nosql-explained"
+      },
+      {
+        "title": "GFG – NoSQL Databases",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/nosql-databases/"
+      },
+      {
+        "title": "YouTube – NoSQL Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=W2Z7fbCLSTw"
+      }
+    ],
+    "description": "Explains document, key-value, column, and graph databases with use cases."
+  }
+,
+  {
+    "id": "os_01",
+    "topic": "Operating System Basics",
+    "domain": "os",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "GFG – Operating System Introduction",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/introduction-of-operating-system-set-1/"
+      },
+      {
+        "title": "TutorialsPoint – OS Overview",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_overview.htm"
+      },
+      {
+        "title": "YouTube – OS Full Course (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=_TpOHMCODXo"
+      }
+    ],
+    "description": "Covers basic OS concepts, architecture, kernels, system calls, and OS responsibilities."
+  },
+
+  {
+    "id": "os_02",
+    "topic": "Process Management",
+    "domain": "os",
+    "subdomain": "processes",
+    "difficulty": "easy",
+    "estimated_hours": 4,
+    "prerequisites": ["Operating System Basics"],
+    "resources": [
+      {
+        "title": "GFG – Process Management",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/process-states-in-operating-system/"
+      },
+      {
+        "title": "TutorialsPoint – Process Concepts",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_processes.htm"
+      },
+      {
+        "title": "YouTube – Process Management (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8C0d_g82Yhc"
+      }
+    ],
+    "description": "Explains process states, PCB, context switching, threads, and multitasking."
+  },
+
+  {
+    "id": "os_03",
+    "topic": "CPU Scheduling",
+    "domain": "os",
+    "subdomain": "scheduling",
+    "difficulty": "easy",
+    "estimated_hours": 4,
+    "prerequisites": ["Process Management"],
+    "resources": [
+      {
+        "title": "GFG – CPU Scheduling",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/"
+      },
+      {
+        "title": "TutorialsPoint – Scheduling Algorithms",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_process_scheduling.htm"
+      },
+      {
+        "title": "YouTube – Scheduling Algorithms (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=iE7t0jv2eZ4"
+      }
+    ],
+    "description": "Covers FCFS, SJF, RR, Priority scheduling, and scheduling performance metrics."
+  },
+
+  {
+    "id": "os_04",
+    "topic": "Threads & Multithreading",
+    "domain": "os",
+    "subdomain": "processes",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Process Management"],
+    "resources": [
+      {
+        "title": "GFG – Threads in OS",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/thread-in-operating-system/"
+      },
+      {
+        "title": "Javatpoint – Multithreading",
+        "type": "article",
+        "url": "https://www.javatpoint.com/multithreading-in-java"
+      },
+      {
+        "title": "YouTube – Threads & Multithreading",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0yOoR6sAu5U"
+      }
+    ],
+    "description": "Explains user vs kernel threads, multithreading, concurrency, and communication."
+  },
+
+  {
+    "id": "os_05",
+    "topic": "Deadlocks",
+    "domain": "os",
+    "subdomain": "synchronization",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Threads & Multithreading"],
+    "resources": [
+      {
+        "title": "GFG – Deadlocks in OS",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/deadlock-in-operating-system/"
+      },
+      {
+        "title": "TutorialsPoint – Deadlocks",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_deadlocks.htm"
+      },
+      {
+        "title": "YouTube – Deadlocks (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=aKgf8r5O2Sg"
+      }
+    ],
+    "description": "Explains deadlock conditions, prevention, avoidance, detection, and recovery."
+  },
+
+  {
+    "id": "os_06",
+    "topic": "Memory Management Basics",
+    "domain": "os",
+    "subdomain": "memory",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Operating System Basics"],
+    "resources": [
+      {
+        "title": "GFG – Memory Management",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/memory-management-in-operating-system/"
+      },
+      {
+        "title": "TutorialsPoint – Memory Management",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_memory_management.htm"
+      },
+      {
+        "title": "YouTube – Memory Management",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=laJ6vtgG0IQ"
+      }
+    ],
+    "description": "Explains memory allocation, fragmentation, and memory mapping."
+  },
+
+  {
+    "id": "os_07",
+    "topic": "Paging & Segmentation",
+    "domain": "os",
+    "subdomain": "memory",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Memory Management Basics"],
+    "resources": [
+      {
+        "title": "GFG – Paging",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/paging-in-operating-system/"
+      },
+      {
+        "title": "GFG – Segmentation",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/segmentation-in-operating-system/"
+      },
+      {
+        "title": "YouTube – Paging & Segmentation (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FJIf7YzLcm8"
+      }
+    ],
+    "description": "Covers logical address, physical address, page tables, segmentation tables."
+  },
+
+  {
+    "id": "os_08",
+    "topic": "Virtual Memory",
+    "domain": "os",
+    "subdomain": "memory",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Paging & Segmentation"],
+    "resources": [
+      {
+        "title": "GFG – Virtual Memory",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/virtual-memory-in-operating-system/"
+      },
+      {
+        "title": "TutorialsPoint – Virtual Memory",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_virtual_memory.htm"
+      },
+      {
+        "title": "YouTube – Virtual Memory (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EGDsmnlHtME"
+      }
+    ],
+    "description": "Explains demand paging, page fault, replacement algorithms, swapping."
+  },
+
+  {
+    "id": "os_09",
+    "topic": "Disk Scheduling Algorithms",
+    "domain": "os",
+    "subdomain": "storage",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Memory Management Basics"],
+    "resources": [
+      {
+        "title": "GFG – Disk Scheduling",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/disk-scheduling-algorithms/"
+      },
+      {
+        "title": "TutorialsPoint – Disk Scheduling",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_disk_scheduling.htm"
+      },
+      {
+        "title": "YouTube – Disk Scheduling (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=sJ3Z6QjCz4U"
+      }
+    ],
+    "description": "Explains FCFS, SSTF, SCAN, CSCAN, LOOK, and CLOOK algorithms."
+  },
+
+  {
+    "id": "os_10",
+    "topic": "File System Basics",
+    "domain": "os",
+    "subdomain": "storage",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Operating System Basics"],
+    "resources": [
+      {
+        "title": "GFG – File System",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/file-system-in-operating-system/"
+      },
+      {
+        "title": "TutorialsPoint – File System",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_file_system.htm"
+      },
+      {
+        "title": "YouTube – File System (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=AE1h4F9Wrc4"
+      }
+    ],
+    "description": "Covers directory structure, file allocation, free space management."
+  },
+
+  {
+    "id": "os_11",
+    "topic": "I/O Management",
+    "domain": "os",
+    "subdomain": "io",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Operating System Basics"],
+    "resources": [
+      {
+        "title": "GFG – IO Management",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/io-management-in-operating-system/"
+      },
+      {
+        "title": "TutorialsPoint – IO System",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_io_hardware.htm"
+      },
+      {
+        "title": "YouTube – IO Management",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=XRAiwbHXuJ0"
+      }
+    ],
+    "description": "Explains device controllers, interrupts, DMA, polling, and IO efficiency."
+  },
+
+  {
+    "id": "os_12",
+    "topic": "Process Synchronization",
+    "domain": "os",
+    "subdomain": "synchronization",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Threads & Multithreading"],
+    "resources": [
+      {
+        "title": "GFG – Synchronization",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/process-synchronization-in-operating-system/"
+      },
+      {
+        "title": "TutorialsPoint – Synchronization",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_process_synchronization.htm"
+      },
+      {
+        "title": "YouTube – Synchronization (Gate Smashers)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OV5N3eBmq-s"
+      }
+    ],
+    "description": "Explains race conditions, critical section problem, Semaphores, and Mutex."
+  },
+
+  {
+    "id": "os_13",
+    "topic": "Semaphores & Mutex",
+    "domain": "os",
+    "subdomain": "synchronization",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Process Synchronization"],
+    "resources": [
+      {
+        "title": "GFG – Semaphores",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/semaphores-in-process-synchronization/"
+      },
+      {
+        "title": "GFG – Mutex",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/mutex-in-operating-system/"
+      },
+      {
+        "title": "YouTube – Semaphore vs Mutex",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=H9CSWMxJx84"
+      }
+    ],
+    "description": "Explains binary semaphore, counting semaphore, mutex, and synchronization issues."
+  },
+
+  {
+    "id": "os_14",
+    "topic": "Linux Commands (Basics)",
+    "domain": "os",
+    "subdomain": "practical",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "GFG – Basic Linux Commands",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/basic-linux-commands/"
+      },
+      {
+        "title": "TutorialsPoint – Linux Intro",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/unix/unix-getting-started.htm"
+      },
+      {
+        "title": "YouTube – Linux Commands Crash Course",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=gd7BXuUQ91w"
+      }
+    ],
+    "description": "Covers pwd, ls, cd, mkdir, rm, nano, cat, chmod, and basic Linux workflow."
+  },
+
+  {
+    "id": "os_15",
+    "topic": "System Calls",
+    "domain": "os",
+    "subdomain": "kernel",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Operating System Basics"],
+    "resources": [
+      {
+        "title": "GFG – System Calls",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/system-calls-in-operating-system/"
+      },
+      {
+        "title": "TutorialsPoint – System Calls Overview",
+        "type": "article",
+        "url": "https://www.tutorialspoint.com/operating_system/os_system_calls.htm"
+      },
+      {
+        "title": "YouTube – System Calls",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=WgY0LxTZuXk"
+      }
+    ],
+    "description": "Explains kernel mode, user mode, fork(), exec(), wait(), and OS–user interaction."
+  }
+,
+  {
+    "id": "cloud_01",
+    "topic": "Cloud Computing Basics",
+    "domain": "cloud",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "AWS – What Is Cloud Computing?",
+        "type": "article",
+        "url": "https://aws.amazon.com/what-is-cloud-computing/"
+      },
+      {
+        "title": "GFG – Introduction to Cloud Computing",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/introduction-to-cloud-computing/"
+      },
+      {
+        "title": "YouTube – Cloud Computing Basics (Simplilearn)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=2LaAJq1lB1Q"
+      }
+    ],
+    "description": "Covers definition, need for cloud, characteristics, and basic cloud architecture."
+  },
+
+  {
+    "id": "cloud_02",
+    "topic": "Service Models: IaaS, PaaS, SaaS",
+    "domain": "cloud",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Cloud Computing Basics"],
+    "resources": [
+      {
+        "title": "GFG – Cloud Service Models",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/cloud-service-models/"
+      },
+      {
+        "title": "IBM – IaaS vs PaaS vs SaaS",
+        "type": "article",
+        "url": "https://www.ibm.com/cloud/learn/iaas-paas-saas"
+      },
+      {
+        "title": "YouTube – IaaS vs PaaS vs SaaS",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=KZnN6iO1TRY"
+      }
+    ],
+    "description": "Explains differences, examples, and use cases for cloud service models."
+  },
+
+  {
+    "id": "cloud_03",
+    "topic": "Deployment Models (Public, Private, Hybrid)",
+    "domain": "cloud",
+    "subdomain": "architecture",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Cloud Computing Basics"],
+    "resources": [
+      {
+        "title": "GFG – Cloud Deployment Models",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/deployment-models-in-cloud-computing/"
+      },
+      {
+        "title": "Microsoft – Cloud Models Overview",
+        "type": "article",
+        "url": "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/considerations/cloud-deployment-models"
+      },
+      {
+        "title": "YouTube – Cloud Deployment Models",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=R2dHzAoT-XY"
+      }
+    ],
+    "description": "Explains public, private, hybrid, and community cloud with advantages and drawbacks."
+  },
+
+  {
+    "id": "cloud_04",
+    "topic": "Virtualization",
+    "domain": "cloud",
+    "subdomain": "virtualization",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Service Models"],
+    "resources": [
+      {
+        "title": "GFG – Virtualization in Cloud",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/virtualization-in-cloud-computing/"
+      },
+      {
+        "title": "VMware – What Is Virtualization?",
+        "type": "article",
+        "url": "https://www.vmware.com/topics/glossary/content/virtualization.html"
+      },
+      {
+        "title": "YouTube – Virtualization Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=FZR0rG3HKIk"
+      }
+    ],
+    "description": "Covers hypervisors, VM lifecycle, containerization, and virtual resources."
+  },
+
+  {
+    "id": "cloud_05",
+    "topic": "Cloud Architecture Components",
+    "domain": "cloud",
+    "subdomain": "architecture",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Cloud Basics"],
+    "resources": [
+      {
+        "title": "AWS – Cloud Architecture Fundamentals",
+        "type": "article",
+        "url": "https://aws.amazon.com/architecture/"
+      },
+      {
+        "title": "GFG – Cloud Architecture",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/cloud-computing-architecture/"
+      },
+      {
+        "title": "YouTube – Cloud Architecture Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Pi1tqK30o0w"
+      }
+    ],
+    "description": "Explains cloud components: compute, storage, network, monitoring, and scaling."
+  },
+
+  {
+    "id": "cloud_06",
+    "topic": "AWS Core Services",
+    "domain": "cloud",
+    "subdomain": "aws",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Cloud Basics"],
+    "resources": [
+      {
+        "title": "AWS – EC2 Overview",
+        "type": "article",
+        "url": "https://aws.amazon.com/ec2/"
+      },
+      {
+        "title": "AWS – S3 Storage Overview",
+        "type": "article",
+        "url": "https://aws.amazon.com/s3/"
+      },
+      {
+        "title": "YouTube – AWS Explained Simply",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ulprqHHWlng"
+      }
+    ],
+    "description": "Covers EC2, S3, Lambda, VPC, RDS, and IAM fundamentals."
+  },
+
+  {
+    "id": "cloud_07",
+    "topic": "Azure Core Services",
+    "domain": "cloud",
+    "subdomain": "azure",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Cloud Basics"],
+    "resources": [
+      {
+        "title": "Microsoft – Azure Fundamentals",
+        "type": "article",
+        "url": "https://learn.microsoft.com/azure/fundamentals/overview"
+      },
+      {
+        "title": "Azure – Compute Services Overview",
+        "type": "article",
+        "url": "https://learn.microsoft.com/azure/architecture/guide/technology-choices/compute-decision-tree"
+      },
+      {
+        "title": "YouTube – Azure Basics for Beginners",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=NKEFWyqJ5XA"
+      }
+    ],
+    "description": "Covers Azure VM, App Services, Storage, Networking, and RBAC."
+  },
+
+  {
+    "id": "cloud_08",
+    "topic": "Google Cloud Platform Basics",
+    "domain": "cloud",
+    "subdomain": "gcp",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Cloud Basics"],
+    "resources": [
+      {
+        "title": "Google – Cloud Overview",
+        "type": "article",
+        "url": "https://cloud.google.com/learn/what-is-cloud-computing"
+      },
+      {
+        "title": "GCP – Compute Engine",
+        "type": "article",
+        "url": "https://cloud.google.com/compute"
+      },
+      {
+        "title": "YouTube – GCP for Beginners",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=jpno8FSqpc8"
+      }
+    ],
+    "description": "Explains GCP core storage, compute, database, and networking services."
+  },
+
+  {
+    "id": "cloud_09",
+    "topic": "Cloud Storage & Databases",
+    "domain": "cloud",
+    "subdomain": "services",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["AWS/Azure/GCP Basics"],
+    "resources": [
+      {
+        "title": "AWS – Storage Types",
+        "type": "article",
+        "url": "https://aws.amazon.com/products/storage/"
+      },
+      {
+        "title": "Azure – Storage Overview",
+        "type": "article",
+        "url": "https://learn.microsoft.com/azure/storage/common/storage-introduction"
+      },
+      {
+        "title": "YouTube – Cloud Storage Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=dFrkZTDuQpE"
+      }
+    ],
+    "description": "Explains object storage, block storage, file storage, and managed cloud databases."
+  },
+
+  {
+    "id": "cloud_10",
+    "topic": "Cloud Networking (VPC, Subnets)",
+    "domain": "cloud",
+    "subdomain": "networking",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["Cloud Architecture Components"],
+    "resources": [
+      {
+        "title": "AWS – VPC Overview",
+        "type": "article",
+        "url": "https://aws.amazon.com/vpc/"
+      },
+      {
+        "title": "Azure – Virtual Network Overview",
+        "type": "article",
+        "url": "https://learn.microsoft.com/azure/virtual-network/virtual-networks-overview"
+      },
+      {
+        "title": "YouTube – VPC Explained Simply",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=k-JYXpF1S5I"
+      }
+    ],
+    "description": "Covers VPC, subnets, routing, NAT gateway, VPN, firewalls, and private networking."
+  },
+
+  {
+    "id": "cloud_11",
+    "topic": "Serverless Computing",
+    "domain": "cloud",
+    "subdomain": "serverless",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Service Models"],
+    "resources": [
+      {
+        "title": "AWS Lambda – Serverless",
+        "type": "article",
+        "url": "https://aws.amazon.com/lambda/"
+      },
+      {
+        "title": "GCP – Cloud Functions",
+        "type": "article",
+        "url": "https://cloud.google.com/functions"
+      },
+      {
+        "title": "YouTube – Serverless Computing Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q1gTNxJj-L8"
+      }
+    ],
+    "description": "Explains serverless architecture, FaaS, triggers, events, and stateless computing."
+  },
+
+  {
+    "id": "cloud_12",
+    "topic": "Cloud Security Basics",
+    "domain": "cloud",
+    "subdomain": "security",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["Cloud Architecture"],
+    "resources": [
+      {
+        "title": "AWS – Cloud Security Overview",
+        "type": "article",
+        "url": "https://aws.amazon.com/security/"
+      },
+      {
+        "title": "Cloudflare – Cloud Security Basics",
+        "type": "article",
+        "url": "https://www.cloudflare.com/learning/cloud/what-is-cloud-security/"
+      },
+      {
+        "title": "YouTube – Cloud Security Basics",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9CffkJ5ID7Q"
+      }
+    ],
+    "description": "Covers IAM, encryption, shared responsibility model, threats, and best practices."
+  },
+
+  {
+    "id": "cloud_13",
+    "topic": "DevOps & Cloud",
+    "domain": "cloud",
+    "subdomain": "devops",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Cloud Basics"],
+    "resources": [
+      {
+        "title": "AWS – What Is DevOps?",
+        "type": "article",
+        "url": "https://aws.amazon.com/devops/what-is-devops/"
+      },
+      {
+        "title": "Azure – DevOps Documentation",
+        "type": "article",
+        "url": "https://learn.microsoft.com/azure/devops/user-guide/what-is-azure-devops"
+      },
+      {
+        "title": "YouTube – DevOps Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=hQcFE0RD0cQ"
+      }
+    ],
+    "description": "Explains CI/CD, pipelines, automation, IaC, containers, and cloud-native deployment."
+  },
+
+  {
+    "id": "cloud_14",
+    "topic": "Cloud Monitoring & Logging",
+    "domain": "cloud",
+    "subdomain": "management",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Cloud Architecture Components"],
+    "resources": [
+      {
+        "title": "AWS – CloudWatch",
+        "type": "article",
+        "url": "https://aws.amazon.com/cloudwatch/"
+      },
+      {
+        "title": "GCP – Cloud Monitoring",
+        "type": "article",
+        "url": "https://cloud.google.com/monitoring"
+      },
+      {
+        "title": "YouTube – CloudWatch Basics",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=luGnJ6-PeQw"
+      }
+    ],
+    "description": "Explains metrics, logs, alarms, distributed tracing, and application monitoring."
+  },
+
+  {
+    "id": "cloud_15",
+    "topic": "Containers & Kubernetes Basics",
+    "domain": "cloud",
+    "subdomain": "containers",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["Virtualization"],
+    "resources": [
+      {
+        "title": "Kubernetes – What is Kubernetes?",
+        "type": "article",
+        "url": "https://kubernetes.io/docs/concepts/overview/"
+      },
+      {
+        "title": "Docker – What is a Container?",
+        "type": "article",
+        "url": "https://www.docker.com/resources/what-container/"
+      },
+      {
+        "title": "YouTube – Kubernetes Explained (TechWorld)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=X48VuDVv0do"
+      }
+    ],
+    "description": "Explains Docker, containers, orchestration, pods, nodes, clusters, and deployments."
+  }
+,
+  {
+    "id": "web_01",
+    "topic": "HTML Basics",
+    "domain": "web_development",
+    "subdomain": "frontend",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "MDN – HTML Basics",
+        "type": "article",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
+      },
+      {
+        "title": "W3Schools – HTML Tutorial",
+        "type": "article",
+        "url": "https://www.w3schools.com/html/"
+      },
+      {
+        "title": "YouTube – HTML Full Course (Bro Code)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=kUMe1FH4CHE"
+      }
+    ],
+    "description": "Explains basic tags, structure, semantic HTML, attributes, forms, and layout foundations."
+  },
+
+  {
+    "id": "web_02",
+    "topic": "CSS Basics",
+    "domain": "web_development",
+    "subdomain": "frontend",
+    "difficulty": "easy",
+    "estimated_hours": 4,
+    "prerequisites": ["HTML Basics"],
+    "resources": [
+      {
+        "title": "MDN – CSS Basics",
+        "type": "article",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"
+      },
+      {
+        "title": "W3Schools – CSS Tutorial",
+        "type": "article",
+        "url": "https://www.w3schools.com/css/"
+      },
+      {
+        "title": "YouTube – CSS Full Course (Net Ninja)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA"
+      }
+    ],
+    "description": "Covers selectors, properties, colors, fonts, box model, and basic styling techniques."
+  },
+
+  {
+    "id": "web_03",
+    "topic": "Responsive Web Design",
+    "domain": "web_development",
+    "subdomain": "frontend",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["CSS Basics"],
+    "resources": [
+      {
+        "title": "MDN – Responsive Design",
+        "type": "article",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
+      },
+      {
+        "title": "W3Schools – Responsive Web Design",
+        "type": "article",
+        "url": "https://www.w3schools.com/css/css_rwd_intro.asp"
+      },
+      {
+        "title": "YouTube – Responsive Design Tutorial",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=srvUrASNj0s"
+      }
+    ],
+    "description": "Teaches media queries, flexible layout, fluid grids, and responsive images."
+  },
+
+  {
+    "id": "web_04",
+    "topic": "JavaScript Basics",
+    "domain": "web_development",
+    "subdomain": "frontend",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["HTML Basics", "CSS Basics"],
+    "resources": [
+      {
+        "title": "MDN – JavaScript Guide",
+        "type": "article",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+      },
+      {
+        "title": "W3Schools – JavaScript Tutorial",
+        "type": "article",
+        "url": "https://www.w3schools.com/js/"
+      },
+      {
+        "title": "YouTube – JavaScript Full Course (Bro Code)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8dWL3wF_OMw"
+      }
+    ],
+    "description": "Explains variables, datatypes, loops, functions, DOM manipulation, and events."
+  },
+
+  {
+    "id": "web_05",
+    "topic": "DOM Manipulation",
+    "domain": "web_development",
+    "subdomain": "frontend",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["JavaScript Basics"],
+    "resources": [
+      {
+        "title": "MDN – DOM Introduction",
+        "type": "article",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+      },
+      {
+        "title": "JavaScript.info – DOM Manipulation",
+        "type": "article",
+        "url": "https://javascript.info/document"
+      },
+      {
+        "title": "YouTube – DOM Tutorial (Net Ninja)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=0ik6X4DJKCc"
+      }
+    ],
+    "description": "Covers selecting elements, modifying HTML/CSS, events, and dynamic page updates."
+  },
+
+  {
+    "id": "web_06",
+    "topic": "Advanced JavaScript (ES6+)",
+    "domain": "web_development",
+    "subdomain": "frontend",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["JavaScript Basics"],
+    "resources": [
+      {
+        "title": "JavaScript.info – Modern JS",
+        "type": "article",
+        "url": "https://javascript.info/"
+      },
+      {
+        "title": "MDN – ES6 Features",
+        "type": "article",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+      },
+      {
+        "title": "YouTube – ES6 Tutorial",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=IEf1KAcK6A8"
+      }
+    ],
+    "description": "Explains let/const, arrow functions, promises, async/await, modules, and classes."
+  },
+
+  {
+    "id": "web_07",
+    "topic": "Frontend Frameworks Overview",
+    "domain": "web_development",
+    "subdomain": "frontend",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Advanced JavaScript"],
+    "resources": [
+      {
+        "title": "React – Official Docs",
+        "type": "article",
+        "url": "https://react.dev/"
+      },
+      {
+        "title": "Vue – Official Docs",
+        "type": "article",
+        "url": "https://vuejs.org/guide/introduction.html"
+      },
+      {
+        "title": "YouTube – React vs Angular vs Vue",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Zg9nQ0VYF-U"
+      }
+    ],
+    "description": "Covers popular frameworks: React, Vue, Angular, their use cases and differences."
+  },
+
+  {
+    "id": "web_08",
+    "topic": "React Basics",
+    "domain": "web_development",
+    "subdomain": "frontend",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["Frontend Frameworks Overview"],
+    "resources": [
+      {
+        "title": "React – Getting Started",
+        "type": "article",
+        "url": "https://react.dev/learn"
+      },
+      {
+        "title": "W3Schools – React Tutorial",
+        "type": "article",
+        "url": "https://www.w3schools.com/react/"
+      },
+      {
+        "title": "YouTube – React Full Course (Net Ninja)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=EMfVch6Jv7A"
+      }
+    ],
+    "description": "Covers components, props, state, hooks, virtual DOM, and JSX."
+  },
+
+  {
+    "id": "web_09",
+    "topic": "Version Control (Git & GitHub)",
+    "domain": "web_development",
+    "subdomain": "tools",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Git – Official Documentation",
+        "type": "article",
+        "url": "https://git-scm.com/docs"
+      },
+      {
+        "title": "GitHub Guides",
+        "type": "article",
+        "url": "https://docs.github.com/en/get-started"
+      },
+      {
+        "title": "YouTube – Git & GitHub for Beginners (Kunal Kushwaha)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=APOPm01BVrk"
+      }
+    ],
+    "description": "Teaches repository creation, commits, branches, merges, and remote workflows."
+  },
+
+  {
+    "id": "web_10",
+    "topic": "Backend Basics",
+    "domain": "web_development",
+    "subdomain": "backend",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["JavaScript Basics"],
+    "resources": [
+      {
+        "title": "MDN – Server-side Basics",
+        "type": "article",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps"
+      },
+      {
+        "title": "W3Schools – Backend Intro",
+        "type": "article",
+        "url": "https://www.w3schools.com/whatis/whatis_back_end.asp"
+      },
+      {
+        "title": "YouTube – Backend Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ENrzD9HAZK4"
+      }
+    ],
+    "description": "Overview of server, databases, REST APIs, routing, and backend responsibilities."
+  },
+
+  {
+    "id": "web_11",
+    "topic": "Node.js Basics",
+    "domain": "web_development",
+    "subdomain": "backend",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["Backend Basics"],
+    "resources": [
+      {
+        "title": "Node.js – Official Docs",
+        "type": "article",
+        "url": "https://nodejs.org/en/learn"
+      },
+      {
+        "title": "W3Schools – Node.js Tutorial",
+        "type": "article",
+        "url": "https://www.w3schools.com/nodejs/"
+      },
+      {
+        "title": "YouTube – Node.js Full Course (Bro Code)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ENrzD9HAZK4"
+      }
+    ],
+    "description": "Explains Node runtime, modules, events, npm, and working with servers."
+  },
+
+  {
+    "id": "web_12",
+    "topic": "Express.js Basics",
+    "domain": "web_development",
+    "subdomain": "backend",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Node.js Basics"],
+    "resources": [
+      {
+        "title": "Express – Guide",
+        "type": "article",
+        "url": "https://expressjs.com/en/starter/installing.html"
+      },
+      {
+        "title": "MDN – Express Tutorial",
+        "type": "article",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
+      },
+      {
+        "title": "YouTube – Express.js Crash Course (Traversy Media)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=L72fhGm1tfE"
+      }
+    ],
+    "description": "Teaches routing, middleware, APIs, templates, and building backend services."
+  },
+
+  {
+    "id": "web_13",
+    "topic": "Databases for Web Development",
+    "domain": "web_development",
+    "subdomain": "backend",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Backend Basics"],
+    "resources": [
+      {
+        "title": "MongoDB – Basics",
+        "type": "article",
+        "url": "https://www.mongodb.com/docs/manual/introduction/"
+      },
+      {
+        "title": "MySQL – Official Docs",
+        "type": "article",
+        "url": "https://dev.mysql.com/doc/refman/8.0/en/"
+      },
+      {
+        "title": "YouTube – SQL vs NoSQL",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZS_kXvOeQ5Y"
+      }
+    ],
+    "description": "Explains SQL databases, NoSQL databases, schema, queries, and integration with backend."
+  },
+
+  {
+    "id": "web_14",
+    "topic": "REST APIs",
+    "domain": "web_development",
+    "subdomain": "backend",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Express.js Basics"],
+    "resources": [
+      {
+        "title": "MDN – API Concepts",
+        "type": "article",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction"
+      },
+      {
+        "title": "Postman – REST API Basics",
+        "type": "article",
+        "url": "https://learning.postman.com/docs/developer/intro-api/"
+      },
+      {
+        "title": "YouTube – REST API Crash Course (Traversy Media)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q-BpqyOT3a8"
+      }
+    ],
+    "description": "Explains CRUD operations, endpoints, routing, JSON, and API best practices."
+  },
+
+  {
+    "id": "web_15",
+    "topic": "Deployment & Hosting",
+    "domain": "web_development",
+    "subdomain": "deployment",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["REST APIs"],
+    "resources": [
+      {
+        "title": "Vercel – Deployment Guide",
+        "type": "article",
+        "url": "https://vercel.com/docs/deployments/overview"
+      },
+      {
+        "title": "Netlify – Deployment Docs",
+        "type": "article",
+        "url": "https://docs.netlify.com/"
+      },
+      {
+        "title": "YouTube – Deploy Websites for Free",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=OltY8JIaP-4"
+      }
+    ],
+    "description": "Explains hosting, CI/CD basics, build processes, and deploying full-stack apps."
+  }
+,
+  {
+    "id": "cyber_01",
+    "topic": "Introduction to Cybersecurity",
+    "domain": "cybersecurity",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "Cisco – What Is Cybersecurity?",
+        "type": "article",
+        "url": "https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html"
+      },
+      {
+        "title": "IBM – Cybersecurity Overview",
+        "type": "article",
+        "url": "https://www.ibm.com/topics/cybersecurity"
+      },
+      {
+        "title": "YouTube – Cybersecurity Explained (Simplilearn)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=inWWhr5tnEA"
+      }
+    ],
+    "description": "Covers basic terms, threats, attack types, and cybersecurity importance."
+  },
+
+  {
+    "id": "cyber_02",
+    "topic": "CIA Triad",
+    "domain": "cybersecurity",
+    "subdomain": "fundamentals",
+    "difficulty": "easy",
+    "estimated_hours": 2,
+    "prerequisites": ["Introduction to Cybersecurity"],
+    "resources": [
+      {
+        "title": "Cloudflare – CIA Triad",
+        "type": "article",
+        "url": "https://www.cloudflare.com/learning/security/what-is-the-cia-triad/"
+      },
+      {
+        "title": "GFG – CIA Triad Explained",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/cia-triad-in-information-security/"
+      },
+      {
+        "title": "YouTube – CIA Triad in Simple Terms",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZcYJ19wHh0E"
+      }
+    ],
+    "description": "Explains confidentiality, integrity, and availability — the core of security."
+  },
+
+  {
+    "id": "cyber_03",
+    "topic": "Malware & Attack Types",
+    "domain": "cybersecurity",
+    "subdomain": "threats",
+    "difficulty": "easy",
+    "estimated_hours": 3,
+    "prerequisites": ["Introduction to Cybersecurity"],
+    "resources": [
+      {
+        "title": "Kaspersky – Types of Malware",
+        "type": "article",
+        "url": "https://www.kaspersky.com/resource-center/threats/malware"
+      },
+      {
+        "title": "GFG – Cyber Attacks",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/types-of-cyber-attacks/"
+      },
+      {
+        "title": "YouTube – Malware Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=pvKBnGQkEI0"
+      }
+    ],
+    "description": "Covers viruses, worms, trojans, ransomware, phishing, DoS, and zero-day attacks."
+  },
+
+  {
+    "id": "cyber_04",
+    "topic": "Networking for Security",
+    "domain": "cybersecurity",
+    "subdomain": "network_security",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Introduction to Computer Networks"],
+    "resources": [
+      {
+        "title": "Cloudflare – What Is Network Security?",
+        "type": "article",
+        "url": "https://www.cloudflare.com/learning/security/what-is-network-security/"
+      },
+      {
+        "title": "GFG – Network Security Basics",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/network-security/"
+      },
+      {
+        "title": "YouTube – Network Security Concepts (PowerCert)",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=8d4RtvMQp10"
+      }
+    ],
+    "description": "Explains firewalls, ports, protocols, VPNs, proxies, NAT, and secure networking."
+  },
+
+  {
+    "id": "cyber_05",
+    "topic": "Firewalls & IDS/IPS",
+    "domain": "cybersecurity",
+    "subdomain": "network_security",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Networking for Security"],
+    "resources": [
+      {
+        "title": "Cloudflare – What Is a Firewall?",
+        "type": "article",
+        "url": "https://www.cloudflare.com/learning/network-layer/what-is-a-firewall/"
+      },
+      {
+        "title": "Palo Alto – IDS vs IPS",
+        "type": "article",
+        "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-an-ids-and-ips"
+      },
+      {
+        "title": "YouTube – Firewalls, IDS, IPS Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=w0Q4FWS0f1E"
+      }
+    ],
+    "description": "Covers packet filtering, deep packet inspection, intrusion detection, and prevention."
+  },
+
+  {
+    "id": "cyber_06",
+    "topic": "Cryptography Basics",
+    "domain": "cybersecurity",
+    "subdomain": "cryptography",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": [],
+    "resources": [
+      {
+        "title": "SSL – What Is Cryptography?",
+        "type": "article",
+        "url": "https://www.ssl.com/faqs/what-is-cryptography/"
+      },
+      {
+        "title": "GFG – Cryptography Introduction",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/cryptography-in-network-security/"
+      },
+      {
+        "title": "YouTube – Cryptography Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=6-JjHa-qLPk"
+      }
+    ],
+    "description": "Explains encryption, hashing, symmetric/asymmetric keys, and digital signatures."
+  },
+
+  {
+    "id": "cyber_07",
+    "topic": "Hashing & Password Security",
+    "domain": "cybersecurity",
+    "subdomain": "cryptography",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Cryptography Basics"],
+    "resources": [
+      {
+        "title": "OWASP – Password Storage",
+        "type": "article",
+        "url": "https://owasp.org/www-project-cheat-sheets/cheatsheets/Password_Storage_Cheat_Sheet.html"
+      },
+      {
+        "title": "GFG – Hash Functions",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/hash-functions-in-cryptography/"
+      },
+      {
+        "title": "YouTube – Hashing Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=b4b8ktEV4Bg"
+      }
+    ],
+    "description": "Covers hashing algorithms, salts, pepper, bcrypt, and password protection best practices."
+  },
+
+  {
+    "id": "cyber_08",
+    "topic": "Public Key Infrastructure (PKI)",
+    "domain": "cybersecurity",
+    "subdomain": "cryptography",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Cryptography Basics"],
+    "resources": [
+      {
+        "title": "SSL – What Is PKI?",
+        "type": "article",
+        "url": "https://www.ssl.com/faqs/what-is-public-key-infrastructure/"
+      },
+      {
+        "title": "Cloudflare – How TLS Works",
+        "type": "article",
+        "url": "https://www.cloudflare.com/learning/ssl/how-tls-works/"
+      },
+      {
+        "title": "YouTube – PKI & Certificates",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=APmWEYyB1p0"
+      }
+    ],
+    "description": "Explains certificates, CAs, HTTPS, SSL/TLS, key pairs, and digital trust."
+  },
+
+  {
+    "id": "cyber_09",
+    "topic": "Web Security Basics",
+    "domain": "cybersecurity",
+    "subdomain": "web_security",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Web Development Basics"],
+    "resources": [
+      {
+        "title": "OWASP – Top 10 Attacks",
+        "type": "article",
+        "url": "https://owasp.org/www-project-top-ten/"
+      },
+      {
+        "title": "Mozilla – Web Security Guidelines",
+        "type": "article",
+        "url": "https://infosec.mozilla.org/guidelines/web_security"
+      },
+      {
+        "title": "YouTube – OWASP Top 10 Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=-lN8L7E7GWY"
+      }
+    ],
+    "description": "Covers XSS, SQL injection, CSRF, authentication, authorization, and secure coding."
+  },
+
+  {
+    "id": "cyber_10",
+    "topic": "Application Security (AppSec)",
+    "domain": "cybersecurity",
+    "subdomain": "web_security",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["Web Security Basics"],
+    "resources": [
+      {
+        "title": "OWASP – Application Security Overview",
+        "type": "article",
+        "url": "https://owasp.org/www-community/Application_Security"
+      },
+      {
+        "title": "PortSwigger – Web Security Academy",
+        "type": "article",
+        "url": "https://portswigger.net/web-security"
+      },
+      {
+        "title": "YouTube – AppSec Basics",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=bv0sU1X8z1k"
+      }
+    ],
+    "description": "Explains secure development, common vulnerabilities, pentesting basics, and mitigation."
+  },
+
+  {
+    "id": "cyber_11",
+    "topic": "Operating System Security",
+    "domain": "cybersecurity",
+    "subdomain": "system_security",
+    "difficulty": "medium",
+    "estimated_hours": 4,
+    "prerequisites": ["OS Basics"],
+    "resources": [
+      {
+        "title": "RedHat – OS Security Overview",
+        "type": "article",
+        "url": "https://www.redhat.com/en/topics/security/what-is-operating-system-security"
+      },
+      {
+        "title": "GFG – Security in OS",
+        "type": "article",
+        "url": "https://www.geeksforgeeks.org/security-in-operating-system/"
+      },
+      {
+        "title": "YouTube – Operating System Security",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=JkXszV5nM6Q"
+      }
+    ],
+    "description": "Explains authentication, access control, permissions, and OS-level threat protection."
+  },
+
+  {
+    "id": "cyber_12",
+    "topic": "Cloud Security",
+    "domain": "cybersecurity",
+    "subdomain": "cloud_security",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["Cloud Basics"],
+    "resources": [
+      {
+        "title": "AWS – Cloud Security",
+        "type": "article",
+        "url": "https://aws.amazon.com/security/"
+      },
+      {
+        "title": "Google – Cloud Security Overview",
+        "type": "article",
+        "url": "https://cloud.google.com/security"
+      },
+      {
+        "title": "YouTube – Cloud Security Basics",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=9CffkJ5ID7Q"
+      }
+    ],
+    "description": "Covers shared responsibility model, IAM, encryption, compliance, and cloud threats."
+  },
+
+  {
+    "id": "cyber_13",
+    "topic": "Mobile Security",
+    "domain": "cybersecurity",
+    "subdomain": "mobile",
+    "difficulty": "medium",
+    "estimated_hours": 3,
+    "prerequisites": ["Cybersecurity Basics"],
+    "resources": [
+      {
+        "title": "OWASP – Mobile Security Project",
+        "type": "article",
+        "url": "https://owasp.org/www-project-mobile-security/"
+      },
+      {
+        "title": "Kaspersky – Mobile Security Threats",
+        "type": "article",
+        "url": "https://www.kaspersky.com/resource-center/threats/mobile-security-threats"
+      },
+      {
+        "title": "YouTube – Mobile Security Basics",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=SW_G9afvzts"
+      }
+    ],
+    "description": "Explains mobile threats, app permissions, sandboxing, malware, and mobile device security."
+  },
+
+  {
+    "id": "cyber_14",
+    "topic": "Incident Response & SOC",
+    "domain": "cybersecurity",
+    "subdomain": "operations",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["Cybersecurity Basics"],
+    "resources": [
+      {
+        "title": "IBM – What Is Incident Response?",
+        "type": "article",
+        "url": "https://www.ibm.com/topics/incident-response"
+      },
+      {
+        "title": "CrowdStrike – SOC Overview",
+        "type": "article",
+        "url": "https://www.crowdstrike.com/cybersecurity-101/security-operations-center-soc/"
+      },
+      {
+        "title": "YouTube – SOC Explained",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=rA1ZevdgD8E"
+      }
+    ],
+    "description": "Covers security monitoring, SIEM, threat detection, response lifecycle, and SOC tools."
+  },
+
+  {
+    "id": "cyber_15",
+    "topic": "Ethical Hacking Basics",
+    "domain": "cybersecurity",
+    "subdomain": "ethical_hacking",
+    "difficulty": "medium",
+    "estimated_hours": 5,
+    "prerequisites": ["Cybersecurity Basics"],
+    "resources": [
+      {
+        "title": "EC-Council – What Is Ethical Hacking?",
+        "type": "article",
+        "url": "https://www.eccouncil.org/ethical-hacking/"
+      },
+      {
+        "title": "TryHackMe – Beginner Path",
+        "type": "article",
+        "url": "https://tryhackme.com/path/outline/beginner"
+      },
+      {
+        "title": "YouTube – Ethical Hacking Basics",
+        "type": "youtube",
+        "url": "https://www.youtube.com/watch?v=3K8GX4j4qIQ"
+      }
+    ],
+    "description": "Explains hacking concepts, reconnaissance, scanning, exploitation basics, and beginner labs."
+  }
+]
