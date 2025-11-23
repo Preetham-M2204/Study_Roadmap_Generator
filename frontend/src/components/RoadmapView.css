@@ -1,0 +1,522 @@
+/* RoadmapView.css - Striver-Style Roadmap Design */
+
+.roadmap-view {
+  flex: 1;
+  overflow-y: auto;
+  background: #f8f9fa;
+  padding: 2rem;
+  position: relative;
+}
+
+/* Back to Chat Button */
+.back-to-chat-btn {
+  position: sticky;
+  top: 1rem;
+  left: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 1.5rem;
+  z-index: 10;
+}
+
+.back-to-chat-btn:hover {
+  background: #f8f9fa;
+  border-color: var(--primary-main);
+  color: var(--primary-main);
+  transform: translateX(-2px);
+}
+
+.back-to-chat-btn svg {
+  transition: transform 0.2s;
+}
+
+.back-to-chat-btn:hover svg {
+  transform: translateX(-4px);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   LOADING & ERROR STATES
+   ═══════════════════════════════════════════════════════════════ */
+
+.loading-state,
+.error-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+  gap: 1rem;
+}
+
+.spinner-large {
+  width: 48px;
+  height: 48px;
+  border: 4px solid #e5e7eb;
+  border-top-color: var(--primary-main);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.retry-btn,
+.back-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.retry-btn {
+  background: var(--primary-main);
+  color: white;
+}
+
+.retry-btn:hover {
+  background: var(--primary-dark);
+}
+
+.back-btn {
+  background: white;
+  color: var(--gray-700);
+  border: 1px solid var(--gray-300);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   HEADER SECTION
+   ═══════════════════════════════════════════════════════════════ */
+
+.roadmap-header {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.roadmap-title-section {
+  flex: 1;
+}
+
+.roadmap-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 0.5rem;
+}
+
+.roadmap-description {
+  font-size: 1rem;
+  color: var(--gray-600);
+  margin: 0;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   CIRCULAR PROGRESS (STRIVER-STYLE)
+   ═══════════════════════════════════════════════════════════════ */
+
+.progress-circle-container {
+  flex-shrink: 0;
+  margin-left: 2rem;
+}
+
+.progress-circle {
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+}
+
+.progress-number {
+  font-size: 24px;
+  font-weight: 700;
+  fill: var(--gray-900);
+}
+
+.progress-label {
+  font-size: 12px;
+  fill: var(--gray-500);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   DIFFICULTY BREAKDOWN
+   ═══════════════════════════════════════════════════════════════ */
+
+.difficulty-breakdown {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.difficulty-item {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.difficulty-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.difficulty-item.easy .difficulty-badge {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.difficulty-item.medium .difficulty-badge {
+  background: #fed7aa;
+  color: #92400e;
+}
+
+.difficulty-item.hard .difficulty-badge {
+  background: #fecaca;
+  color: #991b1b;
+}
+
+.difficulty-count {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  font-weight: 500;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   AI SUMMARY
+   ═══════════════════════════════════════════════════════════════ */
+
+.ai-summary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ai-summary h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.ai-summary p {
+  margin: 0;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   PHASES (STEPS)
+   ═══════════════════════════════════════════════════════════════ */
+
+.phases-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.phase-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s;
+}
+
+.phase-card:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.phase-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.2s;
+}
+
+.phase-header:hover {
+  background: #f9fafb;
+}
+
+.phase-header-left {
+  flex: 1;
+}
+
+.phase-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin: 0 0 0.5rem 0;
+}
+
+.phase-description {
+  font-size: 0.95rem;
+  color: var(--gray-600);
+  margin: 0 0 0.75rem 0;
+}
+
+.phase-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--gray-500);
+}
+
+.phase-progress-text {
+  color: var(--primary-main);
+  font-weight: 600;
+}
+
+.phase-header-right {
+  color: var(--gray-400);
+}
+
+/* Phase Progress Bar */
+.phase-progress-bar {
+  height: 6px;
+  background: #e5e7eb;
+  position: relative;
+  overflow: hidden;
+}
+
+.phase-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-main), var(--primary-light));
+  transition: width 0.3s ease;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TOPICS
+   ═══════════════════════════════════════════════════════════════ */
+
+.topics-container {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.topic-card {
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: all 0.2s;
+  background: white;
+}
+
+.topic-card:hover {
+  border-color: var(--primary-main);
+  box-shadow: 0 2px 4px rgba(37, 99, 235, 0.1);
+}
+
+.topic-card.completed {
+  background: #f0f9ff;
+  border-color: #bfdbfe;
+}
+
+.topic-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.topic-checkbox {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.topic-checkbox:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.check-icon {
+  transition: all 0.2s;
+}
+
+.check-icon.unchecked {
+  color: #d1d5db;
+}
+
+.check-icon.checked {
+  color: var(--primary-main);
+}
+
+.topic-info {
+  flex: 1;
+}
+
+.topic-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--gray-900);
+  margin: 0 0 0.5rem 0;
+}
+
+.topic-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.topic-meta .difficulty-badge {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.difficulty-badge.easy {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.difficulty-badge.medium {
+  background: #fed7aa;
+  color: #92400e;
+}
+
+.difficulty-badge.hard {
+  background: #fecaca;
+  color: #991b1b;
+}
+
+.topic-hours {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+  font-weight: 500;
+}
+
+.topic-description {
+  font-size: 0.95rem;
+  color: var(--gray-700);
+  line-height: 1.6;
+  margin: 0 0 0.75rem 0;
+}
+
+.topic-prerequisites {
+  font-size: 0.875rem;
+  color: var(--gray-600);
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  background: #f9fafb;
+  border-radius: 4px;
+}
+
+.topic-prerequisites strong {
+  color: var(--gray-700);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   RESOURCES (ICONS)
+   ═══════════════════════════════════════════════════════════════ */
+
+.topic-resources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.resource-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: var(--gray-700);
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s;
+  background: white;
+}
+
+.resource-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.resource-icon.video {
+  color: #dc2626;
+}
+
+.resource-icon.practice {
+  color: #059669;
+}
+
+.resource-icon.article {
+  color: #2563eb;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   RESPONSIVE DESIGN
+   ═══════════════════════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+  .roadmap-view {
+    padding: 1rem;
+  }
+
+  .roadmap-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .progress-circle-container {
+    margin-left: 0;
+  }
+
+  .roadmap-title {
+    font-size: 1.5rem;
+  }
+
+  .difficulty-breakdown {
+    flex-direction: column;
+  }
+
+  .phase-name {
+    font-size: 1.25rem;
+  }
+
+  .topic-name {
+    font-size: 1rem;
+  }
+
+  .topic-resources {
+    flex-direction: column;
+  }
+
+  .resource-link {
+    width: 100%;
+  }
+}

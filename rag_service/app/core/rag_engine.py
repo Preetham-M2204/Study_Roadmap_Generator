@@ -222,7 +222,7 @@ def rag_generate(query_text: str, domain: str = None, num_topics: int = 5) -> Di
         #   - distance < 0.75 → Topics ARE relevant ✅
         #   - distance > 0.75 → Topics NOT relevant ❌
         
-        relevance_threshold = 0.95
+        relevance_threshold = 0.75
         
         if not retrieved_topics:
             # No topics in database at all (empty database)

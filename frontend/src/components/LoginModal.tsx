@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import axios from 'axios';
-import { X, Mail, Lock, User, ArrowRight, Loader2 } from 'lucide-react';
+import { Mail, Lock, User, ArrowRight, Loader2 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
+import { authAPI } from '../services/api';
 import './LoginModal.css';
 
 /**
@@ -12,7 +12,14 @@ import './LoginModal.css';
  * 2. Conditional rendering for Login vs Register
  * 3. Integration with Global AuthContext
  * 4. Professional styling with backdrop blur
+ * 5. Centralized API calls with error handling
  */
+
+// Debug helper
+const DEBUG = import.meta.env.VITE_DEBUG === 'true';
+const log = (...args: any[]) => {
+  if (DEBUG) console.log('[LoginModal]', ...args);
+};
 
 const LoginModal = () => {
   const { login } = useAuth();
@@ -36,20 +43,28 @@ const LoginModal = () => {
     setError('');
     setLoading(true);
 
-    try {
-      const endpoint = isLogin ? '/api/auth/login' : '/api/auth/register';
-      const payload = isLogin 
-        ? { email: formData.email, password: formData.password }
-        : formData;
+    log('Form submitted:', { isLogin, email: formData.email });
 
-      // Note: In production, use environment variable for base URL
-      const response = await axios.post(`http://localhost:5000${endpoint}`, payload);
+    try {
+      let response;
+      
+      if (isLogin) {
+        log('Attempting login...');
+        response = await authAPI.login(formData.email, formData.password);
+      } else {
+        log('Attempting registration...');
+        response = await authAPI.register(formData.name, formData.email, formData.password);
+      }
       
       const { token, user } = response.data;
-      login(token, user); // Updates global state, which closes modal automatically via App logic
+      log('Authentication successful:', { user });
+      
+      login(token, user); // Updates global state, closes modal automatically
 
     } catch (err: any) {
-      setError(err.response?.data?.error || 'Authentication failed');
+      const errorMessage = err.response?.data?.error || 'Authentication failed';
+      log('Authentication error:', errorMessage);
+      setError(errorMessage);
     } finally {
       setLoading(false);
     }

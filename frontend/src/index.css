@@ -11,7 +11,7 @@
 /* 1. Import Roboto Font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
-/* 2. Define Global Theme Variables (:root) */
+/* 2. Define Global Theme Variables (:root) - Light Mode Default */
 :root {
   /* Primary Blue Palette - Professional & Trustworthy */
   --primary-dark: #0f172a;    /* Slate 900 - Text & Backgrounds */
@@ -37,6 +37,35 @@
   --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+
+  /* Theme-specific (Light Mode) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f3f4f6;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --border-color: #d1d5db;
+  --card-bg: #ffffff;
+}
+
+/* Dark Mode Theme */
+:root[data-theme="dark"] {
+  /* Override theme-specific variables */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2c2c2c;
+  --text-primary: #e5e7eb;
+  --text-secondary: #9ca3af;
+  --border-color: #374151;
+  --card-bg: #262626;
+  
+  /* Adjust grays for dark mode */
+  --gray-100: #1f2937;
+  --gray-300: #4b5563;
+  --primary-bg: #1e3a8a;
+  
+  /* Enhance shadows for dark backgrounds */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.5);
 }
 
 /* 3. Global Reset & Base Styles */
@@ -48,10 +77,11 @@
 
 body {
   font-family: 'Roboto', sans-serif; /* Apply Roboto globally */
-  background-color: var(--gray-100);
-  color: var(--gray-900);
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased; /* Smoother text on Mac */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Make the app take full height */

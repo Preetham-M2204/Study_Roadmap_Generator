@@ -59,7 +59,30 @@ app.use(express.urlencoded({ extended: true }));
 
 // Logger: Print every incoming request (helpful for debugging)
 app.use((req, res, next) => {
-  console.log(`${req.method} ${req.path} - ${new Date().toISOString()}`);
+  const timestamp = new Date().toISOString();
+  console.log(`\n${'='.repeat(60)}`);
+  console.log(`📥 ${req.method} ${req.path}`);
+  console.log(`⏰ ${timestamp}`);
+  
+  // Log request body for POST/PUT (exclude passwords)
+  if ((req.method === 'POST' || req.method === 'PUT') && req.body) {
+    const sanitizedBody = { ...req.body };
+    if (sanitizedBody.password) sanitizedBody.password = '[HIDDEN]';
+    console.log(`📦 Body:`, JSON.stringify(sanitizedBody, null, 2));
+  }
+  
+  // Log query params
+  if (Object.keys(req.query).length > 0) {
+    console.log(`🔍 Query:`, req.query);
+  }
+  
+  // Log headers (only important ones)
+  if (req.headers.authorization) {
+    console.log(`🔐 Auth: ${req.headers.authorization.substring(0, 20)}...`);
+  }
+  
+  console.log(`${'='.repeat(60)}\n`);
+  
   next(); // Pass control to next middleware/route
 });
 
@@ -83,16 +106,15 @@ app.get('/health', (req, res) => {
 
 // Import routes
 const authRoutes = require('./routes/auth');
-// TODO: Create these route files next
-// const chatRoutes = require('./routes/chat');
-// const roadmapRoutes = require('./routes/roadmap');
-// const progressRoutes = require('./routes/progress');
+const chatRoutes = require('./routes/chat');
+const roadmapRoutes = require('./routes/roadmap');
+const progressRoutes = require('./routes/progress');
 
 // Mount routes
-app.use('/api/auth', authRoutes);       // /api/auth/register, /api/auth/login, /api/auth/me
-// app.use('/api/chat', chatRoutes);       // /api/chat/message
-// app.use('/api/roadmap', roadmapRoutes); // /api/roadmap/generate
-// app.use('/api/progress', progressRoutes); // /api/progress/:topicId
+app.use('/api/auth', authRoutes);           // Authentication: register, login, me
+app.use('/api/chat', chatRoutes);           // Chat: new chat, send message, get chats
+app.use('/api/roadmap', roadmapRoutes);     // Roadmaps: list, get, delete, archive
+app.use('/api/progress', progressRoutes);   // Progress: toggle, stats, notes, rating
 
 // ============================================
 // STEP 6: Error Handling Middleware
@@ -103,7 +125,19 @@ app.use('/api/auth', authRoutes);       // /api/auth/register, /api/auth/login, 
  * Runs if next(error) is called or if route throws error
  */
 app.use((err, req, res, next) => {
-  console.error('❌ Error:', err.message);
+  console.error('\n❌ ERROR OCCURRED ❌');
+  console.error('='.repeat(60));
+  console.error(`📍 Route: ${req.method} ${req.path}`);
+  console.error(`💥 Message: ${err.message}`);
+  console.error(`🔢 Status: ${err.status || 500}`);
+  
+  if (process.env.NODE_ENV === 'development') {
+    console.error(`📚 Stack trace:`);
+    console.error(err.stack);
+  }
+  
+  console.error('='.repeat(60) + '\n');
+  
   res.status(err.status || 500).json({
     error: err.message || 'Internal Server Error',
     stack: process.env.NODE_ENV === 'development' ? err.stack : undefined

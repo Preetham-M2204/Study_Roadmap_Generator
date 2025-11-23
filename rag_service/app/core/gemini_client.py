@@ -325,6 +325,19 @@ Generate the complete roadmap now:"""
         elif roadmap_text.startswith("```"):
             roadmap_text = roadmap_text.replace("```", "").strip()
         
+        # Sanitize JSON: fix control characters that break parsing
+        import re
+        # Replace unescaped control characters in strings (newlines, tabs, etc.)
+        # This regex finds content within quotes and escapes control chars
+        def escape_control_chars(match):
+            text = match.group(1)
+            # Escape newlines, tabs, carriage returns
+            text = text.replace('\n', '\\n').replace('\r', '\\r').replace('\t', '\\t')
+            return f'"{text}"'
+        
+        # Fix control chars inside quoted strings
+        roadmap_text = re.sub(r'"([^"]*)"', escape_control_chars, roadmap_text)
+        
         # Parse JSON response
         import json
         roadmap = json.loads(roadmap_text)

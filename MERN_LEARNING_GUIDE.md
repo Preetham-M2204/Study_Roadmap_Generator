@@ -19,21 +19,28 @@
 | `backend/models/User.js` | User database schema | Mongoose Schema, bcrypt, pre-save hooks |
 | `backend/middleware/auth.js` | JWT verification | JWT, protect middleware, token generation |
 | `backend/routes/auth.js` | Register/Login endpoints | Express Router, Controllers, Error handling |
-| `backend/routes/chat.js` | Chat with Gemini AI | (Coming next) |
-| `backend/routes/roadmap.js` | Roadmap generation | (Coming next) |
-| `backend/routes/progress.js` | Track user progress | (Coming next) |
+| `backend/routes/chat.js` | Multi-turn conversation + roadmap trigger | Axios, RAG integration, Context building |
+| `backend/routes/roadmap.js` | CRUD operations for roadmaps | Mongoose queries, Progress aggregation |
+| `backend/routes/progress.js` | Toggle completion, stats | Many-to-many relationships |
+| `backend/models/Chat.js` | Chat sessions with messages | Subdocuments, Instance methods |
+| `backend/models/Roadmap.js` | Learning roadmaps structure | Nested schemas (Phases → Topics → Resources) |
+| `backend/models/Progress.js` | Topic completion tracking | Join table pattern, Statistics |
 
-### Frontend Files (React)
+### Frontend Files (React + TypeScript)
 
 | File | Purpose | Key Concepts |
 |------|---------|--------------|
-| `frontend/src/App.js` | Main React app + routing | React Router, Routes, Navigation |
-| `frontend/src/components/Layout.tsx` | Main App Shell | Sidebar + Chat + Login Modal |
-| `frontend/src/components/LoginModal.tsx` | Popup Login | Overlay, Backdrop Blur, Auth Context |
-| `frontend/src/components/Sidebar.tsx` | Navigation | Lucide Icons, Flexbox |
-| `frontend/src/components/ChatInterface.tsx` | Main Chat UI | Auto-growing input, Message list |
-| `frontend/src/context/AuthContext.tsx` | Global Auth State | Context API, localStorage sync |
-| `frontend/src/pages/Login.jsx` | (Deprecated) | Replaced by LoginModal |
+| `frontend/src/main.tsx` | React app entry point | StrictMode, ReactDOM.render |
+| `frontend/src/App.tsx` | Root component wrapper | Providers, theme |
+| `frontend/src/components/Layout.tsx` | Main App Shell | View-based navigation, state management |
+| `frontend/src/components/Sidebar.tsx` | Left navigation panel | Recent chats/roadmaps, theme toggle |
+| `frontend/src/components/ChatInterface.tsx` | Multi-turn chat UI | Message history, roadmap generation |
+| `frontend/src/components/RoadmapView.tsx` | Striver-style roadmap display | Phases, topics, progress, resource links |
+| `frontend/src/components/LoginModal.tsx` | Authentication overlay | JWT auth, form validation |
+| `frontend/src/components/ThemeToggle.tsx` | Dark/Light mode switch | localStorage persistence, CSS variables |
+| `frontend/src/context/AuthContext.tsx` | Global auth state | JWT storage, token refresh |
+| `frontend/src/services/api.ts` | Axios API client | HTTP interceptors, auth headers |
+| `frontend/src/index.css` | Global styles + theme | CSS variables for dark mode |
 
 ---
 
@@ -68,30 +75,56 @@
 
 ---
 
-## ✅ Completed So Far
+## ✅ Completed Features
 
-**Backend:**
-- ✅ User Model with password hashing
-- ✅ JWT middleware (generate & verify tokens)
-- ✅ Auth routes (register, login, get current user)
-- ✅ MongoDB connection
-- ✅ Express server setup
+**Backend (Express + MongoDB):**
+- ✅ User authentication (JWT, bcrypt)
+- ✅ Chat system with message history
+- ✅ Smart title generation (ChatGPT-style)
+- ✅ Roadmap generation via RAG service
+- ✅ Progress tracking (topic completion)
+- ✅ Recent chats/roadmaps API
+- ✅ MongoDB models (User, Chat, Roadmap, Progress)
 
-**Frontend:**
-- ✅ Login/Register page (blue theme, no emojis)
-- ✅ Dashboard page (protected route)
-- ✅ React Router setup
-- ✅ Form validation
-- ✅ Axios API integration
+**Frontend (React + TypeScript):**
+- ✅ View-based navigation (no router lib)
+- ✅ Multi-turn chat interface
+- ✅ Striver-style roadmap display
+- ✅ Progress tracking with checkboxes
+- ✅ Dark/Light theme toggle
+- ✅ Sidebar with recent history
+- ✅ Authentication modal
+- ✅ Smart title in sidebar (auto-refresh)
+
+**RAG Service (FastAPI + Python):**
+- ✅ LanceDB vector database (259 topics)
+- ✅ BGE-M3 embeddings
+- ✅ Gemini AI integration
+- ✅ Semantic search
+- ✅ RAG + LLM hybrid generation
+- ✅ RAG/LLM source indicator
 
 ---
 
-## 🚧 Coming Next
+## 🎨 Features Highlight
 
-- [ ] Chat routes (Gemini AI conversation)
-- [ ] Roadmap routes (FastAPI integration)
-- [ ] Progress tracking routes
-- [ ] React frontend components
+**Smart Titles:**
+- "I want to learn DSA in 3 weeks" → "Learn DSA in 3 weeks"
+- Auto-appears in sidebar after first message
+
+**Dark Mode:**
+- CSS variables for theme switching
+- Persists in localStorage
+- Moon/Sun toggle in sidebar
+
+**RAG Indicator:**
+- Console log shows data source (RAG vs LLM)
+- Visual badge in roadmap UI (coming)
+
+**Progress Tracking:**
+- Checkbox next to each topic
+- Auto-save to MongoDB
+- Progress percentage display
 
 ---
 

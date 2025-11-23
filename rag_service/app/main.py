@@ -24,10 +24,18 @@ logger = logging.getLogger(__name__)
 from app.utils.loader import load_corpus_and_build_db
 
 # Import models for request validation
-from app.models.rag_request import RAGQuery, RAGGenerate
+from app.models.rag_request import RAGQuery, RAGGenerate, ChatRequest
 
 # Import RAG engine functions
 from app.core.rag_engine import rag_query, rag_generate
+
+# Import Gemini for chat
+import google.generativeai as genai
+from app.config import GEMINI_API_KEY, GEMINI_MODEL_NAME
+
+# Configure Gemini
+if GEMINI_API_KEY:
+    genai.configure(api_key=GEMINI_API_KEY)
 
 # Create FastAPI application
 app = FastAPI(
@@ -137,4 +145,129 @@ def rag_generate_route(request: RAGGenerate):
         return result
     except Exception as e:
         logger.error(f"❌ Error generating roadmap: {str(e)}", exc_info=True)
+        raise
+
+
+# ============================================================
+# ENDPOINT 3: CONVERSATIONAL CHAT (NEW!)
+# ============================================================
+@app.post("/chat")
+def chat_route(request: ChatRequest):
+    """
+    Conversational chat endpoint - Gemini acts as intelligent learning advisor.
+    
+    HOW IT WORKS:
+    1. User sends message with conversation history
+    2. Gemini analyzes context and responds intelligently
+    3. Asks clarifying questions to understand learning goals
+    4. Once enough context gathered, suggests generating roadmap
+    
+    USE CASE: Natural conversation before roadmap generation
+    
+    REQUEST BODY:
+    {
+        "message": "I want to learn Data Structures",
+        "conversation_history": [
+            {"role": "user", "content": "Hi"},
+            {"role": "assistant", "content": "Hello! What would you like to learn?"}
+        ]
+    }
+    
+    RESPONSE:
+    {
+        "response": "Great! Are you a complete beginner or do you have some experience?",
+        "should_generate_roadmap": false,
+        "context_completeness": 0.4  // 0-1 score of how ready we are
+    }
+    """
+    try:
+        logger.info(f"💬 Chat message: '{request.message[:50]}...'")
+        
+        # Build conversation context for Gemini
+        conversation_context = []
+        for msg in request.conversation_history:
+            conversation_context.append(f"{msg.role.capitalize()}: {msg.content}")
+        conversation_context.append(f"User: {request.message}")
+        
+        # System prompt - defines Gemini's role
+        system_prompt = """You are an expert learning advisor for a STUDY PLANNING platform. Your ONLY purpose is to help students create personalized learning roadmaps.
+
+YOUR ROLE:
+1. Have a natural conversation to understand their learning goals
+2. Ask clarifying questions about:
+   - What they want to learn (specific topic/subject)
+   - Their current skill level (beginner/intermediate/advanced)
+   - Time commitment (hours per day, total timeline)
+   - Specific interests or focus areas
+3. Be encouraging and supportive
+4. After 3-4 focused exchanges, suggest creating their roadmap
+
+IMPORTANT - OFF-TOPIC HANDLING:
+If user asks about ANYTHING unrelated to learning/studying (random questions, jokes, off-topic chat):
+- Politely redirect them back to learning goals
+- Example: "It seems like you might be in the wrong place! We're a study planning assistant. Would you like me to help you prepare for something challenging? What subject or skill would you like to master?"
+
+CONVERSATION GUIDELINES:
+- Ask ONE focused question at a time
+- Be conversational but stay on topic
+- Show enthusiasm for their learning journey
+- Reference their previous answers
+- Keep responses concise (2-3 sentences max)
+- REDIRECT off-topic conversations back to learning
+
+CONTEXT ASSESSMENT:
+After each response, evaluate if you have enough information:
+- ✓ What they want to learn (clear topic/domain)
+- ✓ Their current level
+- ✓ Time availability  
+- ✓ Specific focus areas
+
+When you have all 4 pieces, say something like:
+"Perfect! I have everything I need. Let me create a personalized roadmap for you!"
+
+CURRENT CONVERSATION:
+{conversation}
+
+USER'S LATEST MESSAGE: {message}
+
+Respond naturally (stay focused on learning goals):"""
+
+        prompt = system_prompt.format(
+            conversation="\n".join(conversation_context[:-1]),
+            message=request.message
+        )
+        
+        # Call Gemini
+        model = genai.GenerativeModel(GEMINI_MODEL_NAME)
+        response = model.generate_content(prompt)
+        ai_response = response.text.strip()
+        
+        # Analyze context completeness (simple heuristic)
+        total_user_messages = len([m for m in request.conversation_history if m.role == "user"]) + 1
+        
+        # Check if response indicates readiness for roadmap
+        trigger_phrases = [
+            "create a roadmap",
+            "create your roadmap", 
+            "generate a roadmap",
+            "let me create",
+            "i have everything",
+            "ready to create"
+        ]
+        should_generate = any(phrase in ai_response.lower() for phrase in trigger_phrases)
+        
+        # Context completeness score (0-1)
+        context_score = min(total_user_messages / 4.0, 1.0)
+        
+        logger.info(f"✅ AI response generated | Should generate: {should_generate}")
+        
+        return {
+            "response": ai_response,
+            "should_generate_roadmap": should_generate,
+            "context_completeness": context_score,
+            "total_messages": total_user_messages
+        }
+        
+    except Exception as e:
+        logger.error(f"❌ Error in chat: {str(e)}", exc_info=True)
         raise

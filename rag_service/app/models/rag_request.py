@@ -58,3 +58,38 @@ class RoadmapResponse(BaseModel):
     phases: List[RoadmapPhase]
     ai_summary: str  # LLM-generated overview
     metadata: Dict[str, Any]
+
+
+# ============================================================
+# CONVERSATIONAL CHAT MODELS (NEW!)
+# ============================================================
+
+class ChatMessage(BaseModel):
+    """
+    Single message in conversation history
+    
+    EXAMPLE:
+    {
+        "role": "user",
+        "content": "I want to learn DSA"
+    }
+    """
+    role: str  # "user" or "assistant"
+    content: str  # Message text
+
+
+class ChatRequest(BaseModel):
+    """
+    Request body for /chat endpoint
+    
+    EXAMPLE:
+    {
+        "message": "I want to learn Data Structures",
+        "conversation_history": [
+            {"role": "user", "content": "Hi"},
+            {"role": "assistant", "content": "Hello! What would you like to learn?"}
+        ]
+    }
+    """
+    message: str  # Current user message
+    conversation_history: List[ChatMessage] = []  # Previous messages for context
