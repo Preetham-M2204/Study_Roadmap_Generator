@@ -1,0 +1,111 @@
+/**
+ * index.css - Global Styles & Theme Configuration
+ * 
+ * LEARNING OBJECTIVES:
+ * 1. CSS Variables (Custom Properties) for consistent theming
+ * 2. Google Fonts integration (Roboto)
+ * 3. CSS Reset for cross-browser consistency
+ * 4. Global utility classes
+ */
+
+/* 1. Import Roboto Font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* 2. Define Global Theme Variables (:root) */
+:root {
+  /* Primary Blue Palette - Professional & Trustworthy */
+  --primary-dark: #0f172a;    /* Slate 900 - Text & Backgrounds */
+  --primary-main: #2563eb;    /* Blue 600 - Primary Buttons/Links */
+  --primary-light: #3b82f6;   /* Blue 500 - Hover states */
+  --primary-bg: #eff6ff;      /* Blue 50 - Light backgrounds */
+
+  /* Neutral Grays - For structure and balance */
+  --gray-900: #111827;
+  --gray-700: #374151;
+  --gray-500: #6b7280;
+  --gray-300: #d1d5db;
+  --gray-100: #f3f4f6;
+  --white: #ffffff;
+
+  /* Semantic Colors */
+  --error: #ef4444;           /* Red 500 */
+  --success: #10b981;         /* Emerald 500 */
+  
+  /* Spacing & Layout */
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
+
+/* 3. Global Reset & Base Styles */
+* {
+  box-sizing: border-box; /* Include padding/border in element width */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Apply Roboto globally */
+  background-color: var(--gray-100);
+  color: var(--gray-900);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased; /* Smoother text on Mac */
+}
+
+/* Make the app take full height */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 4. Common Utility Classes */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  font-family: inherit;
+}
+
+.btn-primary {
+  background-color: var(--primary-main);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-light);
+  transform: translateY(-1px); /* Subtle lift effect */
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--primary-main);
+  color: var(--primary-main);
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-bg);
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--gray-300);
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--primary-main);
+  box-shadow: 0 0 0 3px var(--primary-bg);
+}

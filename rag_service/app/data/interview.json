@@ -9,27 +9,27 @@
     "prerequisites": [],
     "resources": [
       {
-        "title": "GFG – Object Oriented Programming Basics",
+        "title": "GFG  Object Oriented Programming Basics",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/"
       },
       {
-        "title": "InterviewBit – OOP Concepts",
+        "title": "InterviewBit  OOP Concepts",
         "type": "article",
         "url": "https://www.interviewbit.com/oops-interview-questions/"
       },
       {
-        "title": "Javatpoint – OOPs Concepts",
+        "title": "Javatpoint  OOPs Concepts",
         "type": "article",
         "url": "https://www.javatpoint.com/oops-concepts"
       },
       {
-        "title": "YouTube – Kunal Kushwaha OOP Playlist",
+        "title": "YouTube  Kunal Kushwaha OOP Playlist",
         "type": "youtube",
         "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYq"
       }
     ],
-    "description": "Covers classes, objects, abstraction, encapsulation, inheritance, and polymorphism with practical examples."
+    "description": "Covers classes, objects, abstraction, encapsulation, inheritance, and polymorphism with practical examples.About OOPS"
   },
   {
     "id": "oops_01_1",
@@ -41,17 +41,17 @@
     "prerequisites": ["OOP Basics"],
     "resources": [
       {
-        "title": "GFG – Classes and Objects in C++",
+        "title": "GFG  Classes and Objects in C++",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/c-classes-and-objects/"
       },
       {
-        "title": "Programiz – Classes and Objects in Java",
+        "title": "Programiz  Classes and Objects in Java",
         "type": "article",
         "url": "https://www.programiz.com/java-programming/class-objects"
       },
       {
-        "title": "YouTube – Classes & Objects Explanation",
+        "title": "YouTube  Classes & Objects Explanation",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=IUqKuGNasdM"
       }
@@ -68,17 +68,17 @@
     "prerequisites": ["Classes and Objects"],
     "resources": [
       {
-        "title": "GFG – Abstraction in Java",
+        "title": "GFG  Abstraction in Java",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/abstraction-in-java/"
       },
       {
-        "title": "Programiz – Abstract Classes & Interfaces",
+        "title": "Programiz  Abstract Classes & Interfaces",
         "type": "article",
         "url": "https://www.programiz.com/java-programming/abstract-classes-interfaces"
       },
       {
-        "title": "YouTube – Abstraction Crash Course",
+        "title": "YouTube  Abstraction Crash Course",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=4B8XKEORJss"
       }
@@ -95,17 +95,17 @@
     "prerequisites": ["Classes and Objects"],
     "resources": [
       {
-        "title": "GFG – Encapsulation in Java",
+        "title": "GFG  Encapsulation in Java",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/encapsulation-in-java/"
       },
       {
-        "title": "Programiz – Java Encapsulation",
+        "title": "Programiz  Java Encapsulation",
         "type": "article",
         "url": "https://www.programiz.com/java-programming/encapsulation"
       },
       {
-        "title": "YouTube – Encapsulation Example",
+        "title": "YouTube  Encapsulation Example",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=4VBdNbWeTZw"
       }
@@ -122,17 +122,17 @@
     "prerequisites": ["Classes and Objects"],
     "resources": [
       {
-        "title": "GFG – Inheritance in Java",
+        "title": "GFG  Inheritance in Java",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/inheritance-in-java/"
       },
       {
-        "title": "Programiz – Java Inheritance",
+        "title": "Programiz  Java Inheritance",
         "type": "article",
         "url": "https://www.programiz.com/java-programming/inheritance"
       },
       {
-        "title": "YouTube – Inheritance Full Tutorial",
+        "title": "YouTube  Inheritance Full Tutorial",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=46T2wD3IuhM"
       }
@@ -149,17 +149,17 @@
     "prerequisites": ["Inheritance"],
     "resources": [
       {
-        "title": "GFG – Polymorphism in Java",
+        "title": "GFG  Polymorphism in Java",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/polymorphism-in-java/"
       },
       {
-        "title": "Programiz – Java Polymorphism",
+        "title": "Programiz  Java Polymorphism",
         "type": "article",
         "url": "https://www.programiz.com/java-programming/polymorphism"
       },
       {
-        "title": "YouTube – Overloading & Overriding",
+        "title": "YouTube  Overloading & Overriding",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=bSrm9RXwBaI"
       }
@@ -176,22 +176,22 @@
     "prerequisites": ["Classes and Objects"],
     "resources": [
       {
-        "title": "GFG – Constructors in C++",
+        "title": "GFG  Constructors in C++",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/constructors-c/"
       },
       {
-        "title": "GFG – Destructors in C++",
+        "title": "GFG  Destructors in C++",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/destructors-c/"
       },
       {
-        "title": "Programiz – Java Constructors",
+        "title": "Programiz  Java Constructors",
         "type": "article",
         "url": "https://www.programiz.com/java-programming/constructors"
       },
       {
-        "title": "YouTube – Java Constructors",
+        "title": "YouTube  Java Constructors",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=pgBk8HC7jbU"
       }
@@ -208,17 +208,17 @@
     "prerequisites": ["Encapsulation"],
     "resources": [
       {
-        "title": "GFG – Access Modifiers in Java",
+        "title": "GFG  Access Modifiers in Java",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/access-modifiers-java/"
       },
       {
-        "title": "Programiz – Access Modifiers",
+        "title": "Programiz  Access Modifiers",
         "type": "article",
         "url": "https://www.programiz.com/java-programming/access-modifiers"
       },
       {
-        "title": "YouTube – Access Modifiers Tutorial",
+        "title": "YouTube  Access Modifiers Tutorial",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=25zw-ljLLw0"
       }
@@ -235,17 +235,17 @@
     "prerequisites": ["Classes and Objects"],
     "resources": [
       {
-        "title": "GFG – static Keyword",
+        "title": "GFG  static Keyword",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/static-keyword-java/"
       },
       {
-        "title": "Programiz – static in Java",
+        "title": "Programiz  static in Java",
         "type": "article",
         "url": "https://www.programiz.com/java-programming/static-keyword"
       },
       {
-        "title": "YouTube – Static Keyword in Java",
+        "title": "YouTube  Static Keyword in Java",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=qRCEdWQ0f4Q"
       }
@@ -262,17 +262,17 @@
     "prerequisites": ["Polymorphism"],
     "resources": [
       {
-        "title": "GFG – Method Overloading",
+        "title": "GFG  Method Overloading",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/method-overloading-in-java/"
       },
       {
-        "title": "Programiz – Overloading",
+        "title": "Programiz  Overloading",
         "type": "article",
         "url": "https://www.programiz.com/java-programming/method-overloading"
       },
       {
-        "title": "YouTube – Overloading Tutorial",
+        "title": "YouTube  Overloading Tutorial",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=cAb0nbNzaBo"
       }
@@ -289,17 +289,17 @@
     "prerequisites": ["Inheritance"],
     "resources": [
       {
-        "title": "GFG – Overriding",
+        "title": "GFG  Overriding",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/overriding-in-java/"
       },
       {
-        "title": "Programiz – Overriding",
+        "title": "Programiz  Overriding",
         "type": "article",
         "url": "https://www.programiz.com/java-programming/method-overriding"
       },
       {
-        "title": "YouTube – Overriding Guide",
+        "title": "YouTube  Overriding Guide",
         "type": "youtube",
         "url": "https://www.youtube.com/playlist?list=PLmCsXDGbJHdgYQzJxSH2gwifyiDR_ClZf"
       }
@@ -316,17 +316,17 @@
     "prerequisites": ["Abstraction"],
     "resources": [
       {
-        "title": "GFG – Abstract Classes",
+        "title": "GFG  Abstract Classes",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/abstract-classes-in-java/"
       },
       {
-        "title": "GFG – Interfaces",
+        "title": "GFG  Interfaces",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/interfaces-in-java/"
       },
       {
-        "title": "YouTube – Interfaces vs Abstract Classes",
+        "title": "YouTube  Interfaces vs Abstract Classes",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=rgHZa7-Dibg"
       }
@@ -343,17 +343,17 @@
     "prerequisites": ["Inheritance"],
     "resources": [
       {
-        "title": "GFG – Composition",
+        "title": "GFG  Composition",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/composition-in-java/"
       },
       {
-        "title": "Baeldung – Inheritance vs Composition",
+        "title": "Baeldung  Inheritance vs Composition",
         "type": "article",
         "url": "https://www.baeldung.com/java-inheritance-composition"
       },
       {
-        "title": "YouTube – Composition vs Inheritance",
+        "title": "YouTube  Composition vs Inheritance",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=9ogGan-R1pc"
       }
@@ -370,17 +370,17 @@
     "prerequisites": ["OOP Basics"],
     "resources": [
       {
-        "title": "GFG – OOP Applications",
+        "title": "GFG  OOP Applications",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/applications-of-object-oriented-programming-oop/"
       },
       {
-        "title": "Javatpoint – OOP Examples",
+        "title": "Javatpoint  OOP Examples",
         "type": "article",
         "url": "https://www.javatpoint.com/oops-concepts-with-real-time-examples"
       },
       {
-        "title": "YouTube – OOP Examples",
+        "title": "YouTube  OOP Examples",
         "type": "youtube",
         "url": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYq"
       }
@@ -397,17 +397,17 @@
     "prerequisites": [],
     "resources": [
       {
-        "title": "GFG – Computer Network Basics",
+        "title": "GFG  Computer Network Basics",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/basics-computer-networking/"
       },
       {
-        "title": "Tutorialspoint – Introduction to Computer Networks",
+        "title": "Tutorialspoint  Introduction to Computer Networks",
         "type": "article",
         "url": "https://www.tutorialspoint.com/computer_fundamentals/computer_networking.htm"
       },
       {
-        "title": "YouTube – Computer Networks Full Course (Gate Smashers)",
+        "title": "YouTube  Computer Networks Full Course (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=IPvYjXCsTg8"
       }
@@ -424,17 +424,17 @@
     "prerequisites": ["Introduction to Computer Networks"],
     "resources": [
       {
-        "title": "GFG – OSI Model Explained",
+        "title": "GFG  OSI Model Explained",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/layers-of-osi-model/"
       },
       {
-        "title": "Tutorialspoint – OSI Model",
+        "title": "Tutorialspoint  OSI Model",
         "type": "article",
         "url": "https://www.tutorialspoint.com/data_communication_computer_network/osi_model.htm"
       },
       {
-        "title": "YouTube – OSI Model Explained (Gate Smashers)",
+        "title": "YouTube  OSI Model Explained (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=olkiQf0g0Js"
       }
@@ -451,17 +451,17 @@
     "prerequisites": ["OSI Model"],
     "resources": [
       {
-        "title": "GFG – TCP/IP Model",
+        "title": "GFG  TCP/IP Model",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/tcp-ip-model/"
       },
       {
-        "title": "Cisco – TCP/IP Fundamentals",
+        "title": "Cisco  TCP/IP Fundamentals",
         "type": "article",
         "url": "https://www.cisco.com/c/en/us/products/security/common-cybersecurity-terms/what-is-tcp-ip.html"
       },
       {
-        "title": "YouTube – TCP/IP Model (Gate Smashers)",
+        "title": "YouTube  TCP/IP Model (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=1pfTxp25MA8"
       }
@@ -478,22 +478,22 @@
     "prerequisites": ["Introduction to Computer Networks"],
     "resources": [
       {
-        "title": "GFG – IP Addressing",
+        "title": "GFG  IP Addressing",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/introduction-of-classful-ip-addressing/"
       },
       {
-        "title": "GFG – Subnetting",
+        "title": "GFG  Subnetting",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/subnetting-in-computer-network/"
       },
       {
-        "title": "Cisco – Subnetting Guide",
+        "title": "Cisco  Subnetting Guide",
         "type": "article",
         "url": "https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13788-3.html"
       },
       {
-        "title": "YouTube – Subnetting Made Easy (NetworkChuck)",
+        "title": "YouTube  Subnetting Made Easy (NetworkChuck)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=ZxAwQB8TZsM"
       }
@@ -510,22 +510,22 @@
     "prerequisites": ["IP Addressing and Subnetting"],
     "resources": [
       {
-        "title": "GFG – Routing Algorithms",
+        "title": "GFG  Routing Algorithms",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/routing-algorithms-in-computer-networks/"
       },
       {
-        "title": "Cisco – What is Routing?",
+        "title": "Cisco  What is Routing?",
         "type": "article",
         "url": "https://www.cisco.com/c/en/us/solutions/small-business/resource-center/networking/what-is-routing.html"
       },
       {
-        "title": "Cisco – Static Routing Overview",
+        "title": "Cisco  Static Routing Overview",
         "type": "article",
         "url": "https://www.cisco.com/c/en/us/support/docs/ip/routing-information-protocol-rip/13769-12.html"
       },
       {
-        "title": "YouTube – Routing Explained (PowerCert)",
+        "title": "YouTube  Routing Explained (PowerCert)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=Q-Ha4ivGlDI"
       }
@@ -542,17 +542,17 @@
     "prerequisites": ["Introduction to Computer Networks"],
     "resources": [
       {
-        "title": "GFG – Switching Techniques",
+        "title": "GFG  Switching Techniques",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/switching-techniques-in-computer-networks/"
       },
       {
-        "title": "Cisco – Switching Overview",
+        "title": "Cisco  Switching Overview",
         "type": "article",
         "url": "https://www.cisco.com/c/en/us/td/docs/switches/lan/campus_lan_networking/CLNB_Intro.html"
       },
       {
-        "title": "YouTube – Switching Explained (PowerCert)",
+        "title": "YouTube  Switching Explained (PowerCert)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=69K-RnEFYVg"
       }
@@ -569,22 +569,22 @@
     "prerequisites": ["Switching Basics"],
     "resources": [
       {
-        "title": "GFG – MAC Address",
+        "title": "GFG  MAC Address",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/mac-address-in-computer-network/"
       },
       {
-        "title": "GFG – ARP",
+        "title": "GFG  ARP",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/address-resolution-protocol-arp/"
       },
       {
-        "title": "Cisco – ARP Overview",
+        "title": "Cisco  ARP Overview",
         "type": "article",
         "url": "https://www.cisco.com/assets/sol/sb/Switches_Emulators_v2.5/emulator_SW_2960_24TT/LAN_LANBasics/overview/165.html"
       },
       {
-        "title": "YouTube – ARP Explained (PowerCert)",
+        "title": "YouTube  ARP Explained (PowerCert)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=Qx5XG4Q1KpM"
       }
@@ -601,22 +601,22 @@
     "prerequisites": ["IP Addressing and Subnetting"],
     "resources": [
       {
-        "title": "GFG – DNS",
+        "title": "GFG  DNS",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/domain-name-system-dns-in-application-layer/"
       },
       {
-        "title": "GFG – DHCP",
+        "title": "GFG  DHCP",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/dynamic-host-configuration-protocol-dhcp/"
       },
       {
-        "title": "Cloudflare – What is DNS?",
+        "title": "Cloudflare  What is DNS?",
         "type": "article",
         "url": "https://www.cloudflare.com/learning/dns/what-is-dns/"
       },
       {
-        "title": "YouTube – DNS & DHCP (PowerCert)",
+        "title": "YouTube  DNS & DHCP (PowerCert)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=8ZtInClXe1Q"
       }
@@ -633,22 +633,22 @@
     "prerequisites": ["TCP/IP Model"],
     "resources": [
       {
-        "title": "GFG – HTTP",
+        "title": "GFG  HTTP",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/http-full-form/"
       },
       {
-        "title": "Mozilla MDN – HTTP Overview",
+        "title": "Mozilla MDN  HTTP Overview",
         "type": "article",
         "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"
       },
       {
-        "title": "Cloudflare – What is HTTPS?",
+        "title": "Cloudflare  What is HTTPS?",
         "type": "article",
         "url": "https://www.cloudflare.com/learning/ssl/what-is-https/"
       },
       {
-        "title": "YouTube – HTTP vs HTTPS (PowerCert)",
+        "title": "YouTube  HTTP vs HTTPS (PowerCert)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=hExRDVZHhig"
       }
@@ -665,22 +665,22 @@
     "prerequisites": ["TCP/IP Model"],
     "resources": [
       {
-        "title": "GFG – TCP vs UDP",
+        "title": "GFG  TCP vs UDP",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/difference-between-tcp-and-udp/"
       },
       {
-        "title": "GFG – TCP",
+        "title": "GFG  TCP",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/transmission-control-protocol-tcp/"
       },
       {
-        "title": "Cloudflare – What is TCP?",
+        "title": "Cloudflare  What is TCP?",
         "type": "article",
         "url": "https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/"
       },
       {
-        "title": "YouTube – TCP vs UDP (PowerCert)",
+        "title": "YouTube  TCP vs UDP (PowerCert)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=Vdc8TCESIg8"
       }
@@ -697,22 +697,22 @@
     "prerequisites": ["Introduction to Computer Networks"],
     "resources": [
       {
-        "title": "GFG – Networking Devices",
+        "title": "GFG  Networking Devices",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/network-devices-hub-switch-router-gateways/"
       },
       {
-        "title": "Cisco – What is a Router?",
+        "title": "Cisco  What is a Router?",
         "type": "article",
         "url": "https://www.cisco.com/c/en/us/products/routers/what-is-a-router.html"
       },
       {
-        "title": "Cisco – What is a Network Switch?",
+        "title": "Cisco  What is a Network Switch?",
         "type": "article",
         "url": "https://www.cisco.com/c/en/us/products/switches/what-is-a-network-switch.html"
       },
       {
-        "title": "YouTube – Network Devices Explained (PowerCert)",
+        "title": "YouTube  Network Devices Explained (PowerCert)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=1z0ULvg_pW8"
       }
@@ -729,22 +729,22 @@
     "prerequisites": ["Routing Basics", "IP Addressing and Subnetting"],
     "resources": [
       {
-        "title": "GFG – NAT",
+        "title": "GFG  NAT",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/network-address-translation-nat/"
       },
       {
-        "title": "Cloudflare – What is a Firewall?",
+        "title": "Cloudflare  What is a Firewall?",
         "type": "article",
         "url": "https://www.cloudflare.com/learning/network-layer/what-is-a-firewall/"
       },
       {
-        "title": "Cisco – NAT Overview",
+        "title": "Cisco  NAT Overview",
         "type": "article",
         "url": "https://www.cisco.com/c/en/us/support/docs/ip/network-address-translation-nat/13772-12.html"
       },
       {
-        "title": "YouTube – NAT & Firewalls (PowerCert)",
+        "title": "YouTube  NAT & Firewalls (PowerCert)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=FTUV0t6JaDA"
       }
@@ -761,22 +761,22 @@
     "prerequisites": ["Firewalls and NAT"],
     "resources": [
       {
-        "title": "GFG – Network Security",
+        "title": "GFG  Network Security",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/network-security/"
       },
       {
-        "title": "Cisco – Cybersecurity Overview",
+        "title": "Cisco  Cybersecurity Overview",
         "type": "article",
         "url": "https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html"
       },
       {
-        "title": "Cloudflare – What is Network Security?",
+        "title": "Cloudflare  What is Network Security?",
         "type": "article",
         "url": "https://www.cloudflare.com/learning/security/what-is-network-security/"
       },
       {
-        "title": "YouTube – Network Security Basics (PowerCert)",
+        "title": "YouTube  Network Security Basics (PowerCert)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=8d4RtvMQp10"
       }
@@ -793,17 +793,17 @@
     "prerequisites": [],
     "resources": [
       {
-        "title": "GFG – Introduction to DBMS",
+        "title": "GFG  Introduction to DBMS",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/introduction-of-dbms-database-management-system-set-1/"
       },
       {
-        "title": "TutorialsPoint – DBMS Introduction",
+        "title": "TutorialsPoint  DBMS Introduction",
         "type": "article",
         "url": "https://www.tutorialspoint.com/dbms/dbms_overview.htm"
       },
       {
-        "title": "YouTube – DBMS Full Course (Gate Smashers)",
+        "title": "YouTube  DBMS Full Course (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
       }
@@ -820,17 +820,17 @@
     "prerequisites": ["DBMS Basics"],
     "resources": [
       {
-        "title": "GFG – ER Model",
+        "title": "GFG  ER Model",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/er-model-basic-concepts/"
       },
       {
-        "title": "Javatpoint – ER Diagram",
+        "title": "Javatpoint  ER Diagram",
         "type": "article",
         "url": "https://www.javatpoint.com/er-diagram"
       },
       {
-        "title": "YouTube – ER Model (Gate Smashers)",
+        "title": "YouTube  ER Model (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=Qf0sCqFypaE"
       }
@@ -847,17 +847,17 @@
     "prerequisites": ["ER Model"],
     "resources": [
       {
-        "title": "GFG – Relational Model",
+        "title": "GFG  Relational Model",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/relational-model-in-dbms/"
       },
       {
-        "title": "Javatpoint – Keys in DBMS",
+        "title": "Javatpoint  Keys in DBMS",
         "type": "article",
         "url": "https://www.javatpoint.com/dbms-key"
       },
       {
-        "title": "YouTube – Keys in DBMS (Gate Smashers)",
+        "title": "YouTube  Keys in DBMS (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=RZbhFun-1SM"
       }
@@ -874,17 +874,17 @@
     "prerequisites": ["DBMS Basics"],
     "resources": [
       {
-        "title": "W3Schools – SQL Tutorial",
+        "title": "W3Schools  SQL Tutorial",
         "type": "article",
         "url": "https://www.w3schools.com/sql/"
       },
       {
-        "title": "GFG – SQL Commands",
+        "title": "GFG  SQL Commands",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/sql-ddl-dql-dml-dcl-tcl-commands/"
       },
       {
-        "title": "YouTube – SQL Full Course (BroCode)",
+        "title": "YouTube  SQL Full Course (BroCode)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY"
       }
@@ -901,17 +901,17 @@
     "prerequisites": ["SQL Basics"],
     "resources": [
       {
-        "title": "GFG – SQL Joins",
+        "title": "GFG  SQL Joins",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/sql-join-set-1-inner-left-right-and-full-joins/"
       },
       {
-        "title": "W3Schools – SQL Subqueries",
+        "title": "W3Schools  SQL Subqueries",
         "type": "article",
         "url": "https://www.w3schools.com/sql/sql_subqueries.asp"
       },
       {
-        "title": "YouTube – Joins & Subqueries",
+        "title": "YouTube  Joins & Subqueries",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=9yeOJ0ZMUYw"
       }
@@ -928,17 +928,17 @@
     "prerequisites": ["Relational Model & Keys"],
     "resources": [
       {
-        "title": "GFG – Normalization",
+        "title": "GFG  Normalization",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/database-normalization/"
       },
       {
-        "title": "Javatpoint – Normalization",
+        "title": "Javatpoint  Normalization",
         "type": "article",
         "url": "https://www.javatpoint.com/dbms-normalization"
       },
       {
-        "title": "YouTube – Normalization (Gate Smashers)",
+        "title": "YouTube  Normalization (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=UrYLYV7WSHM"
       }
@@ -955,17 +955,17 @@
     "prerequisites": ["DBMS Basics"],
     "resources": [
       {
-        "title": "GFG – ACID Properties",
+        "title": "GFG  ACID Properties",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/acid-properties-in-dbms/"
       },
       {
-        "title": "TutorialsPoint – Transactions",
+        "title": "TutorialsPoint  Transactions",
         "type": "article",
         "url": "https://www.tutorialspoint.com/dbms/dbms_transactions.htm"
       },
       {
-        "title": "YouTube – Transactions in DBMS (Gate Smashers)",
+        "title": "YouTube  Transactions in DBMS (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=tJST9u2sQ8E"
       }
@@ -982,17 +982,17 @@
     "prerequisites": ["Advanced SQL"],
     "resources": [
       {
-        "title": "GFG – Indexing in DBMS",
+        "title": "GFG  Indexing in DBMS",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/indexing-in-databases-set-1/"
       },
       {
-        "title": "Javatpoint – Indexes",
+        "title": "Javatpoint  Indexes",
         "type": "article",
         "url": "https://www.javatpoint.com/dbms-index"
       },
       {
-        "title": "YouTube – Indexing Explained",
+        "title": "YouTube  Indexing Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=HubezKbFL7E"
       }
@@ -1009,17 +1009,17 @@
     "prerequisites": ["SQL Basics"],
     "resources": [
       {
-        "title": "GFG – Query Processing",
+        "title": "GFG  Query Processing",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/query-processing-in-dbms/"
       },
       {
-        "title": "TutorialsPoint – Query Processing",
+        "title": "TutorialsPoint  Query Processing",
         "type": "article",
         "url": "https://www.tutorialspoint.com/dbms/dbms_query_processing.htm"
       },
       {
-        "title": "YouTube – Query Processing (Gate Smashers)",
+        "title": "YouTube  Query Processing (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=2s9gFQ_tC98"
       }
@@ -1036,17 +1036,17 @@
     "prerequisites": ["Transactions & ACID Properties"],
     "resources": [
       {
-        "title": "GFG – Concurrency Control",
+        "title": "GFG  Concurrency Control",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/concurrency-control-in-dbms/"
       },
       {
-        "title": "TutorialsPoint – Concurrency",
+        "title": "TutorialsPoint  Concurrency",
         "type": "article",
         "url": "https://www.tutorialspoint.com/dbms/dbms_concurrency_control.htm"
       },
       {
-        "title": "YouTube – Concurrency Control (Gate Smashers)",
+        "title": "YouTube  Concurrency Control (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=kosN2OhBVAI"
       }
@@ -1063,17 +1063,17 @@
     "prerequisites": ["DBMS Basics"],
     "resources": [
       {
-        "title": "GFG – File Organization",
+        "title": "GFG  File Organization",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/file-organization-in-dbms/"
       },
       {
-        "title": "Javatpoint – File Organization",
+        "title": "Javatpoint  File Organization",
         "type": "article",
         "url": "https://www.javatpoint.com/dbms-file-organization"
       },
       {
-        "title": "YouTube – File Organization (Gate Smashers)",
+        "title": "YouTube  File Organization (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=uky9QGqY8K8"
       }
@@ -1090,17 +1090,17 @@
     "prerequisites": ["Relational Model & Keys"],
     "resources": [
       {
-        "title": "GFG – Relational Algebra",
+        "title": "GFG  Relational Algebra",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/relational-algebra-in-dbms/"
       },
       {
-        "title": "Javatpoint – Relational Algebra",
+        "title": "Javatpoint  Relational Algebra",
         "type": "article",
         "url": "https://www.javatpoint.com/dbms-relational-algebra"
       },
       {
-        "title": "YouTube – Relational Algebra (Gate Smashers)",
+        "title": "YouTube  Relational Algebra (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=Wb5p3d9ZL1Y"
       }
@@ -1117,17 +1117,17 @@
     "prerequisites": ["File Organization"],
     "resources": [
       {
-        "title": "GFG – Buffer Manager",
+        "title": "GFG  Buffer Manager",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/buffer-manager-in-dbms/"
       },
       {
-        "title": "TutorialsPoint – Storage Management",
+        "title": "TutorialsPoint  Storage Management",
         "type": "article",
         "url": "https://www.tutorialspoint.com/dbms/dbms_storage_system.htm"
       },
       {
-        "title": "YouTube – Storage & Buffering",
+        "title": "YouTube  Storage & Buffering",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=SFEg0EyrwWw"
       }
@@ -1144,17 +1144,17 @@
     "prerequisites": ["DBMS Basics"],
     "resources": [
       {
-        "title": "GFG – Distributed Databases",
+        "title": "GFG  Distributed Databases",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/distributed-database/"
       },
       {
-        "title": "Javatpoint – Distributed DBMS",
+        "title": "Javatpoint  Distributed DBMS",
         "type": "article",
         "url": "https://www.javatpoint.com/distributed-dbms"
       },
       {
-        "title": "YouTube – Distributed DBMS (Gate Smashers)",
+        "title": "YouTube  Distributed DBMS (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=-HNBKxv6Uuk"
       }
@@ -1171,17 +1171,17 @@
     "prerequisites": ["DBMS Basics"],
     "resources": [
       {
-        "title": "MongoDB – NoSQL Introduction",
+        "title": "MongoDB  NoSQL Introduction",
         "type": "article",
         "url": "https://www.mongodb.com/nosql-explained"
       },
       {
-        "title": "GFG – NoSQL Databases",
+        "title": "GFG  NoSQL Databases",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/nosql-databases/"
       },
       {
-        "title": "YouTube – NoSQL Explained",
+        "title": "YouTube  NoSQL Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=W2Z7fbCLSTw"
       }
@@ -1199,17 +1199,17 @@
     "prerequisites": [],
     "resources": [
       {
-        "title": "GFG – Operating System Introduction",
+        "title": "GFG  Operating System Introduction",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/introduction-of-operating-system-set-1/"
       },
       {
-        "title": "TutorialsPoint – OS Overview",
+        "title": "TutorialsPoint  OS Overview",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_overview.htm"
       },
       {
-        "title": "YouTube – OS Full Course (Gate Smashers)",
+        "title": "YouTube  OS Full Course (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=_TpOHMCODXo"
       }
@@ -1227,17 +1227,17 @@
     "prerequisites": ["Operating System Basics"],
     "resources": [
       {
-        "title": "GFG – Process Management",
+        "title": "GFG  Process Management",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/process-states-in-operating-system/"
       },
       {
-        "title": "TutorialsPoint – Process Concepts",
+        "title": "TutorialsPoint  Process Concepts",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_processes.htm"
       },
       {
-        "title": "YouTube – Process Management (Gate Smashers)",
+        "title": "YouTube  Process Management (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=8C0d_g82Yhc"
       }
@@ -1255,17 +1255,17 @@
     "prerequisites": ["Process Management"],
     "resources": [
       {
-        "title": "GFG – CPU Scheduling",
+        "title": "GFG  CPU Scheduling",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/"
       },
       {
-        "title": "TutorialsPoint – Scheduling Algorithms",
+        "title": "TutorialsPoint  Scheduling Algorithms",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_process_scheduling.htm"
       },
       {
-        "title": "YouTube – Scheduling Algorithms (Gate Smashers)",
+        "title": "YouTube  Scheduling Algorithms (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=iE7t0jv2eZ4"
       }
@@ -1283,17 +1283,17 @@
     "prerequisites": ["Process Management"],
     "resources": [
       {
-        "title": "GFG – Threads in OS",
+        "title": "GFG  Threads in OS",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/thread-in-operating-system/"
       },
       {
-        "title": "Javatpoint – Multithreading",
+        "title": "Javatpoint  Multithreading",
         "type": "article",
         "url": "https://www.javatpoint.com/multithreading-in-java"
       },
       {
-        "title": "YouTube – Threads & Multithreading",
+        "title": "YouTube  Threads & Multithreading",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=0yOoR6sAu5U"
       }
@@ -1311,17 +1311,17 @@
     "prerequisites": ["Threads & Multithreading"],
     "resources": [
       {
-        "title": "GFG – Deadlocks in OS",
+        "title": "GFG  Deadlocks in OS",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/deadlock-in-operating-system/"
       },
       {
-        "title": "TutorialsPoint – Deadlocks",
+        "title": "TutorialsPoint  Deadlocks",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_deadlocks.htm"
       },
       {
-        "title": "YouTube – Deadlocks (Gate Smashers)",
+        "title": "YouTube  Deadlocks (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=aKgf8r5O2Sg"
       }
@@ -1339,17 +1339,17 @@
     "prerequisites": ["Operating System Basics"],
     "resources": [
       {
-        "title": "GFG – Memory Management",
+        "title": "GFG  Memory Management",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/memory-management-in-operating-system/"
       },
       {
-        "title": "TutorialsPoint – Memory Management",
+        "title": "TutorialsPoint  Memory Management",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_memory_management.htm"
       },
       {
-        "title": "YouTube – Memory Management",
+        "title": "YouTube  Memory Management",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=laJ6vtgG0IQ"
       }
@@ -1367,17 +1367,17 @@
     "prerequisites": ["Memory Management Basics"],
     "resources": [
       {
-        "title": "GFG – Paging",
+        "title": "GFG  Paging",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/paging-in-operating-system/"
       },
       {
-        "title": "GFG – Segmentation",
+        "title": "GFG  Segmentation",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/segmentation-in-operating-system/"
       },
       {
-        "title": "YouTube – Paging & Segmentation (Gate Smashers)",
+        "title": "YouTube  Paging & Segmentation (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=FJIf7YzLcm8"
       }
@@ -1395,17 +1395,17 @@
     "prerequisites": ["Paging & Segmentation"],
     "resources": [
       {
-        "title": "GFG – Virtual Memory",
+        "title": "GFG  Virtual Memory",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/virtual-memory-in-operating-system/"
       },
       {
-        "title": "TutorialsPoint – Virtual Memory",
+        "title": "TutorialsPoint  Virtual Memory",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_virtual_memory.htm"
       },
       {
-        "title": "YouTube – Virtual Memory (Gate Smashers)",
+        "title": "YouTube  Virtual Memory (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=EGDsmnlHtME"
       }
@@ -1423,17 +1423,17 @@
     "prerequisites": ["Memory Management Basics"],
     "resources": [
       {
-        "title": "GFG – Disk Scheduling",
+        "title": "GFG  Disk Scheduling",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/disk-scheduling-algorithms/"
       },
       {
-        "title": "TutorialsPoint – Disk Scheduling",
+        "title": "TutorialsPoint  Disk Scheduling",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_disk_scheduling.htm"
       },
       {
-        "title": "YouTube – Disk Scheduling (Gate Smashers)",
+        "title": "YouTube  Disk Scheduling (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=sJ3Z6QjCz4U"
       }
@@ -1451,17 +1451,17 @@
     "prerequisites": ["Operating System Basics"],
     "resources": [
       {
-        "title": "GFG – File System",
+        "title": "GFG  File System",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/file-system-in-operating-system/"
       },
       {
-        "title": "TutorialsPoint – File System",
+        "title": "TutorialsPoint  File System",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_file_system.htm"
       },
       {
-        "title": "YouTube – File System (Gate Smashers)",
+        "title": "YouTube  File System (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=AE1h4F9Wrc4"
       }
@@ -1479,17 +1479,17 @@
     "prerequisites": ["Operating System Basics"],
     "resources": [
       {
-        "title": "GFG – IO Management",
+        "title": "GFG  IO Management",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/io-management-in-operating-system/"
       },
       {
-        "title": "TutorialsPoint – IO System",
+        "title": "TutorialsPoint  IO System",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_io_hardware.htm"
       },
       {
-        "title": "YouTube – IO Management",
+        "title": "YouTube  IO Management",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=XRAiwbHXuJ0"
       }
@@ -1507,17 +1507,17 @@
     "prerequisites": ["Threads & Multithreading"],
     "resources": [
       {
-        "title": "GFG – Synchronization",
+        "title": "GFG  Synchronization",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/process-synchronization-in-operating-system/"
       },
       {
-        "title": "TutorialsPoint – Synchronization",
+        "title": "TutorialsPoint  Synchronization",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_process_synchronization.htm"
       },
       {
-        "title": "YouTube – Synchronization (Gate Smashers)",
+        "title": "YouTube  Synchronization (Gate Smashers)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=OV5N3eBmq-s"
       }
@@ -1535,17 +1535,17 @@
     "prerequisites": ["Process Synchronization"],
     "resources": [
       {
-        "title": "GFG – Semaphores",
+        "title": "GFG  Semaphores",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/semaphores-in-process-synchronization/"
       },
       {
-        "title": "GFG – Mutex",
+        "title": "GFG  Mutex",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/mutex-in-operating-system/"
       },
       {
-        "title": "YouTube – Semaphore vs Mutex",
+        "title": "YouTube  Semaphore vs Mutex",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=H9CSWMxJx84"
       }
@@ -1563,17 +1563,17 @@
     "prerequisites": [],
     "resources": [
       {
-        "title": "GFG – Basic Linux Commands",
+        "title": "GFG  Basic Linux Commands",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/basic-linux-commands/"
       },
       {
-        "title": "TutorialsPoint – Linux Intro",
+        "title": "TutorialsPoint  Linux Intro",
         "type": "article",
         "url": "https://www.tutorialspoint.com/unix/unix-getting-started.htm"
       },
       {
-        "title": "YouTube – Linux Commands Crash Course",
+        "title": "YouTube  Linux Commands Crash Course",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=gd7BXuUQ91w"
       }
@@ -1591,17 +1591,17 @@
     "prerequisites": ["Operating System Basics"],
     "resources": [
       {
-        "title": "GFG – System Calls",
+        "title": "GFG  System Calls",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/system-calls-in-operating-system/"
       },
       {
-        "title": "TutorialsPoint – System Calls Overview",
+        "title": "TutorialsPoint  System Calls Overview",
         "type": "article",
         "url": "https://www.tutorialspoint.com/operating_system/os_system_calls.htm"
       },
       {
-        "title": "YouTube – System Calls",
+        "title": "YouTube  System Calls",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=WgY0LxTZuXk"
       }
@@ -1619,17 +1619,17 @@
     "prerequisites": [],
     "resources": [
       {
-        "title": "AWS – What Is Cloud Computing?",
+        "title": "AWS  What Is Cloud Computing?",
         "type": "article",
         "url": "https://aws.amazon.com/what-is-cloud-computing/"
       },
       {
-        "title": "GFG – Introduction to Cloud Computing",
+        "title": "GFG  Introduction to Cloud Computing",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/introduction-to-cloud-computing/"
       },
       {
-        "title": "YouTube – Cloud Computing Basics (Simplilearn)",
+        "title": "YouTube  Cloud Computing Basics (Simplilearn)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=2LaAJq1lB1Q"
       }
@@ -1647,17 +1647,17 @@
     "prerequisites": ["Cloud Computing Basics"],
     "resources": [
       {
-        "title": "GFG – Cloud Service Models",
+        "title": "GFG  Cloud Service Models",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/cloud-service-models/"
       },
       {
-        "title": "IBM – IaaS vs PaaS vs SaaS",
+        "title": "IBM  IaaS vs PaaS vs SaaS",
         "type": "article",
         "url": "https://www.ibm.com/cloud/learn/iaas-paas-saas"
       },
       {
-        "title": "YouTube – IaaS vs PaaS vs SaaS",
+        "title": "YouTube  IaaS vs PaaS vs SaaS",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=KZnN6iO1TRY"
       }
@@ -1675,17 +1675,17 @@
     "prerequisites": ["Cloud Computing Basics"],
     "resources": [
       {
-        "title": "GFG – Cloud Deployment Models",
+        "title": "GFG  Cloud Deployment Models",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/deployment-models-in-cloud-computing/"
       },
       {
-        "title": "Microsoft – Cloud Models Overview",
+        "title": "Microsoft  Cloud Models Overview",
         "type": "article",
         "url": "https://learn.microsoft.com/azure/cloud-adoption-framework/ready/considerations/cloud-deployment-models"
       },
       {
-        "title": "YouTube – Cloud Deployment Models",
+        "title": "YouTube  Cloud Deployment Models",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=R2dHzAoT-XY"
       }
@@ -1703,17 +1703,17 @@
     "prerequisites": ["Service Models"],
     "resources": [
       {
-        "title": "GFG – Virtualization in Cloud",
+        "title": "GFG  Virtualization in Cloud",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/virtualization-in-cloud-computing/"
       },
       {
-        "title": "VMware – What Is Virtualization?",
+        "title": "VMware  What Is Virtualization?",
         "type": "article",
         "url": "https://www.vmware.com/topics/glossary/content/virtualization.html"
       },
       {
-        "title": "YouTube – Virtualization Explained",
+        "title": "YouTube  Virtualization Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=FZR0rG3HKIk"
       }
@@ -1731,17 +1731,17 @@
     "prerequisites": ["Cloud Basics"],
     "resources": [
       {
-        "title": "AWS – Cloud Architecture Fundamentals",
+        "title": "AWS  Cloud Architecture Fundamentals",
         "type": "article",
         "url": "https://aws.amazon.com/architecture/"
       },
       {
-        "title": "GFG – Cloud Architecture",
+        "title": "GFG  Cloud Architecture",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/cloud-computing-architecture/"
       },
       {
-        "title": "YouTube – Cloud Architecture Explained",
+        "title": "YouTube  Cloud Architecture Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=Pi1tqK30o0w"
       }
@@ -1759,17 +1759,17 @@
     "prerequisites": ["Cloud Basics"],
     "resources": [
       {
-        "title": "AWS – EC2 Overview",
+        "title": "AWS  EC2 Overview",
         "type": "article",
         "url": "https://aws.amazon.com/ec2/"
       },
       {
-        "title": "AWS – S3 Storage Overview",
+        "title": "AWS  S3 Storage Overview",
         "type": "article",
         "url": "https://aws.amazon.com/s3/"
       },
       {
-        "title": "YouTube – AWS Explained Simply",
+        "title": "YouTube  AWS Explained Simply",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=ulprqHHWlng"
       }
@@ -1787,17 +1787,17 @@
     "prerequisites": ["Cloud Basics"],
     "resources": [
       {
-        "title": "Microsoft – Azure Fundamentals",
+        "title": "Microsoft  Azure Fundamentals",
         "type": "article",
         "url": "https://learn.microsoft.com/azure/fundamentals/overview"
       },
       {
-        "title": "Azure – Compute Services Overview",
+        "title": "Azure  Compute Services Overview",
         "type": "article",
         "url": "https://learn.microsoft.com/azure/architecture/guide/technology-choices/compute-decision-tree"
       },
       {
-        "title": "YouTube – Azure Basics for Beginners",
+        "title": "YouTube  Azure Basics for Beginners",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=NKEFWyqJ5XA"
       }
@@ -1815,17 +1815,17 @@
     "prerequisites": ["Cloud Basics"],
     "resources": [
       {
-        "title": "Google – Cloud Overview",
+        "title": "Google  Cloud Overview",
         "type": "article",
         "url": "https://cloud.google.com/learn/what-is-cloud-computing"
       },
       {
-        "title": "GCP – Compute Engine",
+        "title": "GCP  Compute Engine",
         "type": "article",
         "url": "https://cloud.google.com/compute"
       },
       {
-        "title": "YouTube – GCP for Beginners",
+        "title": "YouTube  GCP for Beginners",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=jpno8FSqpc8"
       }
@@ -1843,17 +1843,17 @@
     "prerequisites": ["AWS/Azure/GCP Basics"],
     "resources": [
       {
-        "title": "AWS – Storage Types",
+        "title": "AWS  Storage Types",
         "type": "article",
         "url": "https://aws.amazon.com/products/storage/"
       },
       {
-        "title": "Azure – Storage Overview",
+        "title": "Azure  Storage Overview",
         "type": "article",
         "url": "https://learn.microsoft.com/azure/storage/common/storage-introduction"
       },
       {
-        "title": "YouTube – Cloud Storage Explained",
+        "title": "YouTube  Cloud Storage Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=dFrkZTDuQpE"
       }
@@ -1871,17 +1871,17 @@
     "prerequisites": ["Cloud Architecture Components"],
     "resources": [
       {
-        "title": "AWS – VPC Overview",
+        "title": "AWS  VPC Overview",
         "type": "article",
         "url": "https://aws.amazon.com/vpc/"
       },
       {
-        "title": "Azure – Virtual Network Overview",
+        "title": "Azure  Virtual Network Overview",
         "type": "article",
         "url": "https://learn.microsoft.com/azure/virtual-network/virtual-networks-overview"
       },
       {
-        "title": "YouTube – VPC Explained Simply",
+        "title": "YouTube  VPC Explained Simply",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=k-JYXpF1S5I"
       }
@@ -1899,17 +1899,17 @@
     "prerequisites": ["Service Models"],
     "resources": [
       {
-        "title": "AWS Lambda – Serverless",
+        "title": "AWS Lambda  Serverless",
         "type": "article",
         "url": "https://aws.amazon.com/lambda/"
       },
       {
-        "title": "GCP – Cloud Functions",
+        "title": "GCP  Cloud Functions",
         "type": "article",
         "url": "https://cloud.google.com/functions"
       },
       {
-        "title": "YouTube – Serverless Computing Explained",
+        "title": "YouTube  Serverless Computing Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=Q1gTNxJj-L8"
       }
@@ -1927,17 +1927,17 @@
     "prerequisites": ["Cloud Architecture"],
     "resources": [
       {
-        "title": "AWS – Cloud Security Overview",
+        "title": "AWS  Cloud Security Overview",
         "type": "article",
         "url": "https://aws.amazon.com/security/"
       },
       {
-        "title": "Cloudflare – Cloud Security Basics",
+        "title": "Cloudflare  Cloud Security Basics",
         "type": "article",
         "url": "https://www.cloudflare.com/learning/cloud/what-is-cloud-security/"
       },
       {
-        "title": "YouTube – Cloud Security Basics",
+        "title": "YouTube  Cloud Security Basics",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=9CffkJ5ID7Q"
       }
@@ -1955,17 +1955,17 @@
     "prerequisites": ["Cloud Basics"],
     "resources": [
       {
-        "title": "AWS – What Is DevOps?",
+        "title": "AWS  What Is DevOps?",
         "type": "article",
         "url": "https://aws.amazon.com/devops/what-is-devops/"
       },
       {
-        "title": "Azure – DevOps Documentation",
+        "title": "Azure  DevOps Documentation",
         "type": "article",
         "url": "https://learn.microsoft.com/azure/devops/user-guide/what-is-azure-devops"
       },
       {
-        "title": "YouTube – DevOps Explained",
+        "title": "YouTube  DevOps Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=hQcFE0RD0cQ"
       }
@@ -1983,17 +1983,17 @@
     "prerequisites": ["Cloud Architecture Components"],
     "resources": [
       {
-        "title": "AWS – CloudWatch",
+        "title": "AWS  CloudWatch",
         "type": "article",
         "url": "https://aws.amazon.com/cloudwatch/"
       },
       {
-        "title": "GCP – Cloud Monitoring",
+        "title": "GCP  Cloud Monitoring",
         "type": "article",
         "url": "https://cloud.google.com/monitoring"
       },
       {
-        "title": "YouTube – CloudWatch Basics",
+        "title": "YouTube  CloudWatch Basics",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=luGnJ6-PeQw"
       }
@@ -2011,17 +2011,17 @@
     "prerequisites": ["Virtualization"],
     "resources": [
       {
-        "title": "Kubernetes – What is Kubernetes?",
+        "title": "Kubernetes  What is Kubernetes?",
         "type": "article",
         "url": "https://kubernetes.io/docs/concepts/overview/"
       },
       {
-        "title": "Docker – What is a Container?",
+        "title": "Docker  What is a Container?",
         "type": "article",
         "url": "https://www.docker.com/resources/what-container/"
       },
       {
-        "title": "YouTube – Kubernetes Explained (TechWorld)",
+        "title": "YouTube  Kubernetes Explained (TechWorld)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=X48VuDVv0do"
       }
@@ -2039,17 +2039,17 @@
     "prerequisites": [],
     "resources": [
       {
-        "title": "MDN – HTML Basics",
+        "title": "MDN  HTML Basics",
         "type": "article",
         "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"
       },
       {
-        "title": "W3Schools – HTML Tutorial",
+        "title": "W3Schools  HTML Tutorial",
         "type": "article",
         "url": "https://www.w3schools.com/html/"
       },
       {
-        "title": "YouTube – HTML Full Course (Bro Code)",
+        "title": "YouTube  HTML Full Course (Bro Code)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=kUMe1FH4CHE"
       }
@@ -2067,17 +2067,17 @@
     "prerequisites": ["HTML Basics"],
     "resources": [
       {
-        "title": "MDN – CSS Basics",
+        "title": "MDN  CSS Basics",
         "type": "article",
         "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"
       },
       {
-        "title": "W3Schools – CSS Tutorial",
+        "title": "W3Schools  CSS Tutorial",
         "type": "article",
         "url": "https://www.w3schools.com/css/"
       },
       {
-        "title": "YouTube – CSS Full Course (Net Ninja)",
+        "title": "YouTube  CSS Full Course (Net Ninja)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=OXGznpKZ_sA"
       }
@@ -2095,17 +2095,17 @@
     "prerequisites": ["CSS Basics"],
     "resources": [
       {
-        "title": "MDN – Responsive Design",
+        "title": "MDN  Responsive Design",
         "type": "article",
         "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"
       },
       {
-        "title": "W3Schools – Responsive Web Design",
+        "title": "W3Schools  Responsive Web Design",
         "type": "article",
         "url": "https://www.w3schools.com/css/css_rwd_intro.asp"
       },
       {
-        "title": "YouTube – Responsive Design Tutorial",
+        "title": "YouTube  Responsive Design Tutorial",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=srvUrASNj0s"
       }
@@ -2123,17 +2123,17 @@
     "prerequisites": ["HTML Basics", "CSS Basics"],
     "resources": [
       {
-        "title": "MDN – JavaScript Guide",
+        "title": "MDN  JavaScript Guide",
         "type": "article",
         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
       },
       {
-        "title": "W3Schools – JavaScript Tutorial",
+        "title": "W3Schools  JavaScript Tutorial",
         "type": "article",
         "url": "https://www.w3schools.com/js/"
       },
       {
-        "title": "YouTube – JavaScript Full Course (Bro Code)",
+        "title": "YouTube  JavaScript Full Course (Bro Code)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=8dWL3wF_OMw"
       }
@@ -2151,17 +2151,17 @@
     "prerequisites": ["JavaScript Basics"],
     "resources": [
       {
-        "title": "MDN – DOM Introduction",
+        "title": "MDN  DOM Introduction",
         "type": "article",
         "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
       },
       {
-        "title": "JavaScript.info – DOM Manipulation",
+        "title": "JavaScript.info  DOM Manipulation",
         "type": "article",
         "url": "https://javascript.info/document"
       },
       {
-        "title": "YouTube – DOM Tutorial (Net Ninja)",
+        "title": "YouTube  DOM Tutorial (Net Ninja)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=0ik6X4DJKCc"
       }
@@ -2179,17 +2179,17 @@
     "prerequisites": ["JavaScript Basics"],
     "resources": [
       {
-        "title": "JavaScript.info – Modern JS",
+        "title": "JavaScript.info  Modern JS",
         "type": "article",
         "url": "https://javascript.info/"
       },
       {
-        "title": "MDN – ES6 Features",
+        "title": "MDN  ES6 Features",
         "type": "article",
         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
       },
       {
-        "title": "YouTube – ES6 Tutorial",
+        "title": "YouTube  ES6 Tutorial",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=IEf1KAcK6A8"
       }
@@ -2207,17 +2207,17 @@
     "prerequisites": ["Advanced JavaScript"],
     "resources": [
       {
-        "title": "React – Official Docs",
+        "title": "React  Official Docs",
         "type": "article",
         "url": "https://react.dev/"
       },
       {
-        "title": "Vue – Official Docs",
+        "title": "Vue  Official Docs",
         "type": "article",
         "url": "https://vuejs.org/guide/introduction.html"
       },
       {
-        "title": "YouTube – React vs Angular vs Vue",
+        "title": "YouTube  React vs Angular vs Vue",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=Zg9nQ0VYF-U"
       }
@@ -2235,17 +2235,17 @@
     "prerequisites": ["Frontend Frameworks Overview"],
     "resources": [
       {
-        "title": "React – Getting Started",
+        "title": "React  Getting Started",
         "type": "article",
         "url": "https://react.dev/learn"
       },
       {
-        "title": "W3Schools – React Tutorial",
+        "title": "W3Schools  React Tutorial",
         "type": "article",
         "url": "https://www.w3schools.com/react/"
       },
       {
-        "title": "YouTube – React Full Course (Net Ninja)",
+        "title": "YouTube  React Full Course (Net Ninja)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=EMfVch6Jv7A"
       }
@@ -2263,7 +2263,7 @@
     "prerequisites": [],
     "resources": [
       {
-        "title": "Git – Official Documentation",
+        "title": "Git  Official Documentation",
         "type": "article",
         "url": "https://git-scm.com/docs"
       },
@@ -2273,7 +2273,7 @@
         "url": "https://docs.github.com/en/get-started"
       },
       {
-        "title": "YouTube – Git & GitHub for Beginners (Kunal Kushwaha)",
+        "title": "YouTube  Git & GitHub for Beginners (Kunal Kushwaha)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=APOPm01BVrk"
       }
@@ -2291,17 +2291,17 @@
     "prerequisites": ["JavaScript Basics"],
     "resources": [
       {
-        "title": "MDN – Server-side Basics",
+        "title": "MDN  Server-side Basics",
         "type": "article",
         "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps"
       },
       {
-        "title": "W3Schools – Backend Intro",
+        "title": "W3Schools  Backend Intro",
         "type": "article",
         "url": "https://www.w3schools.com/whatis/whatis_back_end.asp"
       },
       {
-        "title": "YouTube – Backend Explained",
+        "title": "YouTube  Backend Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=ENrzD9HAZK4"
       }
@@ -2319,17 +2319,17 @@
     "prerequisites": ["Backend Basics"],
     "resources": [
       {
-        "title": "Node.js – Official Docs",
+        "title": "Node.js  Official Docs",
         "type": "article",
         "url": "https://nodejs.org/en/learn"
       },
       {
-        "title": "W3Schools – Node.js Tutorial",
+        "title": "W3Schools  Node.js Tutorial",
         "type": "article",
         "url": "https://www.w3schools.com/nodejs/"
       },
       {
-        "title": "YouTube – Node.js Full Course (Bro Code)",
+        "title": "YouTube  Node.js Full Course (Bro Code)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=ENrzD9HAZK4"
       }
@@ -2347,17 +2347,17 @@
     "prerequisites": ["Node.js Basics"],
     "resources": [
       {
-        "title": "Express – Guide",
+        "title": "Express  Guide",
         "type": "article",
         "url": "https://expressjs.com/en/starter/installing.html"
       },
       {
-        "title": "MDN – Express Tutorial",
+        "title": "MDN  Express Tutorial",
         "type": "article",
         "url": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
       },
       {
-        "title": "YouTube – Express.js Crash Course (Traversy Media)",
+        "title": "YouTube  Express.js Crash Course (Traversy Media)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=L72fhGm1tfE"
       }
@@ -2375,17 +2375,17 @@
     "prerequisites": ["Backend Basics"],
     "resources": [
       {
-        "title": "MongoDB – Basics",
+        "title": "MongoDB  Basics",
         "type": "article",
         "url": "https://www.mongodb.com/docs/manual/introduction/"
       },
       {
-        "title": "MySQL – Official Docs",
+        "title": "MySQL  Official Docs",
         "type": "article",
         "url": "https://dev.mysql.com/doc/refman/8.0/en/"
       },
       {
-        "title": "YouTube – SQL vs NoSQL",
+        "title": "YouTube  SQL vs NoSQL",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=ZS_kXvOeQ5Y"
       }
@@ -2403,17 +2403,17 @@
     "prerequisites": ["Express.js Basics"],
     "resources": [
       {
-        "title": "MDN – API Concepts",
+        "title": "MDN  API Concepts",
         "type": "article",
         "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction"
       },
       {
-        "title": "Postman – REST API Basics",
+        "title": "Postman  REST API Basics",
         "type": "article",
         "url": "https://learning.postman.com/docs/developer/intro-api/"
       },
       {
-        "title": "YouTube – REST API Crash Course (Traversy Media)",
+        "title": "YouTube  REST API Crash Course (Traversy Media)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=Q-BpqyOT3a8"
       }
@@ -2431,17 +2431,17 @@
     "prerequisites": ["REST APIs"],
     "resources": [
       {
-        "title": "Vercel – Deployment Guide",
+        "title": "Vercel  Deployment Guide",
         "type": "article",
         "url": "https://vercel.com/docs/deployments/overview"
       },
       {
-        "title": "Netlify – Deployment Docs",
+        "title": "Netlify  Deployment Docs",
         "type": "article",
         "url": "https://docs.netlify.com/"
       },
       {
-        "title": "YouTube – Deploy Websites for Free",
+        "title": "YouTube  Deploy Websites for Free",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=OltY8JIaP-4"
       }
@@ -2459,17 +2459,17 @@
     "prerequisites": [],
     "resources": [
       {
-        "title": "Cisco – What Is Cybersecurity?",
+        "title": "Cisco  What Is Cybersecurity?",
         "type": "article",
         "url": "https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html"
       },
       {
-        "title": "IBM – Cybersecurity Overview",
+        "title": "IBM  Cybersecurity Overview",
         "type": "article",
         "url": "https://www.ibm.com/topics/cybersecurity"
       },
       {
-        "title": "YouTube – Cybersecurity Explained (Simplilearn)",
+        "title": "YouTube  Cybersecurity Explained (Simplilearn)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=inWWhr5tnEA"
       }
@@ -2487,17 +2487,17 @@
     "prerequisites": ["Introduction to Cybersecurity"],
     "resources": [
       {
-        "title": "Cloudflare – CIA Triad",
+        "title": "Cloudflare  CIA Triad",
         "type": "article",
         "url": "https://www.cloudflare.com/learning/security/what-is-the-cia-triad/"
       },
       {
-        "title": "GFG – CIA Triad Explained",
+        "title": "GFG  CIA Triad Explained",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/cia-triad-in-information-security/"
       },
       {
-        "title": "YouTube – CIA Triad in Simple Terms",
+        "title": "YouTube  CIA Triad in Simple Terms",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=ZcYJ19wHh0E"
       }
@@ -2515,17 +2515,17 @@
     "prerequisites": ["Introduction to Cybersecurity"],
     "resources": [
       {
-        "title": "Kaspersky – Types of Malware",
+        "title": "Kaspersky  Types of Malware",
         "type": "article",
         "url": "https://www.kaspersky.com/resource-center/threats/malware"
       },
       {
-        "title": "GFG – Cyber Attacks",
+        "title": "GFG  Cyber Attacks",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/types-of-cyber-attacks/"
       },
       {
-        "title": "YouTube – Malware Explained",
+        "title": "YouTube  Malware Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=pvKBnGQkEI0"
       }
@@ -2543,17 +2543,17 @@
     "prerequisites": ["Introduction to Computer Networks"],
     "resources": [
       {
-        "title": "Cloudflare – What Is Network Security?",
+        "title": "Cloudflare  What Is Network Security?",
         "type": "article",
         "url": "https://www.cloudflare.com/learning/security/what-is-network-security/"
       },
       {
-        "title": "GFG – Network Security Basics",
+        "title": "GFG  Network Security Basics",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/network-security/"
       },
       {
-        "title": "YouTube – Network Security Concepts (PowerCert)",
+        "title": "YouTube  Network Security Concepts (PowerCert)",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=8d4RtvMQp10"
       }
@@ -2571,17 +2571,17 @@
     "prerequisites": ["Networking for Security"],
     "resources": [
       {
-        "title": "Cloudflare – What Is a Firewall?",
+        "title": "Cloudflare  What Is a Firewall?",
         "type": "article",
         "url": "https://www.cloudflare.com/learning/network-layer/what-is-a-firewall/"
       },
       {
-        "title": "Palo Alto – IDS vs IPS",
+        "title": "Palo Alto  IDS vs IPS",
         "type": "article",
         "url": "https://www.paloaltonetworks.com/cyberpedia/what-is-an-ids-and-ips"
       },
       {
-        "title": "YouTube – Firewalls, IDS, IPS Explained",
+        "title": "YouTube  Firewalls, IDS, IPS Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=w0Q4FWS0f1E"
       }
@@ -2599,17 +2599,17 @@
     "prerequisites": [],
     "resources": [
       {
-        "title": "SSL – What Is Cryptography?",
+        "title": "SSL  What Is Cryptography?",
         "type": "article",
         "url": "https://www.ssl.com/faqs/what-is-cryptography/"
       },
       {
-        "title": "GFG – Cryptography Introduction",
+        "title": "GFG  Cryptography Introduction",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/cryptography-in-network-security/"
       },
       {
-        "title": "YouTube – Cryptography Explained",
+        "title": "YouTube  Cryptography Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=6-JjHa-qLPk"
       }
@@ -2627,17 +2627,17 @@
     "prerequisites": ["Cryptography Basics"],
     "resources": [
       {
-        "title": "OWASP – Password Storage",
+        "title": "OWASP  Password Storage",
         "type": "article",
         "url": "https://owasp.org/www-project-cheat-sheets/cheatsheets/Password_Storage_Cheat_Sheet.html"
       },
       {
-        "title": "GFG – Hash Functions",
+        "title": "GFG  Hash Functions",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/hash-functions-in-cryptography/"
       },
       {
-        "title": "YouTube – Hashing Explained",
+        "title": "YouTube  Hashing Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=b4b8ktEV4Bg"
       }
@@ -2655,17 +2655,17 @@
     "prerequisites": ["Cryptography Basics"],
     "resources": [
       {
-        "title": "SSL – What Is PKI?",
+        "title": "SSL  What Is PKI?",
         "type": "article",
         "url": "https://www.ssl.com/faqs/what-is-public-key-infrastructure/"
       },
       {
-        "title": "Cloudflare – How TLS Works",
+        "title": "Cloudflare  How TLS Works",
         "type": "article",
         "url": "https://www.cloudflare.com/learning/ssl/how-tls-works/"
       },
       {
-        "title": "YouTube – PKI & Certificates",
+        "title": "YouTube  PKI & Certificates",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=APmWEYyB1p0"
       }
@@ -2683,17 +2683,17 @@
     "prerequisites": ["Web Development Basics"],
     "resources": [
       {
-        "title": "OWASP – Top 10 Attacks",
+        "title": "OWASP  Top 10 Attacks",
         "type": "article",
         "url": "https://owasp.org/www-project-top-ten/"
       },
       {
-        "title": "Mozilla – Web Security Guidelines",
+        "title": "Mozilla  Web Security Guidelines",
         "type": "article",
         "url": "https://infosec.mozilla.org/guidelines/web_security"
       },
       {
-        "title": "YouTube – OWASP Top 10 Explained",
+        "title": "YouTube  OWASP Top 10 Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=-lN8L7E7GWY"
       }
@@ -2711,17 +2711,17 @@
     "prerequisites": ["Web Security Basics"],
     "resources": [
       {
-        "title": "OWASP – Application Security Overview",
+        "title": "OWASP  Application Security Overview",
         "type": "article",
         "url": "https://owasp.org/www-community/Application_Security"
       },
       {
-        "title": "PortSwigger – Web Security Academy",
+        "title": "PortSwigger  Web Security Academy",
         "type": "article",
         "url": "https://portswigger.net/web-security"
       },
       {
-        "title": "YouTube – AppSec Basics",
+        "title": "YouTube  AppSec Basics",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=bv0sU1X8z1k"
       }
@@ -2739,17 +2739,17 @@
     "prerequisites": ["OS Basics"],
     "resources": [
       {
-        "title": "RedHat – OS Security Overview",
+        "title": "RedHat  OS Security Overview",
         "type": "article",
         "url": "https://www.redhat.com/en/topics/security/what-is-operating-system-security"
       },
       {
-        "title": "GFG – Security in OS",
+        "title": "GFG  Security in OS",
         "type": "article",
         "url": "https://www.geeksforgeeks.org/security-in-operating-system/"
       },
       {
-        "title": "YouTube – Operating System Security",
+        "title": "YouTube  Operating System Security",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=JkXszV5nM6Q"
       }
@@ -2767,17 +2767,17 @@
     "prerequisites": ["Cloud Basics"],
     "resources": [
       {
-        "title": "AWS – Cloud Security",
+        "title": "AWS  Cloud Security",
         "type": "article",
         "url": "https://aws.amazon.com/security/"
       },
       {
-        "title": "Google – Cloud Security Overview",
+        "title": "Google  Cloud Security Overview",
         "type": "article",
         "url": "https://cloud.google.com/security"
       },
       {
-        "title": "YouTube – Cloud Security Basics",
+        "title": "YouTube  Cloud Security Basics",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=9CffkJ5ID7Q"
       }
@@ -2795,17 +2795,17 @@
     "prerequisites": ["Cybersecurity Basics"],
     "resources": [
       {
-        "title": "OWASP – Mobile Security Project",
+        "title": "OWASP  Mobile Security Project",
         "type": "article",
         "url": "https://owasp.org/www-project-mobile-security/"
       },
       {
-        "title": "Kaspersky – Mobile Security Threats",
+        "title": "Kaspersky  Mobile Security Threats",
         "type": "article",
         "url": "https://www.kaspersky.com/resource-center/threats/mobile-security-threats"
       },
       {
-        "title": "YouTube – Mobile Security Basics",
+        "title": "YouTube  Mobile Security Basics",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=SW_G9afvzts"
       }
@@ -2823,17 +2823,17 @@
     "prerequisites": ["Cybersecurity Basics"],
     "resources": [
       {
-        "title": "IBM – What Is Incident Response?",
+        "title": "IBM  What Is Incident Response?",
         "type": "article",
         "url": "https://www.ibm.com/topics/incident-response"
       },
       {
-        "title": "CrowdStrike – SOC Overview",
+        "title": "CrowdStrike  SOC Overview",
         "type": "article",
         "url": "https://www.crowdstrike.com/cybersecurity-101/security-operations-center-soc/"
       },
       {
-        "title": "YouTube – SOC Explained",
+        "title": "YouTube  SOC Explained",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=rA1ZevdgD8E"
       }
@@ -2851,17 +2851,17 @@
     "prerequisites": ["Cybersecurity Basics"],
     "resources": [
       {
-        "title": "EC-Council – What Is Ethical Hacking?",
+        "title": "EC-Council  What Is Ethical Hacking?",
         "type": "article",
         "url": "https://www.eccouncil.org/ethical-hacking/"
       },
       {
-        "title": "TryHackMe – Beginner Path",
+        "title": "TryHackMe  Beginner Path",
         "type": "article",
         "url": "https://tryhackme.com/path/outline/beginner"
       },
       {
-        "title": "YouTube – Ethical Hacking Basics",
+        "title": "YouTube  Ethical Hacking Basics",
         "type": "youtube",
         "url": "https://www.youtube.com/watch?v=3K8GX4j4qIQ"
       }

@@ -9,9 +9,12 @@ Why this is needed:
 """
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 
-# Load environment variables from .env file
-load_dotenv()
+# Load .env from project root (one level up from rag_service/)
+root_dir = Path(__file__).parent.parent.parent  # Go up 3 levels: config.py → app → rag_service → root
+env_path = root_dir / ".env"
+load_dotenv(dotenv_path=env_path)
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 

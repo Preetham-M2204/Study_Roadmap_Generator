@@ -1,0 +1,420 @@
+/**
+ * Login.css - Styles for Login/Register Page
+ * 
+ * DESIGN PRINCIPLES:
+ * - Blue color scheme (trust, professionalism)
+ * - NO EMOJIS (icons/text only)
+ * - Clean, minimalist design
+ * - Responsive (works on mobile/tablet/desktop)
+ * - Smooth transitions and hover effects
+ */
+
+/* ============================================
+   CONTAINER & LAYOUT
+   ============================================ */
+
+/**
+ * Main container
+ * 
+ * display: flex - Flexbox for centering
+ * justify-content: center - Center horizontally
+ * align-items: center - Center vertically
+ * min-height: 100vh - Full viewport height
+ * 
+ * BLUE PALETTE (from design):
+ * #003A6B - Darkest blue
+ * #1B5886 - Dark blue
+ * #3776A1 - Medium blue
+ * #5293BB - Light blue
+ * #6EBBD6 - Lighter blue
+ * #89CFF1 - Lightest blue
+ */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #1B5886 0%, #3776A1 50%, #5293BB 100%);
+  overflow-y: auto;
+}
+
+/**
+ * Background gradient overlay
+ * 
+ * Creates depth with layered gradients using blue palette
+ * position: absolute - Positioned behind card
+ */
+.login-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(27, 88, 134, 0.3), transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(55, 118, 161, 0.3), transparent 50%);
+  z-index: 0;
+}
+
+/* ============================================
+   LOGIN CARD
+   ============================================ */
+
+/**
+ * Main card container
+ * 
+ * RESPONSIVE DESIGN:
+ * - Desktop: 550px centered card
+ * - Tablet: 90% width
+ * - Mobile: Full width with padding
+ */
+.login-card {
+  position: relative;
+  z-index: 1;
+  background: white;
+  padding: 48px;
+  border-radius: 16px;
+  box-shadow: 
+    0 10px 40px rgba(0, 0, 0, 0.1),
+    0 2px 8px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 550px;
+  animation: fadeIn 0.5s ease-in;
+}
+
+/**
+ * Fade-in animation
+ * 
+ * Makes card appear smoothly on load
+ */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+
+.login-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+/**
+ * Main title
+ * 
+ * Blue gradient text for brand identity
+ * -webkit-background-clip: Makes gradient show on text
+ */
+.login-title {
+  font-size: 32px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #003A6B 0%, #3776A1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+
+.login-subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  font-weight: 400;
+}
+
+/* ============================================
+   ERROR MESSAGE
+   ============================================ */
+
+/**
+ * Error alert box
+ * 
+ * Red border and background for visibility
+ * Appears above form when validation fails
+ */
+.error-message {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #dc2626;
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  font-size: 14px;
+  animation: shake 0.3s ease-in-out;
+}
+
+/**
+ * Shake animation for errors
+ * 
+ * Draws attention to error message
+ */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+/* ============================================
+   FORM ELEMENTS
+   ============================================ */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/**
+ * Form group (label + input)
+ * 
+ * Groups related elements together
+ */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/**
+ * Form labels
+ * 
+ * font-weight: 500 - Medium weight (not too bold)
+ * color: Dark gray for readability
+ */
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+/**
+ * Text inputs
+ * 
+ * DESIGN NOTES:
+ * - Blue border on focus (brand color)
+ * - Smooth transition (0.2s)
+ * - Padding for comfortable typing
+ * - Disabled state (gray background)
+ */
+.form-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #1f2937;
+  background-color: white;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+/**
+ * Input focus state
+ * 
+ * Blue border when user clicks/tabs into field
+ * box-shadow: Subtle glow effect
+ */
+.form-input:focus {
+  border-color: #3776A1;
+  box-shadow: 0 0 0 3px rgba(55, 118, 161, 0.1);
+}
+
+/**
+ * Input disabled state
+ * 
+ * Gray background when loading
+ * cursor: not-allowed - Shows "no" cursor
+ */
+.form-input:disabled {
+  background-color: #f9fafb;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/**
+ * Placeholder text color
+ * 
+ * Light gray for subtle hint
+ */
+.form-input::placeholder {
+  color: #9ca3af;
+}
+
+/* ============================================
+   SUBMIT BUTTON
+   ============================================ */
+
+/**
+ * Primary action button
+ * 
+ * DESIGN NOTES:
+ * - Blue gradient (matches brand palette)
+ * - Full width for easy clicking
+ * - Large padding for mobile friendliness
+ * - Hover effect (darker blue)
+ * - Disabled state (gray, no pointer)
+ */
+.submit-button {
+  width: 100%;
+  padding: 14px 24px;
+  background: linear-gradient(135deg, #1B5886 0%, #3776A1 100%);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 8px;
+  box-shadow: 0 4px 12px rgba(27, 88, 134, 0.3);
+}
+
+/**
+ * Button hover effect
+ * 
+ * Darkens button and lifts it up (transform)
+ */
+.submit-button:hover:not(:disabled) {
+  background: linear-gradient(135deg, #003A6B 0%, #1B5886 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(27, 88, 134, 0.4);
+}
+
+/**
+ * Button active state (when clicked)
+ * 
+ * Pushes button down slightly
+ */
+.submit-button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+/**
+ * Button disabled state
+ * 
+ * Gray background when loading
+ * No hover effects
+ */
+.submit-button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* ============================================
+   TOGGLE MODE (Switch between login/register)
+   ============================================ */
+
+.toggle-mode {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.toggle-text {
+  font-size: 14px;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/**
+ * Toggle button (text button)
+ * 
+ * Blue text, no background
+ * Underline on hover for clarity
+ */
+.toggle-button {
+  background: none;
+  border: none;
+  color: #3776A1;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.toggle-button:hover:not(:disabled) {
+  text-decoration: underline;
+  color: #1B5886;
+}
+
+.toggle-button:disabled {
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN (Mobile)
+   ============================================ */
+
+/**
+ * Responsive breakpoints
+ * 
+ * Tablet and below: Wider card
+ * Mobile: Full width with reduced padding
+ */
+@media (max-width: 768px) {
+  .login-container {
+    padding: 16px;
+  }
+
+  .login-card {
+    max-width: 90%;
+    padding: 40px 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    max-width: 100%;
+    padding: 32px 24px;
+    border-radius: 12px;
+  }
+
+  .login-title {
+    font-size: 28px;
+  }
+
+  .login-subtitle {
+    font-size: 14px;
+  }
+
+  .form-input,
+  .submit-button {
+    font-size: 14px;
+  }
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+/**
+ * Focus outline for keyboard navigation
+ * 
+ * Shows blue outline when tabbing through form
+ * Important for users who don't use mouse
+ */
+.form-input:focus-visible,
+.submit-button:focus-visible,
+.toggle-button:focus-visible {
+  outline: 2px solid #3776A1;
+  outline-offset: 2px;
+}
