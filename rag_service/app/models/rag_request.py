@@ -25,7 +25,7 @@ class RAGGenerate(BaseModel):
     """
     query: str = Field(..., description="User's learning goal or question")
     domain: Optional[str] = Field(None, description="Domain filter: dsa, ml, physics, etc.")
-    num_topics: Optional[int] = Field(5, description="Number of topics to retrieve for context", ge=1, le=20)
+    num_topics: int = Field(25, description="Number of topics to retrieve for context", ge=1, le=50)  # Changed from Optional to ensure always valid
 
 
 class RoadmapTopic(BaseModel):

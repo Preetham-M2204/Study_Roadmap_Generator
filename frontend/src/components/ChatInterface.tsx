@@ -287,7 +287,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ chatId: propChatId, onCha
             <Sparkles size={48} />
           </div>
           <h1>What do you want to learn today?</h1>
-          <p>I can help you create a personalized roadmap for any topic.</p>
+          <p>StudyBuddy helps you create personalized learning roadmaps for any topic.</p>
           
           <div className="suggestion-grid">
             <button 

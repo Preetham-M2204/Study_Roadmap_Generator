@@ -254,6 +254,69 @@ REQUIREMENTS:
 5. Total topics: {num_topics}
 6. Domain context: {domain if domain else "general"}
 
+═══════════════════════════════════════════════════════════════
+CRITICAL: URL GENERATION RULES (MUST FOLLOW STRICTLY)
+═══════════════════════════════════════════════════════════════
+
+You MUST generate ONLY valid, working, fully qualified URLs.
+
+RULE 1 - NO HALLUCINATED LINKS:
+Only use real, well-known domains:
+- youtube.com
+- google.com  
+- github.com
+- developer.mozilla.org (MDN)
+- docs.python.org
+- docs.oracle.com
+- wikipedia.org
+- geeksforgeeks.org
+- w3schools.com
+- freecodecamp.org
+- leetcode.com
+- hackerrank.com
+- Official documentation websites
+
+RULE 2 - USE SEARCH FALLBACKS WHEN UNCERTAIN:
+If you are NOT 100% certain a specific page exists, use these SAFE fallback formats:
+
+For YouTube (ALWAYS USE THIS FORMAT):
+https://www.youtube.com/results?search_query=<topic+name+tutorial>
+
+For Google:
+https://www.google.com/search?q=<topic+name+tutorial>
+
+For GeeksforGeeks:
+https://www.geeksforgeeks.org/<topic-name-hyphenated>/
+
+RULE 3 - URL FORMAT REQUIREMENTS:
+Every URL MUST include:
+- https:// prefix (never http://)
+- Full domain name
+- Complete path (no placeholders like "..." or "<insert>")
+- No incomplete URLs
+- No embed links (no youtube.com/embed/)
+
+RULE 4 - VALIDATION BEFORE OUTPUT:
+Before writing ANY link, verify:
+- Is the domain real and well-known?
+- Is the URL structure complete?
+- If uncertain → USE SEARCH FALLBACK
+
+RULE 5 - EXAMPLE VALID URLs:
+Video: https://www.youtube.com/results?search_query=binary+search+tree+tutorial
+Article: https://www.geeksforgeeks.org/binary-search-tree-data-structure/
+Practice: https://leetcode.com/tag/binary-search-tree/
+Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+RULE 6 - NEVER OUTPUT:
+- Dead links or broken URLs
+- Made-up video IDs (like youtube.com/watch?v=abc123xyz)
+- Placeholder text in URLs
+- Experimental or new domains
+- Embed links
+
+═══════════════════════════════════════════════════════════════
+
 FORMAT YOUR RESPONSE AS VALID JSON:
 {{
   "title": "Learning Path: [Topic Name]",
@@ -278,17 +341,17 @@ FORMAT YOUR RESPONSE AS VALID JSON:
             {{
               "title": "Resource Title",
               "type": "video",
-              "url": "https://youtube.com/watch?v=..."
+              "url": "https://www.youtube.com/results?search_query=topic+name+tutorial"
             }},
             {{
               "title": "Resource Title",
               "type": "article",
-              "url": "https://..."
+              "url": "https://www.geeksforgeeks.org/topic-name/"
             }},
             {{
               "title": "Resource Title",
               "type": "practice",
-              "url": "https://..."
+              "url": "https://leetcode.com/tag/topic-name/"
             }}
           ],
           "order": 1
@@ -306,7 +369,7 @@ FORMAT YOUR RESPONSE AS VALID JSON:
 
 IMPORTANT:
 - Return ONLY valid JSON, no markdown formatting
-- Include real, working URLs for resources
+- ALL URLs must follow the rules above - use search query fallbacks when uncertain
 - Make descriptions detailed and educational
 - Ensure logical progression from basics to advanced
 - Total topics should be around {num_topics}

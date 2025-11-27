@@ -26,15 +26,16 @@ interface ViewState {
 const Layout = () => {
   const { isAuthenticated, loading } = useAuth();
   const [currentView, setCurrentView] = useState<ViewState>({ type: 'chat', data: { chatId: null } });
-  const [sidebarKey, setSidebarKey] = useState(0);
+  const [sidebarRefreshTrigger, setSidebarRefreshTrigger] = useState(0);
+  const [chatKey, setChatKey] = useState(0); // Force ChatInterface to remount on "New Chat"
 
   const DEBUG = import.meta.env.VITE_DEBUG === 'true';
   const log = (...args: any[]) => { if (DEBUG) console.log('[Layout]', ...args); };
 
-  // Force refresh sidebar data
+  // Trigger sidebar data refresh without remounting
   const refreshSidebar = () => {
-    log('Refreshing sidebar...');
-    setSidebarKey(prev => prev + 1);
+    log('Triggering sidebar refresh...');
+    setSidebarRefreshTrigger(prev => prev + 1);
   };
 
   if (loading) {
@@ -44,6 +45,10 @@ const Layout = () => {
   // Navigation handlers
   const navigateToChat = (chatId?: string) => {
     log('Navigating to Chat', chatId ? `(loading chat: ${chatId})` : '(new chat)');
+    // If no chatId (new chat), increment key to force remount
+    if (!chatId) {
+      setChatKey(prev => prev + 1);
+    }
     setCurrentView({ type: 'chat', data: { chatId: chatId || null } });
   };
 
@@ -66,7 +71,7 @@ const Layout = () => {
   const renderMainContent = () => {
     switch (currentView.type) {
       case 'chat':
-        return <ChatInterface chatId={currentView.data?.chatId} onChatCreated={refreshSidebar} />;
+        return <ChatInterface key={chatKey} chatId={currentView.data?.chatId} onChatCreated={refreshSidebar} />;
       
       case 'roadmap-detail':
         return (
@@ -104,7 +109,7 @@ const Layout = () => {
       {/* Sidebar with navigation handlers */}
       <div className="layout-sidebar">
         <Sidebar 
-          key={sidebarKey}
+          refreshTrigger={sidebarRefreshTrigger}
           onNavigateChat={navigateToChat}
           onNavigateRoadmaps={navigateToRoadmaps}
           onNavigateDashboard={navigateToDashboard}

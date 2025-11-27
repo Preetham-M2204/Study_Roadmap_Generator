@@ -34,6 +34,7 @@ interface Roadmap {
 }
 
 interface SidebarProps {
+  refreshTrigger: number; // Increment to trigger data refresh
   onNavigateChat: (chatId?: string) => void;
   onNavigateRoadmaps: () => void;
   onNavigateDashboard: () => void;
@@ -42,6 +43,7 @@ interface SidebarProps {
 }
 
 const Sidebar: React.FC<SidebarProps> = ({ 
+  refreshTrigger,
   onNavigateChat, 
   onNavigateRoadmaps, 
   onNavigateDashboard,
@@ -58,11 +60,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   const DEBUG = import.meta.env.VITE_DEBUG === 'true';
   const log = (...args: any[]) => { if (DEBUG) console.log('[Sidebar]', ...args); };
 
-  // Load recent chats and roadmaps on mount
-  useEffect(() => {
-    loadRecentData();
-  }, []);
-
+  // Move loadRecentData BEFORE useEffect to avoid dependency issues
   const loadRecentData = async () => {
     try {
       setLoading(true);
@@ -83,10 +81,28 @@ const Sidebar: React.FC<SidebarProps> = ({
       log('Loaded recent data:', { chats: chats.length, roadmaps: roadmaps.length });
     } catch (error: any) {
       log('Error loading recent data:', error);
+      // Prevent infinite loop on error
+      setRecentChats([]);
+      setRecentRoadmaps([]);
     } finally {
       setLoading(false);
     }
   };
+
+  // Load recent chats and roadmaps on mount ONLY
+  useEffect(() => {
+    loadRecentData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Empty deps = run once on mount
+
+  // Reload data when refreshTrigger changes
+  useEffect(() => {
+    if (refreshTrigger > 0) {
+      log('Refresh triggered, reloading data...');
+      loadRecentData();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [refreshTrigger]); // Only depend on refreshTrigger
 
   const handleNewChat = () => {
     onNavigateChat(); // No chatId = new chat
@@ -134,20 +150,6 @@ const Sidebar: React.FC<SidebarProps> = ({
           >
             <MessageSquare size={18} />
             <span>Chat</span>
-          </button>
-          <button 
-            className={`nav-item ${currentView === 'roadmaps' ? 'active' : ''}`}
-            onClick={onNavigateRoadmaps}
-          >
-            <Map size={18} />
-            <span>Roadmaps</span>
-          </button>
-          <button 
-            className={`nav-item ${currentView === 'dashboard' ? 'active' : ''}`}
-            onClick={onNavigateDashboard}
-          >
-            <LayoutDashboard size={18} />
-            <span>Dashboard</span>
           </button>
         </div>
 
@@ -210,16 +212,18 @@ const Sidebar: React.FC<SidebarProps> = ({
                 <div className="history-loading">Loading...</div>
               ) : recentRoadmaps.length > 0 ? (
                 recentRoadmaps.map(roadmap => (
-                  <button 
+                  <div 
                     key={roadmap.id} 
                     className="history-item"
                     onClick={() => onNavigateRoadmapDetail(roadmap.id)}
                     title={roadmap.title}
                   >
-                    <Map size={14} />
-                    <span className="history-title">{roadmap.title}</span>
+                    <div className="history-item-content">
+                      <Map size={16} />
+                      <span className="history-title">{roadmap.title}</span>
+                    </div>
                     <span className="progress-badge">{roadmap.progress?.percentageComplete || 0}%</span>
-                  </button>
+                  </div>
                 ))
               ) : (
                 <div className="history-empty">No roadmaps yet</div>

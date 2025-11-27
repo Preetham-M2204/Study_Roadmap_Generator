@@ -76,8 +76,8 @@ const LoginModal = () => {
         {/* Header Section */}
         <div className="modal-header">
           <div className="logo-area">
-            <div className="logo-icon">AI</div>
-            <h2>Roadmap.ai</h2>
+            <div className="logo-icon">SB</div>
+            <h2>StudyBuddy</h2>
           </div>
           <p className="modal-subtitle">
             {isLogin ? 'Welcome back! Ready to learn?' : 'Create your account to get started.'}

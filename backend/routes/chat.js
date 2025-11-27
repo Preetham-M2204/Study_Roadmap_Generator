@@ -37,6 +37,7 @@ const router = express.Router();
 const axios = require('axios');
 const Chat = require('../models/Chat');
 const Roadmap = require('../models/Roadmap');
+const Progress = require('../models/Progress');
 const { protect } = require('../middleware/auth');
 
 // ═══════════════════════════════════════════════════════════════════
@@ -66,16 +67,25 @@ const MIN_MESSAGES_FOR_ROADMAP = 4;
  * Each service does what it's best at!
  */
 
-async function callRAGGenerate(query, domain = null, numTopics = 10) {
+/**
+ * Helper: Add delay to prevent rate limiting
+ * @param {number} ms - Milliseconds to wait
+ */
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function callRAGGenerate(query, domain = null, numTopics = 15) {
   try {
     console.log(`📡 Calling RAG service: ${RAG_SERVICE_URL}/rag/generate`);
+    console.log(`📊 Topic count: ${numTopics}`);
     
     const response = await axios.post(`${RAG_SERVICE_URL}/rag/generate`, {
       query,
       domain,
       num_topics: numTopics
     }, {
-      timeout: 60000  // 60 second timeout (roadmap generation takes time)
+      timeout: 90000  // 90 second timeout (roadmap generation takes time)
     });
     
     console.log('✅ RAG service responded successfully');
@@ -295,11 +305,12 @@ router.post('/:chatId/message', protect, async (req, res) => {
         // Build comprehensive query from conversation
         const conversationContext = buildContextFromMessages(chat.messages);
         
-        // Call RAG service to generate roadmap
+        // Call RAG service to generate roadmap (dynamic topic count)
         console.log('📡 Calling RAG service for roadmap generation...');
         console.log('Context:', conversationContext.substring(0, 200) + '...');
         
-        const ragResponse = await callRAGGenerate(conversationContext, null, 15);
+        // Use null for numTopics to let dynamic allocation decide
+        const ragResponse = await callRAGGenerate(conversationContext, null, null);
         
         console.log('✅ RAG service responded');
         console.log('Response type:', typeof ragResponse);
@@ -365,6 +376,10 @@ router.post('/:chatId/message', protect, async (req, res) => {
       
       console.log('💬 Continuing conversation with AI...');
       
+      // Add 5-second delay to prevent rate limiting
+      console.log('⏳ Adding 5-second delay to prevent rate limiting...');
+      await delay(5000);
+      
       try {
         // Build conversation history for RAG service
         const conversationHistory = chat.messages
@@ -406,9 +421,9 @@ router.post('/:chatId/message', protect, async (req, res) => {
             // Build comprehensive query from conversation
             const conversationContext = buildContextFromMessages(chat.messages);
             
-            // Call RAG service to generate roadmap
+            // Call RAG service to generate roadmap (dynamic topic count)
             console.log('📡 Calling RAG service for roadmap generation...');
-            const ragResponse = await callRAGGenerate(conversationContext, null, 15);
+            const ragResponse = await callRAGGenerate(conversationContext, null, null);
             
             // Save roadmap to database
             console.log('💾 Saving roadmap to database...');
@@ -662,7 +677,7 @@ router.post('/:chatId/generate-roadmap', protect, async (req, res) => {
     const conversationContext = buildContextFromMessages(chat.messages);
     
     // Generate roadmap
-    const ragResponse = await callRAGGenerate(conversationContext, null, 15);
+    const ragResponse = await callRAGGenerate(conversationContext, null, 25);
     
     // Save roadmap
     const roadmap = await Roadmap.createFromRAG(req.user._id, chat._id, ragResponse);

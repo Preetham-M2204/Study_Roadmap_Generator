@@ -38,7 +38,8 @@ interface Resource {
 }
 
 interface Topic {
-  topicId: string;
+  id: string;           // MongoDB _id (used for Progress tracking)
+  topicId: string;      // RAG identifier like "dp_01" (for display/reference)
   topic: string;
   description: string;
   difficulty: string;  // 'easy', 'medium', 'hard'
@@ -116,14 +117,27 @@ const RoadmapView: React.FC<RoadmapViewProps> = ({ roadmapId, onBack }) => {
       log('📦 Full API response:', response.data);
       
       const roadmapData = response.data.roadmap;
+      const completedTopicIds = roadmapData?.completedTopicIds || [];
+      
       log('🗺️ Roadmap data keys:', roadmapData ? Object.keys(roadmapData) : 'null');
-      log('📊 Progress in roadmap:', roadmapData?.progress);
+      log('✅ Completed topic IDs:', completedTopicIds);
       
       const progressData = response.data.progress || roadmapData?.progress;
-      log('✅ Final progress data:', progressData);
+      log('📊 Progress data:', progressData);
+
+      // Mark topics as completed based on completedTopicIds
+      if (roadmapData && completedTopicIds.length > 0) {
+        roadmapData.phases = roadmapData.phases.map((phase: Phase) => ({
+          ...phase,
+          topics: phase.topics.map((topic: Topic) => ({
+            ...topic,
+            completed: completedTopicIds.includes(topic.id)
+          }))
+        }));
+        log('✓ Marked completed topics in roadmap');
+      }
 
       log('Roadmap loaded:', roadmapData?.title);
-      log('Progress:', progressData);
 
       setRoadmap(roadmapData);
       setProgress(progressData);
@@ -157,12 +171,12 @@ const RoadmapView: React.FC<RoadmapViewProps> = ({ roadmapId, onBack }) => {
   // TOGGLE TOPIC COMPLETION
   // ═══════════════════════════════════════════════════════════════
 
-  const toggleTopicCompletion = async (topicId: string, topicName: string, currentlyCompleted: boolean) => {
+  const toggleTopicCompletion = async (topicMongoId: string, topicIdentifier: string, topicName: string, currentlyCompleted: boolean) => {
     if (togglingTopic) return; // Prevent double-clicks
 
     try {
-      setTogglingTopic(topicId);
-      log('Toggling topic:', topicName, 'Currently completed:', currentlyCompleted);
+      setTogglingTopic(topicMongoId);
+      log('Toggling topic:', topicName, 'MongoDB ID:', topicMongoId, 'Identifier:', topicIdentifier, 'Currently completed:', currentlyCompleted);
 
       // Optimistic update
       setRoadmap(prev => {
@@ -171,7 +185,7 @@ const RoadmapView: React.FC<RoadmapViewProps> = ({ roadmapId, onBack }) => {
         updated.phases = prev.phases.map(phase => ({
           ...phase,
           topics: phase.topics.map(topic =>
-            topic.topicId === topicId
+            topic.id === topicMongoId  // Use MongoDB _id for matching
               ? { ...topic, completed: !currentlyCompleted }
               : topic
           )
@@ -190,8 +204,8 @@ const RoadmapView: React.FC<RoadmapViewProps> = ({ roadmapId, onBack }) => {
         };
       });
 
-      // Call backend
-      await progressAPI.toggleProgress(roadmapId, topicId, topicName);
+      // Call backend with MongoDB _id (topicId parameter in API)
+      await progressAPI.toggleProgress(roadmapId, topicMongoId, topicIdentifier);
       log('✓ Progress updated');
 
       // Refresh progress stats from backend
@@ -411,13 +425,13 @@ const RoadmapView: React.FC<RoadmapViewProps> = ({ roadmapId, onBack }) => {
               {isExpanded && (
                 <div className="topics-container">
                   {phase.topics.map((topic) => (
-                    <div key={topic.topicId} className={`topic-card ${topic.completed ? 'completed' : ''}`}>
+                    <div key={topic.id} className={`topic-card ${topic.completed ? 'completed' : ''}`}>
                       {/* Topic Header with Checkbox */}
                       <div className="topic-header">
                         <button
                           className="topic-checkbox"
-                          onClick={() => toggleTopicCompletion(topic.topicId, topic.topic, topic.completed || false)}
-                          disabled={togglingTopic === topic.topicId}
+                          onClick={() => toggleTopicCompletion(topic.id, topic.topicId, topic.topic, topic.completed || false)}
+                          disabled={togglingTopic === topic.id}
                         >
                           {topic.completed ? (
                             <CheckCircle2 size={20} className="check-icon checked" />

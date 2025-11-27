@@ -134,7 +134,7 @@ def rag_query(query_text: str, domain: str = None, limit: int = 5) -> List[Dict]
         raise
 
 
-def rag_generate(query_text: str, domain: str = None, num_topics: int = 5) -> Dict:
+def rag_generate(query_text: str, domain: str = None, num_topics: int = 25) -> Dict:
     """
     🚀 FULL RAG PIPELINE: Search + Generate Personalized Roadmap
     
@@ -187,6 +187,11 @@ def rag_generate(query_text: str, domain: str = None, num_topics: int = 5) -> Di
     System automatically chooses best mode!
     """
     try:
+        # Safety check: Ensure num_topics is valid
+        if num_topics is None or num_topics <= 0:
+            logger.warning(f"Invalid num_topics={num_topics}, using default 25")
+            num_topics = 25
+        
         logger.info(f"Starting RAG generation for: '{query_text}'")
         
         # ═══════════════════════════════════════════════════════════════

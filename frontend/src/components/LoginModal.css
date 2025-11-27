@@ -1,4 +1,4 @@
-/* LoginModal.css */
+/* LoginModal.css - StudyBuddy Futuristic Auth Modal */
 
 .modal-overlay {
   position: fixed;
@@ -6,24 +6,54 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(15, 23, 42, 0.6); /* Dark overlay */
-  backdrop-filter: blur(8px); /* Blur effect */
+  background: rgba(3, 7, 18, 0.85);
+  backdrop-filter: blur(12px);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 1000;
-  animation: fadeIn 0.3s ease-out;
+  animation: fadeIn 0.4s ease-out;
+}
+
+/* Ambient glow in background */
+.modal-overlay::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, var(--neon-glow) 0%, transparent 70%);
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 .modal-container {
-  background: white;
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
   width: 100%;
-  max-width: 400px;
+  max-width: 420px;
   padding: 2.5rem;
-  border-radius: 16px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--glass-border);
+  box-shadow: 
+    var(--shadow-neon),
+    0 25px 50px -12px rgba(0, 0, 0, 0.5);
   position: relative;
-  animation: slideUp 0.3s ease-out;
+  animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+}
+
+/* Top glow accent line */
+.modal-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--neon-primary), transparent);
 }
 
 .modal-header {
@@ -36,37 +66,40 @@
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .logo-icon {
-  background: var(--primary-main);
+  background: linear-gradient(135deg, var(--neon-primary) 0%, var(--neon-secondary) 100%);
   color: white;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  box-shadow: var(--shadow-neon-subtle);
 }
 
 .modal-header h2 {
-  font-size: 1.5rem;
-  color: var(--gray-900);
+  font-size: 1.75rem;
   font-weight: 700;
+  color: var(--text-bright);
+  letter-spacing: -0.02em;
 }
 
 .modal-subtitle {
-  color: var(--gray-500);
+  color: var(--text-muted);
   font-size: 0.95rem;
+  margin-top: 0.5rem;
 }
 
 .auth-form {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .input-group {
@@ -78,79 +111,128 @@
   left: 1rem;
   top: 50%;
   transform: translateY(-50%);
-  color: var(--gray-500);
+  color: var(--text-dim);
+  transition: color 0.3s;
+  z-index: 1;
+}
+
+.input-group:focus-within .input-icon {
+  color: var(--neon-primary);
 }
 
 .input-group input {
   width: 100%;
-  padding: 0.875rem 1rem 0.875rem 3rem; /* Space for icon */
-  border: 1px solid var(--gray-300);
-  border-radius: 12px;
+  padding: 1rem 1rem 1rem 3rem;
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-md);
   font-size: 1rem;
-  transition: all 0.2s;
+  font-family: inherit;
+  transition: all 0.3s ease;
   outline: none;
+  background: var(--dark-surface);
+  color: var(--text-primary);
+}
+
+.input-group input::placeholder {
+  color: var(--text-dim);
 }
 
 .input-group input:focus {
-  border-color: var(--primary-main);
-  box-shadow: 0 0 0 4px var(--primary-bg);
+  border-color: var(--neon-primary);
+  box-shadow: 0 0 0 3px var(--neon-subtle), var(--shadow-neon-subtle);
+  background: var(--dark-elevated);
 }
 
 .submit-btn {
-  background: var(--primary-main);
+  background: linear-gradient(135deg, var(--neon-primary) 0%, var(--neon-secondary) 100%);
   color: white;
-  border: none;
-  padding: 0.875rem;
-  border-radius: 12px;
+  border: 1px solid var(--neon-primary);
+  padding: 1rem;
+  border-radius: var(--radius-md);
   font-size: 1rem;
   font-weight: 600;
+  font-family: inherit;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  transition: background 0.2s;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 0.5rem;
+  box-shadow: var(--shadow-neon-subtle);
+  position: relative;
+  overflow: hidden;
+}
+
+.submit-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
 }
 
 .submit-btn:hover {
-  background: var(--primary-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-neon);
+  filter: brightness(1.1);
+}
+
+.submit-btn:hover::before {
+  left: 100%;
+}
+
+.submit-btn:active {
+  transform: translateY(0);
 }
 
 .submit-btn:disabled {
-  opacity: 0.7;
+  opacity: 0.6;
   cursor: not-allowed;
+  transform: none;
+  filter: none;
+}
+
+.submit-btn:disabled:hover::before {
+  left: -100%;
 }
 
 .error-banner {
-  background: #fef2f2;
-  color: #ef4444;
-  padding: 0.75rem;
-  border-radius: 8px;
+  background: var(--error-glow);
+  color: var(--error);
+  padding: 0.875rem;
+  border-radius: var(--radius-md);
   font-size: 0.9rem;
   margin-bottom: 1rem;
   text-align: center;
-  border: 1px solid #fee2e2;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  backdrop-filter: blur(8px);
 }
 
 .modal-footer {
-  margin-top: 1.5rem;
+  margin-top: 1.75rem;
   text-align: center;
   font-size: 0.9rem;
-  color: var(--gray-500);
+  color: var(--text-muted);
 }
 
 .toggle-btn {
   background: none;
   border: none;
-  color: var(--primary-main);
+  color: var(--neon-primary);
   font-weight: 600;
   cursor: pointer;
   margin-left: 0.25rem;
+  transition: all 0.2s;
+  font-family: inherit;
 }
 
 .toggle-btn:hover {
-  text-decoration: underline;
+  color: var(--neon-accent);
+  text-shadow: 0 0 8px var(--neon-glow);
 }
 
 @keyframes fadeIn {
@@ -159,6 +241,36 @@
 }
 
 @keyframes slideUp {
-  from { transform: translateY(20px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
+  from { 
+    transform: translateY(30px) scale(0.95); 
+    opacity: 0; 
+  }
+  to { 
+    transform: translateY(0) scale(1); 
+    opacity: 1; 
+  }
+}
+
+/* Light mode adjustments */
+:root[data-theme="light"] .modal-overlay {
+  background: rgba(248, 250, 252, 0.9);
+}
+
+:root[data-theme="light"] .modal-overlay::before {
+  opacity: 0.15;
+}
+
+:root[data-theme="light"] .modal-container {
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 
+    var(--shadow-neon),
+    0 25px 50px -12px rgba(0, 0, 0, 0.15);
+}
+
+:root[data-theme="light"] .input-group input {
+  background: var(--dark-surface);
+}
+
+:root[data-theme="light"] .input-group input:focus {
+  background: #ffffff;
 }
