@@ -30,7 +30,8 @@ rag_service/app/chroma_db/
 # dotenv
 *.env
 .env.*
-
+dsa.json
+interview.json
 
 # -----------------------------
 # NODE (MERN BACKEND)
