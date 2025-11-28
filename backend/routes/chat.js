@@ -79,12 +79,12 @@ async function callRAGGenerate(query, domain = null, numTopics = 15) {
   try {
     console.log(`📡 Calling RAG service: ${RAG_SERVICE_URL}/rag/generate`);
     console.log(`📊 Topic count: ${numTopics}`);
-    
-    const response = await axios.post(`${RAG_SERVICE_URL}/rag/generate`, {
-      query,
-      domain,
-      num_topics: numTopics
-    }, {
+    // Build payload without sending `num_topics` when it's null/undefined.
+    const payload = { query };
+    if (domain !== null && domain !== undefined) payload.domain = domain;
+    if (numTopics !== null && numTopics !== undefined) payload.num_topics = numTopics;
+
+    const response = await axios.post(`${RAG_SERVICE_URL}/rag/generate`, payload, {
       timeout: 90000  // 90 second timeout (roadmap generation takes time)
     });
     
@@ -376,9 +376,10 @@ router.post('/:chatId/message', protect, async (req, res) => {
       
       console.log('💬 Continuing conversation with AI...');
       
-      // Add 5-second delay to prevent rate limiting
-      console.log('⏳ Adding 5-second delay to prevent rate limiting...');
-      await delay(5000);
+      // NOTE: delay temporarily disabled during development to avoid long waits
+      // Previously used to avoid rate limiting:
+      // console.log('⏳ Adding 5-second delay to prevent rate limiting...');
+      // await delay(5000);
       
       try {
         // Build conversation history for RAG service

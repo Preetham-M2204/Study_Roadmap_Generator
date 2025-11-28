@@ -50,21 +50,31 @@ const Sidebar: React.FC<SidebarProps> = ({
   onNavigateRoadmapDetail,
   currentView
 }) => {
-  const { logout, user } = useAuth();
+  const { logout, user, isAuthenticated, loading: authLoading } = useAuth();
   const [recentChats, setRecentChats] = useState<Chat[]>([]);
   const [recentRoadmaps, setRecentRoadmaps] = useState<Roadmap[]>([]);
   const [loading, setLoading] = useState(true);
   const [chatsExpanded, setChatsExpanded] = useState(true);
   const [roadmapsExpanded, setRoadmapsExpanded] = useState(true);
+  const mountedRef = React.useRef(false);
+  const loadingRef = React.useRef(false);
 
   const DEBUG = import.meta.env.VITE_DEBUG === 'true';
   const log = (...args: any[]) => { if (DEBUG) console.log('[Sidebar]', ...args); };
 
   // Move loadRecentData BEFORE useEffect to avoid dependency issues
+  // Use a ref guard to prevent duplicate calls (React StrictMode or rapid refreshes)
   const loadRecentData = async () => {
+    // If a load is already in flight, skip to avoid duplicate network calls
+    if (loadingRef.current) {
+      log('loadRecentData: already loading — skipping duplicate call');
+      return;
+    }
+
+    loadingRef.current = true;
     try {
       setLoading(true);
-      
+
       // Load chats and roadmaps in parallel
       const [chatsResponse, roadmapsResponse] = await Promise.all([
         chatAPI.getAllChats(),
@@ -77,7 +87,7 @@ const Sidebar: React.FC<SidebarProps> = ({
       // Take last 3 of each
       setRecentChats(chats.slice(0, 3));
       setRecentRoadmaps(roadmaps.slice(0, 3));
-      
+
       log('Loaded recent data:', { chats: chats.length, roadmaps: roadmaps.length });
     } catch (error: any) {
       log('Error loading recent data:', error);
@@ -86,23 +96,43 @@ const Sidebar: React.FC<SidebarProps> = ({
       setRecentRoadmaps([]);
     } finally {
       setLoading(false);
+      loadingRef.current = false;
     }
   };
 
-  // Load recent chats and roadmaps on mount ONLY
+  // Load recent chats and roadmaps on mount ONLY when auth is ready and user is authenticated
   useEffect(() => {
-    loadRecentData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []); // Empty deps = run once on mount
+    // Prevent double-invocation in React StrictMode (dev)
+    if (mountedRef.current) return;
+    mountedRef.current = true;
 
-  // Reload data when refreshTrigger changes
+    // If auth is still initializing, wait until it's finished
+    if (authLoading) {
+      // Do nothing now; another effect (below) will run when authLoading changes
+      return;
+    }
+
+    // Only load recent data if user is authenticated
+    if (isAuthenticated) {
+      loadRecentData();
+    } else {
+      // Ensure empty state for unauthenticated users
+      setRecentChats([]);
+      setRecentRoadmaps([]);
+      setLoading(false);
+    }
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [authLoading, isAuthenticated]); // Run when auth state is resolved
+
+  // Reload data when refreshTrigger changes — only when authenticated
   useEffect(() => {
     if (refreshTrigger > 0) {
       log('Refresh triggered, reloading data...');
-      loadRecentData();
+      if (isAuthenticated) loadRecentData();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [refreshTrigger]); // Only depend on refreshTrigger
+  }, [refreshTrigger, isAuthenticated]); // Only depend on refreshTrigger and auth
 
   const handleNewChat = () => {
     onNavigateChat(); // No chatId = new chat
