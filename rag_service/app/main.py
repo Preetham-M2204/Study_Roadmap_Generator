@@ -40,7 +40,7 @@ if GEMINI_API_KEY:
 # Create FastAPI application
 app = FastAPI(
     title="AI Roadmap RAG Service",
-    version="1.0.0"
+    version="1.2.0"
 )
 
 # Run ONCE when server starts
@@ -71,7 +71,7 @@ def rag_query_route(request: RAGQuery):
     1. User sends query: "graph algorithms"
     2. System embeds query into vector
     3. Finds topics with similar vectors in LanceDB
-    4. Returns top-5 most relevant topics
+    4. Returns top-15 most relevant topics
     
     USE CASE: When you want raw search results without LLM generation
     
@@ -229,7 +229,7 @@ Pick your goal first, and I will guide you from there!"
 
 IMPORTANT - OFF-TOPIC HANDLING:
 If user asks about ANYTHING unrelated to learning/studying (random questions, jokes, off-topic chat):
-- Politely redirect them back to learning goals
+- Reply to the query shortly and politely redirect them back to learning goals
 - Example: "It seems like you might be in the wrong place! We are a study planning assistant. Would you like me to help you prepare for something challenging? What subject or skill would you like to master?"
 
 CONVERSATION GUIDELINES:
